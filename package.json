@@ -18,7 +18,7 @@
   },
   "devDependencies": {
     "@resvg/resvg-js": "2.6.2",
-    "astro": "5.18.2",
+    "astro": "7.4.11",
     "wrangler": "4.162.0"
   }
 }
