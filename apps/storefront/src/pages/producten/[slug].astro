@@ -1,17 +1,17 @@
 ---
 import Base from '../../layouts/Base.astro';
 import ProductCard from '../../components/ProductCard.astro';
-import { store, products, eur, productImage, type Product } from '../../lib/data';
+import { store, products, eur, productImage, u, type Product } from '../../lib/data';
 
 export function getStaticPaths() {
   return products.map((p) => ({ params: { slug: p.slug }, props: { product: p } }));
 }
 const { product: p } = Astro.props as { product: Product };
-const url = new URL(`/producten/${p.slug}/`, Astro.site).href;
+const url = new URL(u(`/producten/${p.slug}/`), Astro.site).href;
 const related = products.filter((x) => x.slug !== p.slug && x.category === p.category).concat(products.filter((x) => x.slug !== p.slug && x.category !== p.category)).slice(0, 4);
 const productLd = {
   '@context': 'https://schema.org', '@type': 'Product', name: p.name, description: p.copy.description,
-  image: [new URL(`/assets/og/${p.slug}.png`, Astro.site).href], sku: `${store.id}-${p.slug}`, category: p.category,
+  image: [new URL(u(`/assets/og/${p.slug}.png`), Astro.site).href], sku: `${store.id}-${p.slug}`, category: p.category,
   brand: { '@type': 'Brand', name: store.name },
   offers: {
     '@type': 'Offer', url, priceCurrency: 'EUR', price: p.price.toFixed(2), availability: 'https://schema.org/InStock', itemCondition: 'https://schema.org/NewCondition',
@@ -22,8 +22,8 @@ const productLd = {
   },
 };
 const crumbs = { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
-  { '@type': 'ListItem', position: 1, name: 'Home', item: new URL('/', Astro.site).href },
-  { '@type': 'ListItem', position: 2, name: 'Producten', item: new URL('/producten/', Astro.site).href },
+  { '@type': 'ListItem', position: 1, name: 'Home', item: new URL(u('/'), Astro.site).href },
+  { '@type': 'ListItem', position: 2, name: 'Producten', item: new URL(u('/producten/'), Astro.site).href },
   { '@type': 'ListItem', position: 3, name: p.name, item: url },
 ] };
 const faq = p.copy.faq ?? [];
@@ -31,7 +31,7 @@ const faqLd = faq.length ? [{ '@context': 'https://schema.org', '@type': 'FAQPag
 const freeLeft = store.shipping.freeFrom - p.price;
 ---
 <Base title={p.copy.metaTitle} description={p.copy.metaDescription} image={`/assets/og/${p.slug}.png`} jsonld={[productLd, crumbs, ...faqLd]}>
-  <nav class="wrap crumbs" aria-label="Kruimelpad"><a href="/">Home</a> › <a href="/producten/">Producten</a> › <span>{p.name}</span></nav>
+  <nav class="wrap crumbs" aria-label="Kruimelpad"><a href={u('/')}>Home</a> › <a href={u('/producten/')}>Producten</a> › <span>{p.name}</span></nav>
   <article class="wrap pdp" data-product={JSON.stringify({ slug: p.slug, name: p.name, price: p.price, category: p.category })}>
     <div class="media"><img src={productImage(p)} alt={p.name} width="800" height="800" loading="eager" fetchpriority="high" /></div>
     <div class="info">

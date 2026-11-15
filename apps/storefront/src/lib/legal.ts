@@ -1,6 +1,6 @@
 // Template legal pages for a Belgian seller (B2C, BE + NL). These are starting points, not legal advice:
 // have them reviewed (e.g. by your accountant/Unizo/a lawyer) before going live and fill every [PLACEHOLDER].
-import { store, eur } from './data';
+import { store, eur, u } from './data';
 
 const c = store.company;
 const s = store.shipping;
@@ -24,7 +24,7 @@ export const legalPages: LegalPage[] = [
 <h2>5. Levering</h2>
 <p>We leveren in België en Nederland, doorgaans binnen ${s.deliveryDays} na betaling. Uiterlijk leveren we binnen 30 dagen; lukt dat niet, dan mag je de overeenkomst kosteloos ontbinden. Het risico gaat op jou over bij de levering.</p>
 <h2>6. Herroepingsrecht (14 dagen)</h2>
-<p>Je hebt het recht om binnen 14 dagen na ontvangst zonder opgave van redenen de overeenkomst te herroepen. Meld dit via ${c.email} of met het <a href="/info/retourneren/">modelformulier</a>. Je stuurt het product binnen 14 dagen na je melding terug. De kosten voor het terugzenden zijn voor jou, tenzij anders vermeld. We betalen het aankoopbedrag inclusief de standaard verzendkosten terug binnen 14 dagen nadat we je melding ontvangen, maar we mogen wachten tot we het product terug hebben of je een verzendbewijs hebt gestuurd. Je bent aansprakelijk voor waardevermindering door meer gebruik dan nodig om het product te beoordelen.</p>
+<p>Je hebt het recht om binnen 14 dagen na ontvangst zonder opgave van redenen de overeenkomst te herroepen. Meld dit via ${c.email} of met het <a href="${u('/info/retourneren/')}">modelformulier</a>. Je stuurt het product binnen 14 dagen na je melding terug. De kosten voor het terugzenden zijn voor jou, tenzij anders vermeld. We betalen het aankoopbedrag inclusief de standaard verzendkosten terug binnen 14 dagen nadat we je melding ontvangen, maar we mogen wachten tot we het product terug hebben of je een verzendbewijs hebt gestuurd. Je bent aansprakelijk voor waardevermindering door meer gebruik dan nodig om het product te beoordelen.</p>
 <p><strong>Uitzondering:</strong> verzegelde producten die om redenen van gezondheidsbescherming of hygiëne niet geschikt zijn om terug te zenden (zoals gebitsbeschermers en oordopjes) kunnen niet worden herroepen als de verzegeling na levering is verbroken.</p>
 <h2>7. Wettelijke garantie</h2>
 <p>Op alle producten geldt de wettelijke garantie van 2 jaar voor gebreken die bij de levering bestonden. Meld een gebrek zo snel mogelijk, en in elk geval binnen 2 maanden nadat je het vaststelt, via ${c.email}.</p>

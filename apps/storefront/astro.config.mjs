@@ -11,6 +11,7 @@ const store = JSON.parse(readFileSync(`${root}stores/${STORE}/store.json`, 'utf8
 
 export default defineConfig({
   site: process.env.SITE_URL || `https://${store.domain}`,
+  base: process.env.BASE_PATH || undefined,
   output: 'static',
   trailingSlash: 'always',
   publicDir: `${root}.build/${STORE}/public`,

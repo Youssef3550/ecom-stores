@@ -1,11 +1,11 @@
 ---
 import Base from '../../layouts/Base.astro';
 import ProductCard from '../../components/ProductCard.astro';
-import { store, products } from '../../lib/data';
+import { store, products, u } from '../../lib/data';
 const categories = [...new Set(products.map((p) => p.category))];
 const list = {
   '@context': 'https://schema.org', '@type': 'ItemList',
-  itemListElement: products.map((p, i) => ({ '@type': 'ListItem', position: i + 1, url: new URL(`/producten/${p.slug}/`, Astro.site).href, name: p.name })),
+  itemListElement: products.map((p, i) => ({ '@type': 'ListItem', position: i + 1, url: new URL(u(`/producten/${p.slug}/`), Astro.site).href, name: p.name })),
 };
 ---
 <Base title={`Alle producten | ${store.name}`} description={`${store.niche}. Bekijk alle ${products.length} producten van ${store.name}, snel geleverd in België en Nederland.`} jsonld={[list]}>

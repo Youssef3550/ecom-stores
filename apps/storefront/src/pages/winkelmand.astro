@@ -1,18 +1,18 @@
 ---
 import Base from '../layouts/Base.astro';
-import { store, eur } from '../lib/data';
+import { store, eur, u } from '../lib/data';
 ---
 <Base title={`Winkelmand | ${store.name}`} description={`Je winkelmand bij ${store.name}: controleer je producten en reken veilig af.`} noindex>
   <section class="wrap" style="padding-top:40px;max-width:820px">
     <h1>Winkelmand</h1>
     <div data-cart-root>
-      <p data-cart-empty>Je winkelmand is leeg. <a href="/producten/">Bekijk de producten</a>.</p>
+      <p data-cart-empty>Je winkelmand is leeg. <a href={u('/producten/')}>Bekijk de producten</a>.</p>
       <ul class="lines" data-cart-lines></ul>
       <div class="summary" data-cart-summary hidden>
         <p>Subtotaal: <strong data-cart-subtotal></strong></p>
         <p class="muted" data-cart-ship-note></p>
         <p class="muted small">Eventuele bundelkorting en verzendkosten zie je in de volgende stap. Alle prijzen incl. 21% btw.</p>
-        <label class="terms"><input type="checkbox" data-terms required /><span>Ik ga akkoord met de <a href="/info/algemene-voorwaarden/" target="_blank">algemene voorwaarden</a> en heb het <a href="/info/privacy/" target="_blank">privacybeleid</a> gelezen.</span></label>
+        <label class="terms"><input type="checkbox" data-terms required /><span>Ik ga akkoord met de <a href={u('/info/algemene-voorwaarden/')} target="_blank">algemene voorwaarden</a> en heb het <a href={u('/info/privacy/')} target="_blank">privacybeleid</a> gelezen.</span></label>
         <button class="btn" data-checkout>Afrekenen</button>
         <p class="error" data-checkout-error hidden role="alert"></p>
       </div>

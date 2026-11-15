@@ -30,11 +30,16 @@ export const products: Product[] = read('products.json');
 store.analytics.ga4 = process.env.PUBLIC_GA4_ID || store.analytics.ga4;
 store.analytics.metaPixel = process.env.PUBLIC_META_PIXEL_ID || store.analytics.metaPixel;
 
+// Sub-path hosting (e.g. GitHub Pages: /ecom-stores/clinch). Empty on a custom domain.
+export const BASE = (process.env.BASE_PATH || '').replace(/\/$/, '');
+export const u = (path: string) => `${BASE}${path}`;
+export const DEMO = process.env.DEMO === 'true';
+
 export const bySlug = (slug: string) => products.find((p) => p.slug === slug)!;
 export const eur = (n: number) => new Intl.NumberFormat('nl-BE', { style: 'currency', currency: 'EUR' }).format(n);
-export const productUrl = (p: Product) => `/producten/${p.slug}/`;
+export const productUrl = (p: Product) => u(`/producten/${p.slug}/`);
 // Real photos in stores/<id>/images/<slug>.(webp|jpg|png) win over the generated mockup.
 export const productImage = (p: Product) => {
-  for (const ext of ['webp', 'jpg', 'png']) if (existsSync(`${root}stores/${STORE}/images/${p.slug}.${ext}`)) return `/assets/photos/${p.slug}.${ext}`;
-  return `/assets/products/${p.slug}.svg`;
+  for (const ext of ['webp', 'jpg', 'png']) if (existsSync(`${root}stores/${STORE}/images/${p.slug}.${ext}`)) return u(`/assets/photos/${p.slug}.${ext}`);
+  return u(`/assets/products/${p.slug}.svg`);
 };

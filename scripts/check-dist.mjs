@@ -13,8 +13,9 @@ function walk(dir, out = []) {
   for (const f of readdirSync(dir)) { const p = join(dir, f); statSync(p).isDirectory() ? walk(p, out) : out.push(p); }
   return out;
 }
-function resolves(dist, href) {
-  const path = href.split(/[?#]/)[0];
+function resolves(dist, href, base = '') {
+  let path = href.split(/[?#]/)[0];
+  if (base && path.startsWith(base)) path = path.slice(base.length) || '/';
   if (!path || path === '/') return existsSync(join(dist, 'index.html'));
   const f = join(dist, path);
   return existsSync(f) && statSync(f).isFile() ? true : existsSync(join(f, 'index.html'));
@@ -39,8 +40,8 @@ for (const id of ids) {
       try { JSON.parse(m[1]); } catch { fail(`${id}${rel}: invalid JSON-LD`); }
     }
     for (const m of s.matchAll(/(?:href|src)="(\/[^"]*)"/g)) {
-      if (m[1].startsWith('/api/')) continue;
-      if (!resolves(dist, m[1])) fail(`${id}${rel}: broken link ${m[1]}`);
+      if (m[1].includes('/api/')) continue;
+      if (!resolves(dist, m[1], (process.env.BASE_PATH_ROOT ? `${process.env.BASE_PATH_ROOT}/${id}` : ''))) fail(`${id}${rel}: broken link ${m[1]}`);
     }
   }
   console.log(`✓ ${id}: ${html.length} pages checked`);

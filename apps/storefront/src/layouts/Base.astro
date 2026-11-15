@@ -1,13 +1,14 @@
 ---
-import { store } from '../lib/data';
+import { store, u, DEMO } from '../lib/data';
 interface Props { title: string; description: string; image?: string; canonical?: string; jsonld?: object[]; noindex?: boolean }
-const { title, description, image = '/assets/og/home.png', jsonld = [], noindex = false } = Astro.props;
+const { title, description, image = '/assets/og/home.png', jsonld = [] } = Astro.props;
+const noindex = Astro.props.noindex || process.env.PREVIEW === 'true';
 const canonical = Astro.props.canonical ?? new URL(Astro.url.pathname, Astro.site).href;
-const ogImage = new URL(image, Astro.site).href;
+const ogImage = new URL(u(image), Astro.site).href;
 const { theme, analytics } = store;
 const org = {
   '@context': 'https://schema.org', '@type': 'Organization', name: store.name, url: Astro.site?.href,
-  email: store.company.email, logo: new URL('/favicon.svg', Astro.site).href,
+  email: store.company.email, logo: new URL(u('/favicon.svg'), Astro.site).href,
 };
 const year = new Date().getFullYear();
 ---
@@ -20,7 +21,7 @@ const year = new Date().getFullYear();
   <meta name="description" content={description} />
   <link rel="canonical" href={canonical} />
   {noindex && <meta name="robots" content="noindex" />}
-  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="icon" href={u('/favicon.svg')} type="image/svg+xml" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content={store.name} />
   <meta property="og:title" content={title} />
@@ -74,20 +75,21 @@ const year = new Date().getFullYear();
     @media (max-width:640px){nav.main .hide-sm{display:none}body{font-size:16px}}
     @media (prefers-reduced-motion:reduce){*{transition:none!important}}
   </style>
-  <script is:inline define:vars={{ cfg: { ga4: analytics.ga4, metaPixel: analytics.metaPixel, store: store.id, currency: store.currency } }}>window.STORE_CFG = cfg;</script>
-  <script is:inline src="/js/consent.js" defer></script>
-  <script is:inline src="/js/cart.js" defer></script>
-  <script is:inline src="/js/ab.js" defer></script>
+  <script is:inline define:vars={{ cfg: { ga4: analytics.ga4, metaPixel: analytics.metaPixel, store: store.id, currency: store.currency, base: u(''), demo: DEMO } }}>window.STORE_CFG = cfg;</script>
+  <script is:inline src={u('/js/consent.js')} defer></script>
+  <script is:inline src={u('/js/cart.js')} defer></script>
+  <script is:inline src={u('/js/ab.js')} defer></script>
 </head>
 <body>
   <a class="sr-only" href="#main">Naar de inhoud</a>
+  {DEMO && <div style="background:#111;color:#fff;text-align:center;font-size:.85rem;padding:6px 12px">Demoversie: bestellen is nog niet mogelijk. Productfoto's zijn tijdelijke illustraties.</div>}
   <header class="site">
     <div class="wrap">
-      <a class="logo" href="/">{store.name.split(' ')[0]}<b>{store.name.split(' ').slice(1).join(' ') ? ' ' + store.name.split(' ').slice(1).join(' ') : '.'}</b></a>
+      <a class="logo" href={u('/')}>{store.name.split(' ')[0]}<b>{store.name.split(' ').slice(1).join(' ') ? ' ' + store.name.split(' ').slice(1).join(' ') : '.'}</b></a>
       <nav class="main" aria-label="Hoofdmenu">
-        <a href="/producten/" class="hide-sm">Shop</a>
-        <a href="/info/verzending/" class="hide-sm">Verzending</a>
-        <a href="/winkelmand/" class="cart-link" aria-label="Winkelmand">Winkelmand <span class="cart-count" data-cart-count hidden>0</span></a>
+        <a href={u('/producten/')} class="hide-sm">Shop</a>
+        <a href={u('/info/verzending/')} class="hide-sm">Verzending</a>
+        <a href={u('/winkelmand/')} class="cart-link" aria-label="Winkelmand">Winkelmand <span class="cart-count" data-cart-count hidden>0</span></a>
       </nav>
     </div>
   </header>
@@ -103,20 +105,20 @@ const year = new Date().getFullYear();
         </div>
         <div>
           <strong>Shop</strong>
-          <a href="/producten/">Alle producten</a>
-          <a href="/winkelmand/">Winkelmand</a>
+          <a href={u('/producten/')}>Alle producten</a>
+          <a href={u('/winkelmand/')}>Winkelmand</a>
         </div>
         <div>
           <strong>Klantenservice</strong>
-          <a href="/info/verzending/">Verzending & levering</a>
-          <a href="/info/retourneren/">Retourneren (14 dagen)</a>
-          <a href="/info/contact/">Contact</a>
+          <a href={u('/info/verzending/')}>Verzending & levering</a>
+          <a href={u('/info/retourneren/')}>Retourneren (14 dagen)</a>
+          <a href={u('/info/contact/')}>Contact</a>
         </div>
         <div>
           <strong>Juridisch</strong>
-          <a href="/info/algemene-voorwaarden/">Algemene voorwaarden</a>
-          <a href="/info/privacy/">Privacybeleid</a>
-          <a href="/info/cookies/">Cookiebeleid</a>
+          <a href={u('/info/algemene-voorwaarden/')}>Algemene voorwaarden</a>
+          <a href={u('/info/privacy/')}>Privacybeleid</a>
+          <a href={u('/info/cookies/')}>Cookiebeleid</a>
           <a href="#" data-consent-open>Cookie-instellingen</a>
         </div>
       </div>
@@ -125,7 +127,7 @@ const year = new Date().getFullYear();
   </footer>
   <div id="consent" role="dialog" aria-modal="false" aria-labelledby="consent-title">
     <strong id="consent-title">Cookies op {store.name}</strong>
-    <p>We gebruiken noodzakelijke cookies om de winkel te laten werken. Met jouw toestemming gebruiken we ook analytische en marketingcookies om de site te verbeteren en relevante advertenties te tonen. <a href="/info/cookies/">Meer info</a></p>
+    <p>We gebruiken noodzakelijke cookies om de winkel te laten werken. Met jouw toestemming gebruiken we ook analytische en marketingcookies om de site te verbeteren en relevante advertenties te tonen. <a href={u('/info/cookies/')}>Meer info</a></p>
     <div data-consent-details hidden>
       <label><input type="checkbox" checked disabled /> Noodzakelijk</label>
       <label><input type="checkbox" data-consent-analytics /> Analytisch (Google Analytics)</label>

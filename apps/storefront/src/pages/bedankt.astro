@@ -1,13 +1,13 @@
 ---
 import Base from '../layouts/Base.astro';
-import { store } from '../lib/data';
+import { store, u } from '../lib/data';
 ---
 <Base title={`Bedankt voor je bestelling | ${store.name}`} description={`Bevestiging van je bestelling bij ${store.name}.`} noindex>
   <section class="wrap" style="padding-top:56px;max-width:720px;text-align:center">
     <h1>Bedankt voor je bestelling!</h1>
     <p data-order-msg>We hebben je betaling goed ontvangen. Je krijgt zo meteen een bevestiging per e-mail, en je track-and-trace volgt zodra je pakket vertrekt.</p>
     <p class="muted">Vragen? Mail ons via <a href={`mailto:${store.company.email}`}>{store.company.email}</a>.</p>
-    <a class="btn" href="/producten/">Verder winkelen</a>
+    <a class="btn" href={u('/producten/')}>Verder winkelen</a>
   </section>
   <script is:inline>
     (async () => {
@@ -17,7 +17,7 @@ import { store } from '../lib/data';
       try {
         const key = 'tracked_' + id;
         if (sessionStorage.getItem(key)) return;
-        const r = await fetch('/api/order?session_id=' + encodeURIComponent(id));
+        const r = await fetch((window.STORE_CFG.base || '') + '/api/order?session_id=' + encodeURIComponent(id));
         if (!r.ok) return;
         const o = await r.json();
         if (o.paid) { window.track?.('purchase', { transaction_id: o.id, value: o.value, currency: o.currency, items: o.items }); sessionStorage.setItem(key, '1'); }

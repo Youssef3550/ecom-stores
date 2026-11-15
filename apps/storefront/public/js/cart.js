@@ -4,12 +4,13 @@
   var KEY = 'cart';
   var catalog = null;
   var cfg = window.STORE_CFG || {};
+  var B = cfg.base || '';
   var fmt = new Intl.NumberFormat('nl-BE', { style: 'currency', currency: 'EUR' });
 
   function load() { try { return JSON.parse(localStorage.getItem(KEY) || '[]'); } catch (e) { return []; } }
   function save(c) { try { localStorage.setItem(KEY, JSON.stringify(c)); } catch (e) {} render(); }
   function count(c) { return c.reduce(function (s, l) { return s + l.qty; }, 0); }
-  function getCatalog() { return catalog ? Promise.resolve(catalog) : fetch('/catalog.json').then(function (r) { return r.json(); }).then(function (j) { catalog = j; return j; }); }
+  function getCatalog() { return catalog ? Promise.resolve(catalog) : fetch(B + '/catalog.json').then(function (r) { return r.json(); }).then(function (j) { catalog = j; return j; }); }
   function gaItem(slug, qty, variant) {
     var p = catalog && catalog.products[slug];
     return { item_id: slug, item_name: p ? p.name : slug, price: p ? p.price : undefined, quantity: qty, item_variant: variant || undefined };
@@ -54,7 +55,7 @@
           '<div><strong></strong><div class="muted small"></div></div>' +
           '<input type="number" min="1" max="10" aria-label="Aantal">' +
           '<button aria-label="Verwijderen">✕</button>';
-        li.querySelector('img').src = p.image || ('/assets/products/' + l.slug + '.svg');
+        li.querySelector('img').src = B + (p.image || ('/assets/products/' + l.slug + '.svg'));
         li.querySelector('strong').textContent = p.name;
         li.querySelector('.small').textContent = (l.variant ? l.variant + ' · ' : '') + fmt.format(p.price);
         var inp = li.querySelector('input'); inp.value = l.qty;
@@ -73,12 +74,17 @@
   function checkout(lines, btn) {
     var err = document.querySelector('[data-checkout-error]');
     if (err) err.hidden = true;
+    if (cfg.demo) {
+      var msg = 'Dit is een demoversie: afrekenen is nog uitgeschakeld.';
+      if (err) { err.textContent = msg; err.hidden = false; } else toast(msg);
+      return;
+    }
     if (btn) { btn.disabled = true; btn.textContent = 'Even geduld…'; }
     getCatalog().then(function () {
       var value = lines.reduce(function (s, l) { var p = catalog.products[l.slug]; return s + (p ? p.price * l.qty : 0); }, 0);
       window.track && window.track('begin_checkout', { currency: 'EUR', value: value, items: lines.map(function (l) { return gaItem(l.slug, l.qty, l.variant); }) });
       var ab = (document.cookie.match(/(?:^|; )ab_hero=([AB])/) || [])[1] || '';
-      return fetch('/api/checkout', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ items: lines, ab: ab }) });
+      return fetch(B + '/api/checkout', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ items: lines, ab: ab }) });
     }).then(function (r) { return r.json().then(function (j) { if (!r.ok || !j.url) throw new Error(j.error || 'Afrekenen mislukt'); location.href = j.url; }); })
       .catch(function (e) {
         if (btn) { btn.disabled = false; btn.textContent = 'Afrekenen'; }
@@ -101,7 +107,7 @@
       if (sticky) sticky.onclick = function () { var v = read(); add(info.slug, v.qty, v.variant); };
     }
     document.querySelectorAll('[data-add-bundle]').forEach(function (b) {
-      b.addEventListener('click', function () { JSON.parse(b.getAttribute('data-add-bundle')).forEach(function (s) { add(s, 1, ''); }); location.href = '/winkelmand/'; });
+      b.addEventListener('click', function () { JSON.parse(b.getAttribute('data-add-bundle')).forEach(function (s) { add(s, 1, ''); }); location.href = B + '/winkelmand/'; });
     });
     var co = document.querySelector('[data-checkout]');
     if (co) co.addEventListener('click', function () {
