@@ -1,5 +1,5 @@
 ---
-import { store, u, DEMO } from '../lib/data';
+import { store, u, DEMO, usesStockPhotos } from '../lib/data';
 interface Props { title: string; description: string; image?: string; canonical?: string; jsonld?: object[]; noindex?: boolean }
 const { title, description, image = '/assets/og/home.png', jsonld = [] } = Astro.props;
 const noindex = Astro.props.noindex || process.env.PREVIEW === 'true';
@@ -38,6 +38,7 @@ const year = new Date().getFullYear();
     html{-webkit-text-size-adjust:100%}
     body{margin:0;background:var(--bg);color:var(--text);font-family:var(--font);line-height:1.55;font-size:17px}
     img,svg{max-width:100%;height:auto;display:block}
+    .card img,.media img,.hero img,.bundle-imgs img{aspect-ratio:1/1;object-fit:cover;width:100%;background:#fff}
     a{color:inherit}
     .wrap{max-width:1160px;margin:0 auto;padding:0 20px}
     .btn{display:inline-flex;align-items:center;justify-content:center;gap:.5em;border:0;border-radius:999px;padding:.9em 1.6em;font:inherit;font-weight:700;cursor:pointer;text-decoration:none;background:var(--primary);color:#fff;transition:transform .15s ease, filter .15s ease}
@@ -82,7 +83,7 @@ const year = new Date().getFullYear();
 </head>
 <body>
   <a class="sr-only" href="#main">Naar de inhoud</a>
-  {DEMO && <div style="background:#111;color:#fff;text-align:center;font-size:.85rem;padding:6px 12px">Demoversie: bestellen is nog niet mogelijk. Productfoto's zijn tijdelijke illustraties.</div>}
+  {DEMO && <div style="background:#111;color:#fff;text-align:center;font-size:.85rem;padding:6px 12px">Demoversie: bestellen is nog niet mogelijk. Foto's zijn sfeerbeelden, geen productfoto's.</div>}
   <header class="site">
     <div class="wrap">
       <a class="logo" href={u('/')}>{store.name.split(' ')[0]}<b>{store.name.split(' ').slice(1).join(' ') ? ' ' + store.name.split(' ').slice(1).join(' ') : '.'}</b></a>
@@ -122,6 +123,7 @@ const year = new Date().getFullYear();
           <a href="#" data-consent-open>Cookie-instellingen</a>
         </div>
       </div>
+      {usesStockPhotos && <p class="muted" style="margin-top:24px;font-size:.8rem">Sfeerbeelden via <a href="https://unsplash.com/?utm_source=ecom-stores&utm_medium=referral" style="display:inline">Unsplash</a>.</p>}
       <p class="muted" style="margin-top:32px">© {year} {store.name}. Prijzen incl. 21% btw. Betaal veilig met Bancontact, iDEAL, Visa, Mastercard of Apple Pay.</p>
     </div>
   </footer>

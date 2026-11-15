@@ -5,28 +5,75 @@
     "category": "Handschoenen",
     "icon": "glove",
     "keyword": "bokshandschoenen",
-    "searchVolume": { "nl": 9900, "be": 2400 },
-    "cpcUsd": { "nl": 1.46, "be": 1.26 },
+    "searchVolume": {
+      "nl": 9900,
+      "be": 2400
+    },
+    "cpcUsd": {
+      "nl": 1.46,
+      "be": 1.26
+    },
     "trend": "Stijgend: NL 8.100 → 12.100/maand in de laatste 3 maanden; BE 1.000 → 2.900",
     "seasonality": "Piek jan (goede voornemens) en sep (clubseizoen); rest van het jaar stabiel",
     "competitors": "Decathlon Outshock (€20–40), Venum/Fairtex/Hayabusa (€60–130), bol.com-private labels (€25–45)",
-    "supplier": { "primary": "Alibaba private label (PU-leer, logo vanaf ±100 st.)", "fallback": "CJdropshipping (DE-warehouse) voor testfase", "searchTerm": "PU leather boxing gloves 10oz 12oz 14oz 16oz private label", "origin": "CN" },
-    "unitCost": 9.5, "shippingCost": 5.5, "duty": 3, "price": 49.95, "weightKg": 0.75,
+    "supplier": {
+      "primary": "Alibaba private label (PU-leer, logo vanaf ±100 st.)",
+      "fallback": "CJdropshipping (DE-warehouse) voor testfase",
+      "searchTerm": "PU leather boxing gloves 10oz 12oz 14oz 16oz private label",
+      "origin": "CN"
+    },
+    "unitCost": 9.5,
+    "shippingCost": 5.5,
+    "duty": 3,
+    "price": 49.95,
+    "weightKg": 0.75,
     "returnRisk": "middel",
-    "variants": { "label": "Gewicht", "options": ["10 oz", "12 oz", "14 oz", "16 oz"] },
+    "variants": {
+      "label": "Gewicht",
+      "options": [
+        "10 oz",
+        "12 oz",
+        "14 oz",
+        "16 oz"
+      ]
+    },
     "justification": "Grootste transactionele zoekterm in de niche, met duidelijke koopintentie. Ruimte tussen Decathlon en de premium merken voor een €45–50 mid-range product met eigen merk.",
-    "risks": ["Verzadigde markt; onderscheid via merk + bundel nodig", "Maatfouten (oz) leiden tot retouren: maattabel prominent tonen", "Kwaliteit PU-leer en stiksels eerst met staal testen"],
+    "risks": [
+      "Verzadigde markt; onderscheid via merk + bundel nodig",
+      "Maatfouten (oz) leiden tot retouren: maattabel prominent tonen",
+      "Kwaliteit PU-leer en stiksels eerst met staal testen"
+    ],
     "copy": {
       "tagline": "Dubbele schuimlaag. Klittenband dat blijft zitten.",
       "description": "Gemaakt voor zakwerk, pads en sparring. De gelaagde schuimkern vangt impact op zonder dat je gevoel voor de stoot verliest, en de brede klittenbandsluiting geeft je pols de steun die je in ronde vijf nog nodig hebt.",
-      "bullets": ["Gelaagde schuimkern voor zak, pads en sparring", "Brede polssluiting met klittenband", "Geventileerde handpalm tegen zweet en geur", "Verkrijgbaar in 10, 12, 14 en 16 oz"],
-      "specs": ["Materiaal: PU-leer, schuimkern", "Gewichten: 10 / 12 / 14 / 16 oz", "Sluiting: klittenband"],
+      "bullets": [
+        "Gelaagde schuimkern voor zak, pads en sparring",
+        "Brede polssluiting met klittenband",
+        "Geventileerde handpalm tegen zweet en geur",
+        "Verkrijgbaar in 10, 12, 14 en 16 oz"
+      ],
+      "specs": [
+        "Materiaal: PU-leer, schuimkern",
+        "Gewichten: 10 / 12 / 14 / 16 oz",
+        "Sluiting: klittenband"
+      ],
       "faq": [
-        { "q": "Welk gewicht moet ik kiezen?", "a": "Voor zakwerk en pads kies je meestal 10–12 oz. Voor sparring vragen de meeste clubs 14–16 oz. Twijfel je? Kies 14 oz." },
-        { "q": "Kan ik ze ruilen als het gewicht niet past?", "a": "Ja. Ongedragen en in de originele verpakking kun je binnen 14 dagen ruilen of retourneren." }
+        {
+          "q": "Welk gewicht moet ik kiezen?",
+          "a": "Voor zakwerk en pads kies je meestal 10–12 oz. Voor sparring vragen de meeste clubs 14–16 oz. Twijfel je? Kies 14 oz."
+        },
+        {
+          "q": "Kan ik ze ruilen als het gewicht niet past?",
+          "a": "Ja. Ongedragen en in de originele verpakking kun je binnen 14 dagen ruilen of retourneren."
+        }
       ],
       "metaTitle": "Bokshandschoenen Pro – 10 tot 16 oz | Clinch Supply",
       "metaDescription": "Bokshandschoenen met dubbele schuimlaag en stevige polssluiting. Voor zak, pads en sparring. Snel geleverd in België en Nederland."
+    },
+    "photo": {
+      "source": "unsplash",
+      "id": "photo-1549719386-74dfcbf7dbed",
+      "note": "Illustrative stock photo (Unsplash License). Replace with real supplier/sample photography before selling."
     }
   },
   {
@@ -35,28 +82,73 @@
     "category": "Bandages",
     "icon": "wrap",
     "keyword": "bandages boksen",
-    "searchVolume": { "nl": 1600, "be": 70 },
-    "cpcUsd": { "nl": 1.22, "be": 0.5 },
+    "searchVolume": {
+      "nl": 1600,
+      "be": 70
+    },
+    "cpcUsd": {
+      "nl": 1.22,
+      "be": 0.5
+    },
     "trend": "Stijgend in NL: 880 → 1.600/maand",
     "seasonality": "Jaarrond, kleine piek januari",
     "competitors": "Decathlon (€6–10), Venum/Adidas (€12–20 per paar), bol.com-bundels",
-    "supplier": { "primary": "CJdropshipping (DE-warehouse) of Alibaba private label", "fallback": "AliExpress 'ship from Europe'", "searchTerm": "boxing hand wraps 4.5m semi elastic thumb loop", "origin": "EU" },
-    "unitCost": 1.4, "shippingCost": 3.5, "duty": 0, "price": 12.95, "weightKg": 0.15,
+    "supplier": {
+      "primary": "CJdropshipping (DE-warehouse) of Alibaba private label",
+      "fallback": "AliExpress 'ship from Europe'",
+      "searchTerm": "boxing hand wraps 4.5m semi elastic thumb loop",
+      "origin": "EU"
+    },
+    "unitCost": 1.4,
+    "shippingCost": 3.5,
+    "duty": 0,
+    "price": 12.95,
+    "weightKg": 0.15,
     "returnRisk": "laag",
-    "variants": { "label": "Kleur", "options": ["Zwart", "Rood", "Wit"] },
+    "variants": {
+      "label": "Kleur",
+      "options": [
+        "Zwart",
+        "Rood",
+        "Wit"
+      ]
+    },
     "justification": "Verbruiksproduct dat vechters meerdere keren per jaar kopen: ideaal als upsell bij handschoenen en voor herhaalaankopen.",
-    "risks": ["Lage prijs: rendabel vooral als upsell of in bundel", "Kleurafgifte bij eerste wasbeurt testen"],
+    "risks": [
+      "Lage prijs: rendabel vooral als upsell of in bundel",
+      "Kleurafgifte bij eerste wasbeurt testen"
+    ],
     "copy": {
       "tagline": "4,5 meter steun die niet afzakt.",
       "description": "Semi-elastische bandages met duimlus en brede klittenbandsluiting. Ze houden je knokkels en pols samen tijdens elke combinatie, en je krijgt twee paar: één om te dragen, één in de was.",
-      "bullets": ["4,5 m: genoeg voor knokkels, duim en pols", "Semi-elastisch katoen voor een strakke wikkeling", "Duimlus en brede klittenbandsluiting", "2 paar per verpakking"],
-      "specs": ["Lengte: 4,5 m", "Materiaal: katoen/polyester-mix", "Inhoud: 2 paar"],
+      "bullets": [
+        "4,5 m: genoeg voor knokkels, duim en pols",
+        "Semi-elastisch katoen voor een strakke wikkeling",
+        "Duimlus en brede klittenbandsluiting",
+        "2 paar per verpakking"
+      ],
+      "specs": [
+        "Lengte: 4,5 m",
+        "Materiaal: katoen/polyester-mix",
+        "Inhoud: 2 paar"
+      ],
       "faq": [
-        { "q": "Hoe was ik bandages?", "a": "Wikkel ze op, steek ze in een waszakje en was ze op 30 °C. Laat ze aan de lucht drogen." },
-        { "q": "Zijn 4,5 m bandages lang genoeg?", "a": "Voor de meeste volwassen handen wel. Bij grote handen of als je extra polssteun wilt, wikkel je de pols twee keer extra." }
+        {
+          "q": "Hoe was ik bandages?",
+          "a": "Wikkel ze op, steek ze in een waszakje en was ze op 30 °C. Laat ze aan de lucht drogen."
+        },
+        {
+          "q": "Zijn 4,5 m bandages lang genoeg?",
+          "a": "Voor de meeste volwassen handen wel. Bij grote handen of als je extra polssteun wilt, wikkel je de pols twee keer extra."
+        }
       ],
       "metaTitle": "Bandages boksen 4,5 m – 2 paar | Clinch Supply",
       "metaDescription": "Semi-elastische boksbandages van 4,5 m met duimlus. 2 paar per verpakking. Voor boksen, kickboksen en Muay Thai."
+    },
+    "photo": {
+      "source": "unsplash",
+      "id": "photo-1770734265410-0c686b750f0f",
+      "note": "Illustrative stock photo (Unsplash License). Replace with real supplier/sample photography before selling."
     }
   },
   {
@@ -65,26 +157,61 @@
     "category": "Conditie",
     "icon": "rope",
     "keyword": "springtouw",
-    "searchVolume": { "nl": 3600, "be": 1300 },
-    "cpcUsd": { "nl": 0.63, "be": 0.57 },
+    "searchVolume": {
+      "nl": 3600,
+      "be": 1300
+    },
+    "cpcUsd": {
+      "nl": 0.63,
+      "be": 0.57
+    },
     "trend": "Stabiel in NL; stijgend in BE (720 → 1.000)",
     "seasonality": "Piek januari; stabiel de rest van het jaar",
     "competitors": "Decathlon (€5–15), Crossrope (€60+), Amazon-merken (€10–20)",
-    "supplier": { "primary": "CJdropshipping (DE-warehouse)", "fallback": "BigBuy", "searchTerm": "speed jump rope ball bearing steel cable adjustable aluminium handle", "origin": "EU" },
-    "unitCost": 2.8, "shippingCost": 3.8, "duty": 0, "price": 19.95, "weightKg": 0.25,
+    "supplier": {
+      "primary": "CJdropshipping (DE-warehouse)",
+      "fallback": "BigBuy",
+      "searchTerm": "speed jump rope ball bearing steel cable adjustable aluminium handle",
+      "origin": "EU"
+    },
+    "unitCost": 2.8,
+    "shippingCost": 3.8,
+    "duty": 0,
+    "price": 19.95,
+    "weightKg": 0.25,
     "returnRisk": "laag",
     "justification": "Evergreen conditieproduct dat elke vechter gebruikt. Geschikt voor social video (footwork-content) en lage verzendkosten.",
-    "risks": ["Concurrentie op prijs met Decathlon: verkopen op kwaliteit (kogellagers, verstelbare kabel)", "Kabel kan knikken: staal testen"],
+    "risks": [
+      "Concurrentie op prijs met Decathlon: verkopen op kwaliteit (kogellagers, verstelbare kabel)",
+      "Kabel kan knikken: staal testen"
+    ],
     "copy": {
       "tagline": "Sneller draaien, langer volhouden.",
       "description": "Aluminium handvatten met kogellagers en een gecoate staalkabel die je in een paar seconden op jouw lengte afstelt. Gebouwd voor double-unders, footwork en snelle warming-ups.",
-      "bullets": ["Kogellagers voor een soepele, snelle rotatie", "Gecoate staalkabel, verstelbaar tot 3 m", "Antislip aluminium handvatten", "Inclusief reservekabel en opbergzakje"],
-      "specs": ["Kabellengte: tot 3 m, verstelbaar", "Handvatten: aluminium", "Inhoud: touw, reservekabel, zakje"],
+      "bullets": [
+        "Kogellagers voor een soepele, snelle rotatie",
+        "Gecoate staalkabel, verstelbaar tot 3 m",
+        "Antislip aluminium handvatten",
+        "Inclusief reservekabel en opbergzakje"
+      ],
+      "specs": [
+        "Kabellengte: tot 3 m, verstelbaar",
+        "Handvatten: aluminium",
+        "Inhoud: touw, reservekabel, zakje"
+      ],
       "faq": [
-        { "q": "Hoe stel ik de lengte in?", "a": "Ga met beide voeten op het midden van de kabel staan: de handvatten moeten tot net onder je oksels komen. Knip de overtollige kabel af met een kniptang." }
+        {
+          "q": "Hoe stel ik de lengte in?",
+          "a": "Ga met beide voeten op het midden van de kabel staan: de handvatten moeten tot net onder je oksels komen. Knip de overtollige kabel af met een kniptang."
+        }
       ],
       "metaTitle": "Speed springtouw met kogellagers | Clinch Supply",
       "metaDescription": "Snel speed springtouw met kogellagers en verstelbare staalkabel. Ideaal voor boksen, kickboksen en conditietraining."
+    },
+    "photo": {
+      "source": "unsplash",
+      "id": "photo-1516876345887-6dd74f80787a",
+      "note": "Illustrative stock photo (Unsplash License). Replace with real supplier/sample photography before selling."
     }
   },
   {
@@ -93,26 +220,61 @@
     "category": "Kracht",
     "icon": "band",
     "keyword": "weerstandsbanden",
-    "searchVolume": { "nl": 3600, "be": 590 },
-    "cpcUsd": { "nl": 0.54, "be": 0.74 },
+    "searchVolume": {
+      "nl": 3600,
+      "be": 590
+    },
+    "cpcUsd": {
+      "nl": 0.54,
+      "be": 0.74
+    },
     "trend": "Stijgend in NL: 4.400 → 5.400",
     "seasonality": "Piek jan–feb; stabiel daarna",
     "competitors": "Decathlon (€10–25), bol.com-sets (€15–30), Gymshark (€25+)",
-    "supplier": { "primary": "BigBuy of CJdropshipping (DE)", "fallback": "Alibaba private label", "searchTerm": "latex resistance loop bands set 5 levels carry bag", "origin": "EU" },
-    "unitCost": 4.0, "shippingCost": 4.2, "duty": 0, "price": 24.95, "weightKg": 0.3,
+    "supplier": {
+      "primary": "BigBuy of CJdropshipping (DE)",
+      "fallback": "Alibaba private label",
+      "searchTerm": "latex resistance loop bands set 5 levels carry bag",
+      "origin": "EU"
+    },
+    "unitCost": 4.0,
+    "shippingCost": 4.2,
+    "duty": 0,
+    "price": 24.95,
+    "weightKg": 0.3,
     "returnRisk": "laag",
     "justification": "Breed fitnessproduct dat past bij krachtwerk voor vechtsporters (heupen, schouders). Licht, compact en weinig retouren.",
-    "risks": ["Latexallergie: vermelden en een TPE-variant overwegen", "Generiek product: positioneren voor vechtsport-specifieke oefeningen"],
+    "risks": [
+      "Latexallergie: vermelden en een TPE-variant overwegen",
+      "Generiek product: positioneren voor vechtsport-specifieke oefeningen"
+    ],
     "copy": {
       "tagline": "Explosieve heupen, sterke schouders.",
       "description": "Vijf banden van licht tot extra zwaar voor warming-up, schouderprehab en explosiviteit. Ze passen in elke sporttas, dus je traint ook als de club gesloten is.",
-      "bullets": ["5 weerstandsniveaus, met kleurcode", "Voor warming-up, prehab en kracht", "Inclusief draagtas en oefenkaart", "Compact genoeg voor elke sporttas"],
-      "specs": ["Materiaal: natuurlatex", "Niveaus: 5", "Inhoud: 5 banden, tas, oefenkaart"],
+      "bullets": [
+        "5 weerstandsniveaus, met kleurcode",
+        "Voor warming-up, prehab en kracht",
+        "Inclusief draagtas en oefenkaart",
+        "Compact genoeg voor elke sporttas"
+      ],
+      "specs": [
+        "Materiaal: natuurlatex",
+        "Niveaus: 5",
+        "Inhoud: 5 banden, tas, oefenkaart"
+      ],
       "faq": [
-        { "q": "Bevatten de banden latex?", "a": "Ja, ze zijn van natuurlatex. Ben je allergisch voor latex, gebruik ze dan niet." }
+        {
+          "q": "Bevatten de banden latex?",
+          "a": "Ja, ze zijn van natuurlatex. Ben je allergisch voor latex, gebruik ze dan niet."
+        }
       ],
       "metaTitle": "Weerstandsbanden set – 5 niveaus | Clinch Supply",
       "metaDescription": "Set van 5 weerstandsbanden voor warming-up, prehab en kracht. Met draagtas en oefenkaart voor vechtsporters."
+    },
+    "photo": {
+      "source": "unsplash",
+      "id": "photo-1584735935682-2f2b69dff9d2",
+      "note": "Illustrative stock photo (Unsplash License). Replace with real supplier/sample photography before selling."
     }
   },
   {
@@ -121,26 +283,60 @@
     "category": "Techniek",
     "icon": "ball",
     "keyword": "reflexbal",
-    "searchVolume": { "nl": 260, "be": 110 },
-    "cpcUsd": { "nl": 0.44, "be": 0.52 },
+    "searchVolume": {
+      "nl": 260,
+      "be": 110
+    },
+    "cpcUsd": {
+      "nl": 0.44,
+      "be": 0.52
+    },
     "trend": "Lage zoekvraag maar sterk op TikTok/Reels: social-first product",
     "seasonality": "Jaarrond; extra cadeaupiek in december",
     "competitors": "bol.com (€8–20), Amazon-merken",
-    "supplier": { "primary": "CJdropshipping (DE)", "fallback": "AliExpress 'ship from Europe'", "searchTerm": "boxing reflex ball headband 2 balls", "origin": "EU" },
-    "unitCost": 1.6, "shippingCost": 3.5, "duty": 0, "price": 14.95, "weightKg": 0.12,
+    "supplier": {
+      "primary": "CJdropshipping (DE)",
+      "fallback": "AliExpress 'ship from Europe'",
+      "searchTerm": "boxing reflex ball headband 2 balls",
+      "origin": "EU"
+    },
+    "unitCost": 1.6,
+    "shippingCost": 3.5,
+    "duty": 0,
+    "price": 14.95,
+    "weightKg": 0.12,
     "returnRisk": "laag",
     "justification": "Zeer visueel product dat goed werkt in korte video's: goedkoop om te testen en een sterke impulsaankoop of cadeau.",
-    "risks": ["Weinig zoekvraag: afhankelijk van social ads", "Kan als 'gadget' worden gezien: positioneren als hand-oogcoördinatie-training"],
+    "risks": [
+      "Weinig zoekvraag: afhankelijk van social ads",
+      "Kan als 'gadget' worden gezien: positioneren als hand-oogcoördinatie-training"
+    ],
     "copy": {
       "tagline": "Handsnelheid en timing, overal.",
       "description": "Een lichte bal aan een elastisch koord, vastgemaakt aan een verstelbare hoofdband. Hij komt na elke stoot terug en traint zo je timing, ritme en hand-oogcoördinatie. Je krijgt twee ballen: één voor beginners en één voor gevorderden.",
-      "bullets": ["Traint timing, ritme en hand-oogcoördinatie", "2 ballen: beginner en gevorderd", "Verstelbare, zweetabsorberende hoofdband", "Leuk voor alle leeftijden"],
-      "specs": ["Inhoud: hoofdband + 2 ballen", "Hoofdband: verstelbaar"],
+      "bullets": [
+        "Traint timing, ritme en hand-oogcoördinatie",
+        "2 ballen: beginner en gevorderd",
+        "Verstelbare, zweetabsorberende hoofdband",
+        "Leuk voor alle leeftijden"
+      ],
+      "specs": [
+        "Inhoud: hoofdband + 2 ballen",
+        "Hoofdband: verstelbaar"
+      ],
       "faq": [
-        { "q": "Is dit geschikt voor kinderen?", "a": "Ja, onder toezicht. Begin met de zachte, tragere bal." }
+        {
+          "q": "Is dit geschikt voor kinderen?",
+          "a": "Ja, onder toezicht. Begin met de zachte, tragere bal."
+        }
       ],
       "metaTitle": "Reflexbal met hoofdband – 2 ballen | Clinch Supply",
       "metaDescription": "Reflexbal met verstelbare hoofdband voor handsnelheid en timing. Inclusief bal voor beginners en gevorderden."
+    },
+    "photo": {
+      "source": "unsplash",
+      "id": "photo-1773289338309-50476faedda2",
+      "note": "Illustrative stock photo (Unsplash License). Replace with real supplier/sample photography before selling."
     }
   },
   {
@@ -149,26 +345,62 @@
     "category": "Bescherming",
     "icon": "shield",
     "keyword": "gebitsbeschermer",
-    "searchVolume": { "nl": 320, "be": 110 },
-    "cpcUsd": { "nl": 0.63, "be": 0.52 },
+    "searchVolume": {
+      "nl": 320,
+      "be": 110
+    },
+    "cpcUsd": {
+      "nl": 0.63,
+      "be": 0.52
+    },
     "trend": "Licht stijgend: 260 → 390",
     "seasonality": "Piek bij de start van het clubseizoen (sep)",
     "competitors": "Decathlon (€5–15), Shock Doctor/SISU (€20–40)",
-    "supplier": { "primary": "CJdropshipping (DE)", "fallback": "Alibaba private label", "searchTerm": "boil and bite mouth guard boxing case", "origin": "EU" },
-    "unitCost": 1.0, "shippingCost": 3.2, "duty": 0, "price": 12.95, "weightKg": 0.06,
+    "supplier": {
+      "primary": "CJdropshipping (DE)",
+      "fallback": "Alibaba private label",
+      "searchTerm": "boil and bite mouth guard boxing case",
+      "origin": "EU"
+    },
+    "unitCost": 1.0,
+    "shippingCost": 3.2,
+    "duty": 0,
+    "price": 12.95,
+    "weightKg": 0.06,
     "returnRisk": "laag (hygiëne: geen retour na opening)",
     "justification": "Verplicht bij sparring, dus elke beginner koopt er een. Lage kostprijs en een logisch onderdeel van het starterspakket.",
-    "risks": ["Hygiëne-uitzondering op herroepingsrecht alleen als de verzegeling verbroken is: duidelijk melden", "Geen veiligheidsclaims ('voorkomt blessures') maken", "Productveiligheid: BPA-vrij certificaat bij de leverancier opvragen"],
+    "risks": [
+      "Hygiëne-uitzondering op herroepingsrecht alleen als de verzegeling verbroken is: duidelijk melden",
+      "Geen veiligheidsclaims ('voorkomt blessures') maken",
+      "Productveiligheid: BPA-vrij certificaat bij de leverancier opvragen"
+    ],
     "copy": {
       "tagline": "Op maat in 2 minuten. Thuis.",
       "description": "Een boil & bite-gebitsbeschermer die je thuis in heet water op maat vormt. Je krijgt een geventileerd bewaardoosje bij, zodat hij schoon blijft in je sporttas.",
-      "bullets": ["Thuis op maat te vormen (boil & bite)", "BPA-vrij materiaal", "Geventileerd bewaardoosje", "Geschikt voor boksen, kickboksen en MMA"],
-      "specs": ["Materiaal: BPA-vrij EVA", "Maat: volwassenen", "Inhoud: beschermer + doosje"],
+      "bullets": [
+        "Thuis op maat te vormen (boil & bite)",
+        "BPA-vrij materiaal",
+        "Geventileerd bewaardoosje",
+        "Geschikt voor boksen, kickboksen en MMA"
+      ],
+      "specs": [
+        "Materiaal: BPA-vrij EVA",
+        "Maat: volwassenen",
+        "Inhoud: beschermer + doosje"
+      ],
       "faq": [
-        { "q": "Kan ik hem retourneren?", "a": "Een ongeopende verpakking kun je binnen 14 dagen retourneren. Na het openen of vormen kan dat om hygiënische redenen niet meer." }
+        {
+          "q": "Kan ik hem retourneren?",
+          "a": "Een ongeopende verpakking kun je binnen 14 dagen retourneren. Na het openen of vormen kan dat om hygiënische redenen niet meer."
+        }
       ],
       "metaTitle": "Gebitsbeschermer boil & bite + doosje | Clinch Supply",
       "metaDescription": "BPA-vrije gebitsbeschermer die je thuis op maat vormt. Inclusief geventileerd bewaardoosje. Voor boksen en kickboksen."
+    },
+    "photo": {
+      "source": "unsplash",
+      "id": "photo-1785353122535-f823b49818f3",
+      "note": "Illustrative stock photo (Unsplash License). Replace with real supplier/sample photography before selling."
     }
   },
   {
@@ -177,27 +409,67 @@
     "category": "Bandages",
     "icon": "wrap",
     "keyword": "binnenhandschoenen boksen",
-    "searchVolume": { "nl": 590, "be": 50 },
-    "cpcUsd": { "nl": 1.0, "be": 0.73 },
+    "searchVolume": {
+      "nl": 590,
+      "be": 50
+    },
+    "cpcUsd": {
+      "nl": 1.0,
+      "be": 0.73
+    },
     "trend": "Stabiel; in BE stijgend vanaf een laag niveau",
     "seasonality": "Jaarrond",
     "competitors": "Decathlon (€10–15), Venum (€25)",
-    "supplier": { "primary": "CJdropshipping (DE)", "fallback": "Alibaba", "searchTerm": "gel inner gloves boxing quick wraps", "origin": "EU" },
-    "unitCost": 3.2, "shippingCost": 3.8, "duty": 0, "price": 19.95, "weightKg": 0.15,
+    "supplier": {
+      "primary": "CJdropshipping (DE)",
+      "fallback": "Alibaba",
+      "searchTerm": "gel inner gloves boxing quick wraps",
+      "origin": "EU"
+    },
+    "unitCost": 3.2,
+    "shippingCost": 3.8,
+    "duty": 0,
+    "price": 19.95,
+    "weightKg": 0.15,
     "returnRisk": "laag",
-    "variants": { "label": "Maat", "options": ["S/M", "L/XL"] },
+    "variants": {
+      "label": "Maat",
+      "options": [
+        "S/M",
+        "L/XL"
+      ]
+    },
     "justification": "Snel alternatief voor bandages voor recreatieve sporters en fitboksers. Goed als upsell en met een redelijke marge.",
-    "risks": ["Maat S/M vs L/XL: maattabel tonen", "Puristen zullen bandages verkiezen: richten op fitboksers"],
+    "risks": [
+      "Maat S/M vs L/XL: maattabel tonen",
+      "Puristen zullen bandages verkiezen: richten op fitboksers"
+    ],
     "copy": {
       "tagline": "In 10 seconden klaar voor de zak.",
       "description": "Binnenhandschoenen met gelpads over je knokkels en een korte polswikkel. Voor als je niet elke sessie bandages wilt wikkelen.",
-      "bullets": ["Gelpad over de knokkels", "Geïntegreerde polswikkel met klittenband", "Ademende stof, wasbaar op 30 °C", "Maten S/M en L/XL"],
-      "specs": ["Materiaal: elastische stof + gel", "Maten: S/M, L/XL"],
+      "bullets": [
+        "Gelpad over de knokkels",
+        "Geïntegreerde polswikkel met klittenband",
+        "Ademende stof, wasbaar op 30 °C",
+        "Maten S/M en L/XL"
+      ],
+      "specs": [
+        "Materiaal: elastische stof + gel",
+        "Maten: S/M, L/XL"
+      ],
       "faq": [
-        { "q": "Vervangen ze bandages?", "a": "Voor fitboksen en lichte zakwerk-sessies wel. Bij zware training of sparring raden we klassieke bandages aan." }
+        {
+          "q": "Vervangen ze bandages?",
+          "a": "Voor fitboksen en lichte zakwerk-sessies wel. Bij zware training of sparring raden we klassieke bandages aan."
+        }
       ],
       "metaTitle": "Gel binnenhandschoenen boksen | Clinch Supply",
       "metaDescription": "Binnenhandschoenen met gelpads en polswikkel: in 10 seconden klaar. Ideaal voor fitboksen en zakwerk."
+    },
+    "photo": {
+      "source": "unsplash",
+      "id": "photo-1787651038594-2bf7bf5ec423",
+      "note": "Illustrative stock photo (Unsplash License). Replace with real supplier/sample photography before selling."
     }
   },
   {
@@ -206,26 +478,60 @@
     "category": "Pads",
     "icon": "pad",
     "keyword": "stootkussens",
-    "searchVolume": { "nl": 140, "be": 30 },
-    "cpcUsd": { "nl": 1.08, "be": 1.07 },
+    "searchVolume": {
+      "nl": 140,
+      "be": 30
+    },
+    "cpcUsd": {
+      "nl": 1.08,
+      "be": 1.07
+    },
     "trend": "Lage zoekvraag. Alternatieve zoektermen: 'focus pads', 'bokspads', 'handpads'",
     "seasonality": "Jaarrond; cadeaupiek in december",
     "competitors": "Decathlon (€20–35), Fairtex/Venum (€50–90)",
-    "supplier": { "primary": "Alibaba private label", "fallback": "CJdropshipping", "searchTerm": "curved focus mitts boxing pads pair PU", "origin": "CN" },
-    "unitCost": 8.5, "shippingCost": 5.5, "duty": 3, "price": 44.95, "weightKg": 0.8,
+    "supplier": {
+      "primary": "Alibaba private label",
+      "fallback": "CJdropshipping",
+      "searchTerm": "curved focus mitts boxing pads pair PU",
+      "origin": "CN"
+    },
+    "unitCost": 8.5,
+    "shippingCost": 5.5,
+    "duty": 3,
+    "price": 44.95,
+    "weightKg": 0.8,
     "returnRisk": "laag",
     "justification": "Partnertraining thuis groeit. Hogere orderwaarde en een logische combinatie met handschoenen (koppelverkoop voor duo's).",
-    "risks": ["Zoekvolume op deze exacte term is laag: ook focus pads/bokspads targeten", "Zwaarder pakket, dus hogere verzendkosten"],
+    "risks": [
+      "Zoekvolume op deze exacte term is laag: ook focus pads/bokspads targeten",
+      "Zwaarder pakket, dus hogere verzendkosten"
+    ],
     "copy": {
       "tagline": "Train combinaties met je partner.",
       "description": "Gebogen pads die de natuurlijke vorm van een stoot volgen. Ze hebben een dikke schuimlaag voor de houder en een duidelijk doelvlak voor de vechter.",
-      "bullets": ["Gebogen vorm voor natuurlijke stoten", "Dikke schuimlaag voor comfortabel houden", "Duidelijk doelvlak in het midden", "Per paar geleverd"],
-      "specs": ["Materiaal: PU-leer, schuim", "Inhoud: 1 paar"],
+      "bullets": [
+        "Gebogen vorm voor natuurlijke stoten",
+        "Dikke schuimlaag voor comfortabel houden",
+        "Duidelijk doelvlak in het midden",
+        "Per paar geleverd"
+      ],
+      "specs": [
+        "Materiaal: PU-leer, schuim",
+        "Inhoud: 1 paar"
+      ],
       "faq": [
-        { "q": "Zijn ze geschikt voor trappen?", "a": "Ze zijn ontworpen voor stoten en lichte knieën. Voor trappen gebruik je Thai pads." }
+        {
+          "q": "Zijn ze geschikt voor trappen?",
+          "a": "Ze zijn ontworpen voor stoten en lichte knieën. Voor trappen gebruik je Thai pads."
+        }
       ],
       "metaTitle": "Curved stootkussens / focus pads | Clinch Supply",
       "metaDescription": "Gebogen stootkussens (focus pads) voor partnertraining. Comfortabel om te houden, duidelijk doelvlak. Per paar."
+    },
+    "photo": {
+      "source": "unsplash",
+      "id": "photo-1636581563711-cd454f1bf99a",
+      "note": "Illustrative stock photo (Unsplash License). Replace with real supplier/sample photography before selling."
     }
   },
   {
@@ -234,26 +540,61 @@
     "category": "Bescherming",
     "icon": "shield",
     "keyword": "enkelbandage",
-    "searchVolume": { "nl": 590, "be": 50 },
-    "cpcUsd": { "nl": 0.6, "be": 0.5 },
+    "searchVolume": {
+      "nl": 590,
+      "be": 50
+    },
+    "cpcUsd": {
+      "nl": 0.6,
+      "be": 0.5
+    },
     "trend": "Stabiel",
     "seasonality": "Jaarrond",
     "competitors": "Decathlon (€8–12), Fairtex/Venum (€15–25)",
-    "supplier": { "primary": "CJdropshipping (DE)", "fallback": "AliExpress 'ship from Europe'", "searchTerm": "muay thai ankle support elastic pair", "origin": "EU" },
-    "unitCost": 1.8, "shippingCost": 3.4, "duty": 0, "price": 14.95, "weightKg": 0.1,
+    "supplier": {
+      "primary": "CJdropshipping (DE)",
+      "fallback": "AliExpress 'ship from Europe'",
+      "searchTerm": "muay thai ankle support elastic pair",
+      "origin": "EU"
+    },
+    "unitCost": 1.8,
+    "shippingCost": 3.4,
+    "duty": 0,
+    "price": 14.95,
+    "weightKg": 0.1,
     "returnRisk": "laag",
     "justification": "Specifiek product voor Muay Thai en kickboksen: lage kostprijs, lichte verzending en een logisch onderdeel van een bundel.",
-    "risks": ["Geen medische claims (spreek van 'steun', niet van 'blessurepreventie')", "Ook zoektermen als 'enkelsteun' meenemen"],
+    "risks": [
+      "Geen medische claims (spreek van 'steun', niet van 'blessurepreventie')",
+      "Ook zoektermen als 'enkelsteun' meenemen"
+    ],
     "copy": {
       "tagline": "Steun en grip op elke ondergrond.",
       "description": "Elastische enkelbandages zoals vechters ze dragen in Thailand. Ze geven compressie en steun rond je enkel, en houden je voet vrij voor pivots en trappen.",
-      "bullets": ["Elastische compressie rond de enkel", "Open hiel en voorvoet", "Ademend en wasbaar", "Per paar geleverd"],
-      "specs": ["Materiaal: katoen/elastaan", "Maat: one size", "Inhoud: 1 paar"],
+      "bullets": [
+        "Elastische compressie rond de enkel",
+        "Open hiel en voorvoet",
+        "Ademend en wasbaar",
+        "Per paar geleverd"
+      ],
+      "specs": [
+        "Materiaal: katoen/elastaan",
+        "Maat: one size",
+        "Inhoud: 1 paar"
+      ],
       "faq": [
-        { "q": "Zijn deze bedoeld voor een blessure?", "a": "Nee, ze geven comfort en lichte steun tijdens het trainen. Bij een blessure vraag je advies aan een arts of kinesist." }
+        {
+          "q": "Zijn deze bedoeld voor een blessure?",
+          "a": "Nee, ze geven comfort en lichte steun tijdens het trainen. Bij een blessure vraag je advies aan een arts of kinesist."
+        }
       ],
       "metaTitle": "Enkelbandages Muay Thai – per paar | Clinch Supply",
       "metaDescription": "Elastische Muay Thai-enkelbandages voor steun en comfort tijdens de training. Ademend, wasbaar, per paar."
+    },
+    "photo": {
+      "source": "unsplash",
+      "id": "photo-1525680996651-0222228be6f0",
+      "note": "Illustrative stock photo (Unsplash License). Replace with real supplier/sample photography before selling."
     }
   },
   {
@@ -262,27 +603,66 @@
     "category": "Recovery",
     "icon": "gun",
     "keyword": "massage gun",
-    "searchVolume": { "nl": 18100, "be": 5400 },
-    "cpcUsd": { "nl": 0.73, "be": 0.65 },
+    "searchVolume": {
+      "nl": 18100,
+      "be": 5400
+    },
+    "cpcUsd": {
+      "nl": 0.73,
+      "be": 0.65
+    },
     "trend": "Hoog en stabiel (NL 12.100 → 14.800)",
     "seasonality": "Piek nov–dec (cadeau) en januari",
     "competitors": "Theragun Mini (±€199), Decathlon (€40–80), bol.com-merken (€30–80)",
-    "supplier": { "primary": "Alibaba (logo vanaf ±100 st.; gemeld $3,30–6,93 voor basismodellen)", "fallback": "CJdropshipping (DE)", "searchTerm": "mini massage gun brushless 4 heads type-c", "origin": "CN" },
-    "unitCost": 14.0, "shippingCost": 4.5, "duty": 3, "price": 59.95, "weightKg": 0.5,
+    "supplier": {
+      "primary": "Alibaba (logo vanaf ±100 st.; gemeld $3,30–6,93 voor basismodellen)",
+      "fallback": "CJdropshipping (DE)",
+      "searchTerm": "mini massage gun brushless 4 heads type-c",
+      "origin": "CN"
+    },
+    "unitCost": 14.0,
+    "shippingCost": 4.5,
+    "duty": 3,
+    "price": 59.95,
+    "weightKg": 0.5,
     "returnRisk": "middel",
     "justification": "Grootste zoekvolume van de hele lijst. Een recovery-product verhoogt de gemiddelde orderwaarde en is een sterk cadeau in Q4. Kies het betere model (brushless) in plaats van het goedkoopste.",
-    "risks": ["Elektronica: CE (LVD/EMC), RoHS, batterijtransport (UN38.3) en WEEE/Recupel-bijdrage", "Defecten geven hogere retourkosten: kwaliteitscontrole op een staal", "Geen medische claims ('vermindert pijn')"],
+    "risks": [
+      "Elektronica: CE (LVD/EMC), RoHS, batterijtransport (UN38.3) en WEEE/Recupel-bijdrage",
+      "Defecten geven hogere retourkosten: kwaliteitscontrole op een staal",
+      "Geen medische claims ('vermindert pijn')"
+    ],
     "copy": {
       "tagline": "Recovery die in je sporttas past.",
       "description": "Een compacte massagegun met borstelloze motor, meerdere snelheden en 4 opzetstukken. Ontspan je kuiten, schouders en onderarmen na de training of tijdens een lange werkdag.",
-      "bullets": ["Borstelloze, stille motor", "Meerdere snelheden + 4 opzetstukken", "USB-C opladen, lange batterijduur", "Zakformaat met opbergetui"],
-      "specs": ["Opladen: USB-C", "Opzetstukken: 4", "Inhoud: gun, opzetstukken, kabel, etui"],
+      "bullets": [
+        "Borstelloze, stille motor",
+        "Meerdere snelheden + 4 opzetstukken",
+        "USB-C opladen, lange batterijduur",
+        "Zakformaat met opbergetui"
+      ],
+      "specs": [
+        "Opladen: USB-C",
+        "Opzetstukken: 4",
+        "Inhoud: gun, opzetstukken, kabel, etui"
+      ],
       "faq": [
-        { "q": "Hoe lang gaat de batterij mee?", "a": "Bij normaal gebruik meerdere sessies per lading. De exacte batterijduur staat op de verpakking." },
-        { "q": "Mag ik hem gebruiken bij een blessure?", "a": "Gebruik hem niet op verse blessures, gewrichten of botten. Twijfel je, vraag dan advies aan een arts of kinesist." }
+        {
+          "q": "Hoe lang gaat de batterij mee?",
+          "a": "Bij normaal gebruik meerdere sessies per lading. De exacte batterijduur staat op de verpakking."
+        },
+        {
+          "q": "Mag ik hem gebruiken bij een blessure?",
+          "a": "Gebruik hem niet op verse blessures, gewrichten of botten. Twijfel je, vraag dan advies aan een arts of kinesist."
+        }
       ],
       "metaTitle": "Mini massage gun – borstelloze motor | Clinch Supply",
       "metaDescription": "Compacte massagegun met borstelloze motor, 4 opzetstukken en USB-C. Ideaal na kickboks- of krachttraining."
+    },
+    "photo": {
+      "source": "unsplash",
+      "id": "photo-1746278925416-9d6c71f55c2d",
+      "note": "Illustrative stock photo (Unsplash License). Replace with real supplier/sample photography before selling."
     }
   }
 ]

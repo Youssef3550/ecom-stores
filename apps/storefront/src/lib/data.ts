@@ -41,5 +41,13 @@ export const productUrl = (p: Product) => u(`/producten/${p.slug}/`);
 // Real photos in stores/<id>/images/<slug>.(webp|jpg|png) win over the generated mockup.
 export const productImage = (p: Product) => {
   for (const ext of ['webp', 'jpg', 'png']) if (existsSync(`${root}stores/${STORE}/images/${p.slug}.${ext}`)) return u(`/assets/photos/${p.slug}.${ext}`);
+  const photo = (p as any).photo;
+  if (photo?.source === 'unsplash') return unsplash(photo.id, 900);
   return u(`/assets/products/${p.slug}.svg`);
 };
+export const unsplash = (id: string, w: number) => `https://images.unsplash.com/${id}?w=${w}&h=${w}&fit=crop&auto=format&q=70`;
+export const productSrcset = (p: Product) => {
+  const photo = (p as any).photo;
+  return photo?.source === 'unsplash' ? `${unsplash(photo.id, 450)} 450w, ${unsplash(photo.id, 900)} 900w` : undefined;
+};
+export const usesStockPhotos = products.some((p) => (p as any).photo?.source === 'unsplash');

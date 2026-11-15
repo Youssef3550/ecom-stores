@@ -11,8 +11,9 @@ import { productMockup, ogImage, favicon } from './lib/svg.mjs';
 const SHARED_PUBLIC = join(ROOT, 'apps', 'storefront', 'public');
 const png = (svg, width) => new Resvg(svg, { fitTo: { mode: 'width', value: width }, font: { loadSystemFonts: true, defaultFontFamily: 'DejaVu Sans' } }).render().asPng();
 
-const imageFor = (dir, slug) => {
+const imageFor = (dir, slug, photo) => {
   for (const ext of ['webp', 'jpg', 'png']) if (existsSync(join(dir, 'images', `${slug}.${ext}`))) return `/assets/photos/${slug}.${ext}`;
+  if (photo?.source === 'unsplash') return `https://images.unsplash.com/${photo.id}?w=200&h=200&fit=crop&auto=format&q=70`;
   return `/assets/products/${slug}.svg`;
 };
 
@@ -40,7 +41,7 @@ export function prepareStore(id) {
     currency: store.currency,
     shipping: store.shipping,
     bundles: store.bundles ?? [],
-    products: Object.fromEntries(products.map((p) => [p.slug, { name: p.name, price: p.price, variants: p.variants?.options ?? [], image: imageFor(dir, p.slug) }])),
+    products: Object.fromEntries(products.map((p) => [p.slug, { name: p.name, price: p.price, variants: p.variants?.options ?? [], image: imageFor(dir, p.slug, p.photo) }])),
   };
   writeFileSync(join(out, 'catalog.json'), JSON.stringify(catalog));
   return out;

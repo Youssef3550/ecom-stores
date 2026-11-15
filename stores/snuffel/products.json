@@ -5,27 +5,65 @@
     "category": "Verrijking",
     "icon": "mat",
     "keyword": "likmat hond",
-    "searchVolume": { "nl": 1600, "be": 390 },
-    "cpcUsd": { "nl": 0.43, "be": 0.59 },
+    "searchVolume": {
+      "nl": 1600,
+      "be": 390
+    },
+    "cpcUsd": {
+      "nl": 0.43,
+      "be": 0.59
+    },
     "trend": "Stabiel (NL 1.300–1.600)",
     "seasonality": "Jaarrond; piek rond vuurwerk (dec) en bij bezoek tijdens de feestdagen",
     "competitors": "bol.com: €10–19 per mat (Beeztees, BOTC, Lizzy & Lola); Nina Ottosson ±€30",
-    "supplier": { "primary": "CJdropshipping (DE)", "fallback": "Droppery/BigBuy", "searchTerm": "silicone lick mat dog suction cups spatula", "origin": "EU" },
-    "unitCost": 1.6, "shippingCost": 3.6, "duty": 0, "price": 16.95, "weightKg": 0.2,
+    "supplier": {
+      "primary": "CJdropshipping (DE)",
+      "fallback": "Droppery/BigBuy",
+      "searchTerm": "silicone lick mat dog suction cups spatula",
+      "origin": "EU"
+    },
+    "unitCost": 1.6,
+    "shippingCost": 3.6,
+    "duty": 0,
+    "price": 16.95,
+    "weightKg": 0.2,
     "returnRisk": "laag",
     "justification": "Bewezen categorie met veel bol.com-aanbieders. Onderscheid door een 2-pack met spatel en content rond de rustmomenten bij vuurwerk en bezoek.",
-    "risks": ["Veel concurrenten tegen €11–15: een 2-pack geeft meer waarde per order", "Geen claims als 'vermindert angst': spreek van 'helpt bij ontspannen'"],
+    "risks": [
+      "Veel concurrenten tegen €11–15: een 2-pack geeft meer waarde per order",
+      "Geen claims als 'vermindert angst': spreek van 'helpt bij ontspannen'"
+    ],
     "copy": {
       "tagline": "Smeer. Vries in. Rust.",
       "description": "Twee siliconen likmatten met zuignappen en een spatel. Smeer er yoghurt, pindakaas zonder xylitol of natvoer op, vries ze eventueel in, en je hond is een hele tijd rustig en tevreden bezig.",
-      "bullets": ["2 matten met verschillende patronen", "Zuignappen voor de vloer, het bad of de muur", "BPA-vrij siliconen, vaatwasserbestendig", "Met spatel om makkelijk in te smeren"],
-      "specs": ["Materiaal: BPA-vrij siliconen", "Afmeting: ±20 × 20 cm per mat", "Inhoud: 2 matten + spatel"],
+      "bullets": [
+        "2 matten met verschillende patronen",
+        "Zuignappen voor de vloer, het bad of de muur",
+        "BPA-vrij siliconen, vaatwasserbestendig",
+        "Met spatel om makkelijk in te smeren"
+      ],
+      "specs": [
+        "Materiaal: BPA-vrij siliconen",
+        "Afmeting: ±20 × 20 cm per mat",
+        "Inhoud: 2 matten + spatel"
+      ],
       "faq": [
-        { "q": "Wat smeer ik erop?", "a": "Natvoer, magere yoghurt of hondenpindakaas (zonder xylitol). In de vriezer gaat hij langer mee." },
-        { "q": "Mag mijn hond erop kauwen?", "a": "Een likmat is bedoeld om te likken. Geef hem onder toezicht en haal hem weg als je hond gaat kauwen." }
+        {
+          "q": "Wat smeer ik erop?",
+          "a": "Natvoer, magere yoghurt of hondenpindakaas (zonder xylitol). In de vriezer gaat hij langer mee."
+        },
+        {
+          "q": "Mag mijn hond erop kauwen?",
+          "a": "Een likmat is bedoeld om te likken. Geef hem onder toezicht en haal hem weg als je hond gaat kauwen."
+        }
       ],
       "metaTitle": "Likmat hond – 2 stuks met spatel | Snuffel & Co",
       "metaDescription": "Set van 2 BPA-vrije likmatten met zuignappen en spatel. Helpt je hond ontspannen bij bezoek, vuurwerk en verzorging."
+    },
+    "photo": {
+      "source": "unsplash",
+      "id": "photo-1745252777945-d430ecf54580",
+      "note": "Illustrative stock photo (Unsplash License). Replace with real supplier/sample photography before selling."
     }
   },
   {
@@ -34,26 +72,60 @@
     "category": "Verrijking",
     "icon": "mat",
     "keyword": "snuffelmat",
-    "searchVolume": { "nl": 880, "be": 320 },
-    "cpcUsd": { "nl": 0.46, "be": 0.37 },
+    "searchVolume": {
+      "nl": 880,
+      "be": 320
+    },
+    "cpcUsd": {
+      "nl": 0.46,
+      "be": 0.37
+    },
     "trend": "Licht stijgend (880 → 1.000)",
     "seasonality": "Piek in de herfst en winter (meer binnen spelen)",
     "competitors": "Ohpets (±€20), Vedic (±€50), bol.com-merken (€15–30)",
-    "supplier": { "primary": "CJdropshipping (DE)", "fallback": "Alibaba private label", "searchTerm": "dog snuffle mat foldable 50x50 washable", "origin": "EU" },
-    "unitCost": 4.5, "shippingCost": 4.5, "duty": 0, "price": 27.95, "weightKg": 0.45,
+    "supplier": {
+      "primary": "CJdropshipping (DE)",
+      "fallback": "Alibaba private label",
+      "searchTerm": "dog snuffle mat foldable 50x50 washable",
+      "origin": "EU"
+    },
+    "unitCost": 4.5,
+    "shippingCost": 4.5,
+    "duty": 0,
+    "price": 27.95,
+    "weightKg": 0.45,
     "returnRisk": "laag",
     "justification": "Mentale uitdaging voor binnen, past perfect in de winter. Een hogere prijs dan de likmat verhoogt de gemiddelde orderwaarde.",
-    "risks": ["Vilt kan losraken bij bijters: duidelijk 'onder toezicht' vermelden", "Een gevouwen mat is groot: let op het verpakkingsformaat"],
+    "risks": [
+      "Vilt kan losraken bij bijters: duidelijk 'onder toezicht' vermelden",
+      "Een gevouwen mat is groot: let op het verpakkingsformaat"
+    ],
     "copy": {
       "tagline": "Laat de neus het werk doen.",
       "description": "Verstop brokjes of snacks tussen de stoffen flappen en laat je hond zoeken. Snuffelen is natuurlijk gedrag en werkt rustgevend: ideaal op regenachtige dagen of als traag alternatief voor de voerbak.",
-      "bullets": ["Verschillende zoekzones en flapjes", "Antislip onderkant", "Machinewasbaar op 30 °C", "Opvouwbaar met drukknoop"],
-      "specs": ["Afmeting: ±50 × 50 cm", "Materiaal: polyester vilt, antislip onderlaag"],
+      "bullets": [
+        "Verschillende zoekzones en flapjes",
+        "Antislip onderkant",
+        "Machinewasbaar op 30 °C",
+        "Opvouwbaar met drukknoop"
+      ],
+      "specs": [
+        "Afmeting: ±50 × 50 cm",
+        "Materiaal: polyester vilt, antislip onderlaag"
+      ],
       "faq": [
-        { "q": "Kan ik hem wassen?", "a": "Ja, in de wasmachine op 30 °C. Laat hem aan de lucht drogen." }
+        {
+          "q": "Kan ik hem wassen?",
+          "a": "Ja, in de wasmachine op 30 °C. Laat hem aan de lucht drogen."
+        }
       ],
       "metaTitle": "Snuffelmat XL voor honden | Snuffel & Co",
       "metaDescription": "Snuffelmat XL met verschillende zoekzones. Voor binnen spelen, trager eten en mentale uitdaging. Wasbaar en opvouwbaar."
+    },
+    "photo": {
+      "source": "unsplash",
+      "id": "photo-1679689384991-35f609124c37",
+      "note": "Illustrative stock photo (Unsplash License). Replace with real supplier/sample photography before selling."
     }
   },
   {
@@ -62,26 +134,59 @@
     "category": "Voeren",
     "icon": "bowl",
     "keyword": "anti schrokbak",
-    "searchVolume": { "nl": 390, "be": 90 },
-    "cpcUsd": { "nl": 0.38, "be": 0.47 },
+    "searchVolume": {
+      "nl": 390,
+      "be": 90
+    },
+    "cpcUsd": {
+      "nl": 0.38,
+      "be": 0.47
+    },
     "trend": "Stabiel. Gerelateerde term 'slowfeeder hond' is in BE goed voor 140/maand",
     "seasonality": "Jaarrond",
     "competitors": "Outward Hound (€15–25), bol.com (€8–20), dierenwinkels",
-    "supplier": { "primary": "CJdropshipping (DE)", "fallback": "BigBuy", "searchTerm": "slow feeder dog bowl anti gulping non slip", "origin": "EU" },
-    "unitCost": 2.2, "shippingCost": 4.0, "duty": 0, "price": 17.95, "weightKg": 0.3,
+    "supplier": {
+      "primary": "CJdropshipping (DE)",
+      "fallback": "BigBuy",
+      "searchTerm": "slow feeder dog bowl anti gulping non slip",
+      "origin": "EU"
+    },
+    "unitCost": 2.2,
+    "shippingCost": 4.0,
+    "duty": 0,
+    "price": 17.95,
+    "weightKg": 0.3,
     "returnRisk": "laag",
     "justification": "Herkenbaar probleem (schrokken) met een duidelijke oplossing. Ook in te zetten als SEO-content rond 'hond eet te snel'.",
-    "risks": ["Geen claims over maagdraaiing of gezondheid: spreek van 'trager eten'"],
+    "risks": [
+      "Geen claims over maagdraaiing of gezondheid: spreek van 'trager eten'"
+    ],
     "copy": {
       "tagline": "Zelfde portie, vijf keer zo lang genieten.",
       "description": "Het doolhofpatroon zorgt ervoor dat je hond rond de richels moet eten. Zo eet hij zijn portie rustiger op en heeft hij er langer plezier van.",
-      "bullets": ["Doolhofpatroon voor trager eten", "Antislip rubberen bodem", "BPA-vrij en vaatwasserbestendig", "Voor brokken en natvoer"],
-      "specs": ["Diameter: ±21 cm", "Materiaal: BPA-vrij PP met antislip rand"],
+      "bullets": [
+        "Doolhofpatroon voor trager eten",
+        "Antislip rubberen bodem",
+        "BPA-vrij en vaatwasserbestendig",
+        "Voor brokken en natvoer"
+      ],
+      "specs": [
+        "Diameter: ±21 cm",
+        "Materiaal: BPA-vrij PP met antislip rand"
+      ],
       "faq": [
-        { "q": "Voor welke hondenmaat is hij geschikt?", "a": "Voor kleine tot grote honden, met porties tot ongeveer 2 bekers brokken." }
+        {
+          "q": "Voor welke hondenmaat is hij geschikt?",
+          "a": "Voor kleine tot grote honden, met porties tot ongeveer 2 bekers brokken."
+        }
       ],
       "metaTitle": "Anti-schrokbak / slow feeder hond | Snuffel & Co",
       "metaDescription": "Slow feeder voerbak met doolhofpatroon zodat je hond trager eet. Antislip, BPA-vrij en vaatwasserbestendig."
+    },
+    "photo": {
+      "source": "unsplash",
+      "id": "photo-1714068691210-073dc52c6c1d",
+      "note": "Illustrative stock photo (Unsplash License). Replace with real supplier/sample photography before selling."
     }
   },
   {
@@ -90,26 +195,61 @@
     "category": "Verzorging",
     "icon": "cup",
     "keyword": "pootreiniger hond",
-    "searchVolume": { "nl": 70, "be": 0 },
-    "cpcUsd": { "nl": 0.39, "be": 0.0 },
+    "searchVolume": {
+      "nl": 70,
+      "be": 0
+    },
+    "cpcUsd": {
+      "nl": 0.39,
+      "be": 0.0
+    },
     "trend": "Weinig zoekvolume: een klassiek 'zien = willen'-product voor social ads, vooral in de modderige maanden",
     "seasonality": "Sterk seizoensgebonden: okt–mrt (nu in het hoogseizoen)",
     "competitors": "Dexas MudBuster (€15–25), bol.com-varianten (€10–20)",
-    "supplier": { "primary": "CJdropshipping (DE)", "fallback": "AliExpress 'ship from Europe'", "searchTerm": "dog paw cleaner cup silicone bristles portable", "origin": "EU" },
-    "unitCost": 2.5, "shippingCost": 4.2, "duty": 0, "price": 19.95, "weightKg": 0.3,
+    "supplier": {
+      "primary": "CJdropshipping (DE)",
+      "fallback": "AliExpress 'ship from Europe'",
+      "searchTerm": "dog paw cleaner cup silicone bristles portable",
+      "origin": "EU"
+    },
+    "unitCost": 2.5,
+    "shippingCost": 4.2,
+    "duty": 0,
+    "price": 19.95,
+    "weightKg": 0.3,
     "returnRisk": "laag",
     "justification": "Zeer visueel 'voor/na'-product dat in het natte Belgisch-Nederlandse najaar en de winter goed scoort met video.",
-    "risks": ["Afhankelijk van social ads (bijna geen zoekvolume)", "Seizoensgebonden: in maart afbouwen", "Maat S/M/L afstemmen op het ras"],
+    "risks": [
+      "Afhankelijk van social ads (bijna geen zoekvolume)",
+      "Seizoensgebonden: in maart afbouwen",
+      "Maat S/M/L afstemmen op het ras"
+    ],
     "copy": {
       "tagline": "Modderpoten weg in 10 seconden.",
       "description": "Vul de beker met wat lauw water, zet de poot erin en draai een paar keer. De zachte siliconen borstels halen modder en zand tussen de kussentjes weg, zodat je vloer, auto en zetel schoon blijven.",
-      "bullets": ["Zachte siliconen borstels", "Geen gespetter dankzij het deksel", "Ideaal voor in de auto of bij de deur", "Eenvoudig uit te spoelen"],
-      "specs": ["Materiaal: siliconen + PP", "Maten: M (kleine tot middelgrote honden)"],
+      "bullets": [
+        "Zachte siliconen borstels",
+        "Geen gespetter dankzij het deksel",
+        "Ideaal voor in de auto of bij de deur",
+        "Eenvoudig uit te spoelen"
+      ],
+      "specs": [
+        "Materiaal: siliconen + PP",
+        "Maten: M (kleine tot middelgrote honden)"
+      ],
       "faq": [
-        { "q": "Voor welke honden is hij geschikt?", "a": "Maat M past bij kleine tot middelgrote honden (ongeveer tot labradorpoot). Grote rassen hebben een grotere beker nodig." }
+        {
+          "q": "Voor welke honden is hij geschikt?",
+          "a": "Maat M past bij kleine tot middelgrote honden (ongeveer tot labradorpoot). Grote rassen hebben een grotere beker nodig."
+        }
       ],
       "metaTitle": "Pootreiniger hond – modderpoten in 10 sec | Snuffel & Co",
       "metaDescription": "Pootreiniger beker met zachte siliconen borstels. Modderpoten schoon in seconden, ideaal voor auto en voordeur."
+    },
+    "photo": {
+      "source": "unsplash",
+      "id": "photo-1768247963621-d7565a0ef515",
+      "note": "Illustrative stock photo (Unsplash License). Replace with real supplier/sample photography before selling."
     }
   },
   {
@@ -118,26 +258,59 @@
     "category": "Verzorging",
     "icon": "brush",
     "keyword": "hondenborstel",
-    "searchVolume": { "nl": 0, "be": 320 },
-    "cpcUsd": { "nl": 0.0, "be": 0.42 },
+    "searchVolume": {
+      "nl": 0,
+      "be": 320
+    },
+    "cpcUsd": {
+      "nl": 0.0,
+      "be": 0.42
+    },
     "trend": "Stabiel in BE (260–320). In NL zijn de varianten 'ontwolborstel' en 'vachtborstel' te testen",
     "seasonality": "Piek tijdens de rui (voorjaar + najaar)",
     "competitors": "FURminator (€25–45), Hertzko (€15–25), bol.com (€10–20)",
-    "supplier": { "primary": "CJdropshipping (DE)", "fallback": "BigBuy", "searchTerm": "self cleaning slicker brush dog cat one button", "origin": "EU" },
-    "unitCost": 2.4, "shippingCost": 3.8, "duty": 0, "price": 17.95, "weightKg": 0.2,
+    "supplier": {
+      "primary": "CJdropshipping (DE)",
+      "fallback": "BigBuy",
+      "searchTerm": "self cleaning slicker brush dog cat one button",
+      "origin": "EU"
+    },
+    "unitCost": 2.4,
+    "shippingCost": 3.8,
+    "duty": 0,
+    "price": 17.95,
+    "weightKg": 0.2,
     "returnRisk": "laag",
     "justification": "Elke hondeneigenaar borstelt. De zelfreinigende knop is een duidelijk verkoopargument en werkt goed op video.",
-    "risks": ["FURminator is een merknaam: niet in ads of titels gebruiken", "Voor sommige vachttypes minder geschikt"],
+    "risks": [
+      "FURminator is een merknaam: niet in ads of titels gebruiken",
+      "Voor sommige vachttypes minder geschikt"
+    ],
     "copy": {
       "tagline": "Eén klik en het haar is weg.",
       "description": "Fijne gebogen pinnen halen losse ondervacht en klitten weg. Druk op de knop en de pinnen trekken zich terug, zodat het haar er in één stuk af komt.",
-      "bullets": ["Zelfreinigend met één druk op de knop", "Gebogen pinnen met afgeronde uiteinden", "Antislip handvat", "Voor korte en lange vachten"],
-      "specs": ["Materiaal: RVS pinnen, ABS + TPR handvat"],
+      "bullets": [
+        "Zelfreinigend met één druk op de knop",
+        "Gebogen pinnen met afgeronde uiteinden",
+        "Antislip handvat",
+        "Voor korte en lange vachten"
+      ],
+      "specs": [
+        "Materiaal: RVS pinnen, ABS + TPR handvat"
+      ],
       "faq": [
-        { "q": "Doet het pijn?", "a": "De pinnen hebben afgeronde uiteinden. Borstel met de vachtrichting mee en zonder druk." }
+        {
+          "q": "Doet het pijn?",
+          "a": "De pinnen hebben afgeronde uiteinden. Borstel met de vachtrichting mee en zonder druk."
+        }
       ],
       "metaTitle": "Zelfreinigende hondenborstel | Snuffel & Co",
       "metaDescription": "Zelfreinigende borstel voor honden en katten: met één klik is het haar eraf. Verwijdert losse ondervacht en klitten."
+    },
+    "photo": {
+      "source": "unsplash",
+      "id": "photo-1694372550345-9149dddc390f",
+      "note": "Illustrative stock photo (Unsplash License). Replace with real supplier/sample photography before selling."
     }
   },
   {
@@ -146,26 +319,59 @@
     "category": "Huis",
     "icon": "roller",
     "keyword": "hondenhaar verwijderen",
-    "searchVolume": { "nl": 260, "be": 110 },
-    "cpcUsd": { "nl": 0.34, "be": 0.48 },
+    "searchVolume": {
+      "nl": 260,
+      "be": 110
+    },
+    "cpcUsd": {
+      "nl": 0.34,
+      "be": 0.48
+    },
     "trend": "Stabiel; veel probleemgerichte zoekopdrachten ('hondenhaar van bank verwijderen')",
     "seasonality": "Piek tijdens de rui",
     "competitors": "ChomChom (€20–30), plakroller-navullingen (supermarkt)",
-    "supplier": { "primary": "CJdropshipping (DE)", "fallback": "AliExpress 'ship from Europe'", "searchTerm": "reusable pet hair remover roller lint", "origin": "EU" },
-    "unitCost": 2.0, "shippingCost": 3.8, "duty": 0, "price": 16.95, "weightKg": 0.2,
+    "supplier": {
+      "primary": "CJdropshipping (DE)",
+      "fallback": "AliExpress 'ship from Europe'",
+      "searchTerm": "reusable pet hair remover roller lint",
+      "origin": "EU"
+    },
+    "unitCost": 2.0,
+    "shippingCost": 3.8,
+    "duty": 0,
+    "price": 16.95,
+    "weightKg": 0.2,
     "returnRisk": "laag",
     "justification": "Herkenbaar probleem, duurzaam alternatief voor plakrollers en sterke voor/na-content.",
-    "risks": ["Merk- en vormgeving van ChomChom niet nabootsen: eigen design en naam gebruiken", "Werkt minder op sommige stoffen: vermelden"],
+    "risks": [
+      "Merk- en vormgeving van ChomChom niet nabootsen: eigen design en naam gebruiken",
+      "Werkt minder op sommige stoffen: vermelden"
+    ],
     "copy": {
       "tagline": "Bank weer zwart, niet grijs.",
       "description": "Rol heen en weer over de bank, het bed of de autostoel. Het haar wordt in het opvangbakje getrokken en dat leeg je met één klik. Geen plakrollen meer kopen.",
-      "bullets": ["Herbruikbaar: geen navullingen nodig", "Opvangbakje met één klik leeg", "Voor bank, bed, kussens en autostoel", "Geen batterijen nodig"],
-      "specs": ["Materiaal: ABS + nylon stofstrip"],
+      "bullets": [
+        "Herbruikbaar: geen navullingen nodig",
+        "Opvangbakje met één klik leeg",
+        "Voor bank, bed, kussens en autostoel",
+        "Geen batterijen nodig"
+      ],
+      "specs": [
+        "Materiaal: ABS + nylon stofstrip"
+      ],
       "faq": [
-        { "q": "Werkt hij op kleding?", "a": "Ja, op de meeste stoffen. Op heel fijne of losgeweven stoffen test je eerst een klein stukje." }
+        {
+          "q": "Werkt hij op kleding?",
+          "a": "Ja, op de meeste stoffen. Op heel fijne of losgeweven stoffen test je eerst een klein stukje."
+        }
       ],
       "metaTitle": "Herbruikbare hondenhaar-verwijderaar | Snuffel & Co",
       "metaDescription": "Verwijder hondenhaar van bank, bed en auto met deze herbruikbare roller. Geen plakrollen of batterijen nodig."
+    },
+    "photo": {
+      "source": "unsplash",
+      "id": "photo-1636910825807-171715240043",
+      "note": "Illustrative stock photo (Unsplash License). Replace with real supplier/sample photography before selling."
     }
   },
   {
@@ -174,26 +380,60 @@
     "category": "Wandelen",
     "icon": "bottle",
     "keyword": "drinkfles hond",
-    "searchVolume": { "nl": 480, "be": 260 },
-    "cpcUsd": { "nl": 0.36, "be": 0.36 },
+    "searchVolume": {
+      "nl": 480,
+      "be": 260
+    },
+    "cpcUsd": {
+      "nl": 0.36,
+      "be": 0.36
+    },
     "trend": "Dalend in de winter (880 → 480), stijgt in de lente",
     "seasonality": "Piek apr–aug. Nu lanceren maar pas vanaf maart pushen",
     "competitors": "bol.com (€8–20), dierenwinkels",
-    "supplier": { "primary": "CJdropshipping (DE)", "fallback": "BigBuy", "searchTerm": "dog water bottle portable leak proof 550ml", "origin": "EU" },
-    "unitCost": 2.6, "shippingCost": 3.8, "duty": 0, "price": 17.95, "weightKg": 0.2,
+    "supplier": {
+      "primary": "CJdropshipping (DE)",
+      "fallback": "BigBuy",
+      "searchTerm": "dog water bottle portable leak proof 550ml",
+      "origin": "EU"
+    },
+    "unitCost": 2.6,
+    "shippingCost": 3.8,
+    "duty": 0,
+    "price": 17.95,
+    "weightKg": 0.2,
     "returnRisk": "laag",
     "justification": "Product voor de zomer dat het aanbod in het voorjaar aanvult. Zo blijven de seizoenen in de winkel in balans.",
-    "risks": ["Seizoensgebonden: laag budget tot maart", "Lekdichtheid testen met een staal"],
+    "risks": [
+      "Seizoensgebonden: laag budget tot maart",
+      "Lekdichtheid testen met een staal"
+    ],
     "copy": {
       "tagline": "Water geven zonder te morsen.",
       "description": "Druk op de knop om het drinkbakje te vullen en laat los om het overschot terug in de fles te laten lopen. Lekvrij in je tas, met een karabijnhaak voor aan de riem.",
-      "bullets": ["Lekvrij met een vergrendelknop", "Overschot loopt terug in de fles", "Met karabijnhaak", "BPA-vrij, 550 ml"],
-      "specs": ["Inhoud: ±550 ml", "Materiaal: BPA-vrij PC/siliconen"],
+      "bullets": [
+        "Lekvrij met een vergrendelknop",
+        "Overschot loopt terug in de fles",
+        "Met karabijnhaak",
+        "BPA-vrij, 550 ml"
+      ],
+      "specs": [
+        "Inhoud: ±550 ml",
+        "Materiaal: BPA-vrij PC/siliconen"
+      ],
       "faq": [
-        { "q": "Is hij vaatwasserbestendig?", "a": "We raden aan hem met de hand te wassen, zodat de afdichting langer meegaat." }
+        {
+          "q": "Is hij vaatwasserbestendig?",
+          "a": "We raden aan hem met de hand te wassen, zodat de afdichting langer meegaat."
+        }
       ],
       "metaTitle": "Drinkfles hond voor onderweg – 550 ml | Snuffel & Co",
       "metaDescription": "Lekvrije drinkfles voor honden met drinkbakje. Overschot loopt terug in de fles. Ideaal voor wandelingen en uitstapjes."
+    },
+    "photo": {
+      "source": "unsplash",
+      "id": "photo-1574024009438-5216a79609e8",
+      "note": "Illustrative stock photo (Unsplash License). Replace with real supplier/sample photography before selling."
     }
   },
   {
@@ -202,26 +442,60 @@
     "category": "Wandelen",
     "icon": "belt",
     "keyword": "autogordel hond",
-    "searchVolume": { "nl": 880, "be": 260 },
-    "cpcUsd": { "nl": 0.4, "be": 0.58 },
+    "searchVolume": {
+      "nl": 880,
+      "be": 260
+    },
+    "cpcUsd": {
+      "nl": 0.4,
+      "be": 0.58
+    },
     "trend": "Stabiel (880–1.300)",
     "seasonality": "Piek in het vakantieseizoen (jul–aug), daarnaast jaarrond",
     "competitors": "Trixie/Kerbl (€8–15), bol.com (€6–12)",
-    "supplier": { "primary": "CJdropshipping (DE)", "fallback": "BigBuy", "searchTerm": "dog seat belt adjustable elastic buffer 2 pack", "origin": "EU" },
-    "unitCost": 1.2, "shippingCost": 3.2, "duty": 0, "price": 12.95, "weightKg": 0.15,
+    "supplier": {
+      "primary": "CJdropshipping (DE)",
+      "fallback": "BigBuy",
+      "searchTerm": "dog seat belt adjustable elastic buffer 2 pack",
+      "origin": "EU"
+    },
+    "unitCost": 1.2,
+    "shippingCost": 3.2,
+    "duty": 0,
+    "price": 12.95,
+    "weightKg": 0.15,
     "returnRisk": "laag",
     "justification": "Goedkope impulsaankoop en een goede upsell, met stabiele vraag rond vakanties en dagjes uit.",
-    "risks": ["Geen claims als 'crashgetest' tenzij de leverancier een certificaat heeft", "Altijd aan een tuig bevestigen, nooit aan de halsband: vermelden"],
+    "risks": [
+      "Geen claims als 'crashgetest' tenzij de leverancier een certificaat heeft",
+      "Altijd aan een tuig bevestigen, nooit aan de halsband: vermelden"
+    ],
     "copy": {
       "tagline": "Veilig vast, vrij om te liggen.",
       "description": "Verstelbare autogordel met elastische schokdemper. Klik hem in de gordelsluiting en maak hem vast aan het tuig van je hond. Twee stuks, voor op de achterbank of in een tweede auto.",
-      "bullets": ["Past in de meeste gordelsluitingen", "Elastische demper vangt schokken op", "Verstelbaar van ±45 tot 70 cm", "2 stuks per verpakking"],
-      "specs": ["Materiaal: nylon, metalen karabijn", "Inhoud: 2 gordels"],
+      "bullets": [
+        "Past in de meeste gordelsluitingen",
+        "Elastische demper vangt schokken op",
+        "Verstelbaar van ±45 tot 70 cm",
+        "2 stuks per verpakking"
+      ],
+      "specs": [
+        "Materiaal: nylon, metalen karabijn",
+        "Inhoud: 2 gordels"
+      ],
       "faq": [
-        { "q": "Mag ik hem aan de halsband vastmaken?", "a": "Nee. Maak hem altijd vast aan een goed passend tuig, nooit aan de halsband." }
+        {
+          "q": "Mag ik hem aan de halsband vastmaken?",
+          "a": "Nee. Maak hem altijd vast aan een goed passend tuig, nooit aan de halsband."
+        }
       ],
       "metaTitle": "Autogordel hond – 2 stuks | Snuffel & Co",
       "metaDescription": "Verstelbare autogordel voor honden met elastische demper. Bevestigen aan het tuig. 2 stuks per verpakking."
+    },
+    "photo": {
+      "source": "unsplash",
+      "id": "photo-1518155317743-a8ff43ea6a5f",
+      "note": "Illustrative stock photo (Unsplash License). Replace with real supplier/sample photography before selling."
     }
   },
   {
@@ -230,26 +504,60 @@
     "category": "Verrijking",
     "icon": "ball",
     "keyword": "snackbal hond",
-    "searchVolume": { "nl": 170, "be": 0 },
-    "cpcUsd": { "nl": 0.38, "be": 0.0 },
+    "searchVolume": {
+      "nl": 170,
+      "be": 0
+    },
+    "cpcUsd": {
+      "nl": 0.38,
+      "be": 0.0
+    },
     "trend": "Stabiel; aanvullende termen zijn 'voerbal hond' en 'snackspeelgoed'",
     "seasonality": "Jaarrond; cadeaupiek in december",
     "competitors": "KONG Wobbler (€15–25), Trixie (€8–15)",
-    "supplier": { "primary": "CJdropshipping (DE)", "fallback": "BigBuy", "searchTerm": "dog treat dispensing ball adjustable difficulty", "origin": "EU" },
-    "unitCost": 1.8, "shippingCost": 3.8, "duty": 0, "price": 14.95, "weightKg": 0.2,
+    "supplier": {
+      "primary": "CJdropshipping (DE)",
+      "fallback": "BigBuy",
+      "searchTerm": "dog treat dispensing ball adjustable difficulty",
+      "origin": "EU"
+    },
+    "unitCost": 1.8,
+    "shippingCost": 3.8,
+    "duty": 0,
+    "price": 14.95,
+    "weightKg": 0.2,
     "returnRisk": "laag",
     "justification": "Past in de verrijkingsbundel en verhoogt de orderwaarde. Een goed instapproduct voor de 'rustige avond'-campagne.",
-    "risks": ["Kleine honden kunnen de bal niet goed duwen: maat vermelden", "Niet voor sterke kauwers zonder toezicht"],
+    "risks": [
+      "Kleine honden kunnen de bal niet goed duwen: maat vermelden",
+      "Niet voor sterke kauwers zonder toezicht"
+    ],
     "copy": {
       "tagline": "Spelen en verdienen tegelijk.",
       "description": "Vul de bal met brokjes, stel de moeilijkheidsgraad in en laat je hond rollen, duwen en ontdekken. Telkens als de bal rolt, valt er een beloning uit.",
-      "bullets": ["Instelbare moeilijkheidsgraad", "Voor brokjes en kleine snacks", "Makkelijk te openen en te reinigen", "BPA-vrij"],
-      "specs": ["Diameter: ±8 cm", "Materiaal: BPA-vrij ABS/TPR"],
+      "bullets": [
+        "Instelbare moeilijkheidsgraad",
+        "Voor brokjes en kleine snacks",
+        "Makkelijk te openen en te reinigen",
+        "BPA-vrij"
+      ],
+      "specs": [
+        "Diameter: ±8 cm",
+        "Materiaal: BPA-vrij ABS/TPR"
+      ],
       "faq": [
-        { "q": "Is hij kauwbestendig?", "a": "Hij is gemaakt om te rollen, niet om op te kauwen. Geef hem onder toezicht." }
+        {
+          "q": "Is hij kauwbestendig?",
+          "a": "Hij is gemaakt om te rollen, niet om op te kauwen. Geef hem onder toezicht."
+        }
       ],
       "metaTitle": "Interactieve snackbal hond | Snuffel & Co",
       "metaDescription": "Snackbal met instelbare moeilijkheidsgraad. Je hond speelt en verdient zijn brokjes. Voor mentale uitdaging binnen."
+    },
+    "photo": {
+      "source": "unsplash",
+      "id": "photo-1599867685938-9d7701a2d1ab",
+      "note": "Illustrative stock photo (Unsplash License). Replace with real supplier/sample photography before selling."
     }
   },
   {
@@ -258,27 +566,69 @@
     "category": "Wandelen",
     "icon": "collar",
     "keyword": "lichtgevende halsband",
-    "searchVolume": { "nl": 70, "be": 30 },
-    "cpcUsd": { "nl": 0.54, "be": 0.26 },
+    "searchVolume": {
+      "nl": 70,
+      "be": 30
+    },
+    "cpcUsd": {
+      "nl": 0.54,
+      "be": 0.26
+    },
     "trend": "Sterk stijgend in de donkere maanden: NL 40 → 170, BE 10 → 50",
     "seasonality": "Piek okt–feb (vroeg donker). Nu in het hoogseizoen",
     "competitors": "bol.com (€8–20), Trixie flash (€10–15)",
-    "supplier": { "primary": "CJdropshipping (DE)", "fallback": "AliExpress 'ship from Europe'", "searchTerm": "LED dog collar USB rechargeable adjustable", "origin": "EU" },
-    "unitCost": 2.2, "shippingCost": 3.6, "duty": 0, "price": 17.95, "weightKg": 0.08,
+    "supplier": {
+      "primary": "CJdropshipping (DE)",
+      "fallback": "AliExpress 'ship from Europe'",
+      "searchTerm": "LED dog collar USB rechargeable adjustable",
+      "origin": "EU"
+    },
+    "unitCost": 2.2,
+    "shippingCost": 3.6,
+    "duty": 0,
+    "price": 17.95,
+    "weightKg": 0.08,
     "returnRisk": "laag",
-    "variants": { "label": "Maat", "options": ["S (35 cm)", "M (45 cm)", "L (55 cm)"] },
+    "variants": {
+      "label": "Maat",
+      "options": [
+        "S (35 cm)",
+        "M (45 cm)",
+        "L (55 cm)"
+      ]
+    },
     "justification": "Stijgend in het huidige seizoen, met een duidelijk veiligheidsvoordeel. Licht, goedkoop te verzenden en visueel sterk.",
-    "risks": ["Batterij: CE/EMC en WEEE/Recupel-bijdrage", "Maatfouten: maattabel tonen", "Seizoen: afbouwen vanaf maart"],
+    "risks": [
+      "Batterij: CE/EMC en WEEE/Recupel-bijdrage",
+      "Maatfouten: maattabel tonen",
+      "Seizoen: afbouwen vanaf maart"
+    ],
     "copy": {
       "tagline": "Gezien worden op de avondwandeling.",
       "description": "Een oplaadbare LED-halsband met drie lichtstanden die je hond van ver zichtbaar maakt voor fietsers en auto's. Opladen via USB, en de band is waterafstotend voor de Belgische regen.",
-      "bullets": ["3 standen: continu, snel en traag knipperen", "USB-oplaadbaar, geen wegwerpbatterijen", "Waterafstotend", "Maten S, M en L"],
-      "specs": ["Opladen: USB", "Maten: S 35 cm, M 45 cm, L 55 cm"],
+      "bullets": [
+        "3 standen: continu, snel en traag knipperen",
+        "USB-oplaadbaar, geen wegwerpbatterijen",
+        "Waterafstotend",
+        "Maten S, M en L"
+      ],
+      "specs": [
+        "Opladen: USB",
+        "Maten: S 35 cm, M 45 cm, L 55 cm"
+      ],
       "faq": [
-        { "q": "Hoe lang brandt hij?", "a": "Afhankelijk van de stand meerdere uren per lading. Knipperen gaat het langst mee." }
+        {
+          "q": "Hoe lang brandt hij?",
+          "a": "Afhankelijk van de stand meerdere uren per lading. Knipperen gaat het langst mee."
+        }
       ],
       "metaTitle": "Oplaadbare LED-halsband hond | Snuffel & Co",
       "metaDescription": "USB-oplaadbare LED-halsband met 3 lichtstanden. Zichtbaar op donkere avonden. Waterafstotend, maten S/M/L."
+    },
+    "photo": {
+      "source": "unsplash",
+      "id": "photo-1776470409915-1639cd22fe40",
+      "note": "Illustrative stock photo (Unsplash License). Replace with real supplier/sample photography before selling."
     }
   }
 ]

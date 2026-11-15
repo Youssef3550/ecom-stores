@@ -55,7 +55,8 @@
           '<div><strong></strong><div class="muted small"></div></div>' +
           '<input type="number" min="1" max="10" aria-label="Aantal">' +
           '<button aria-label="Verwijderen">✕</button>';
-        li.querySelector('img').src = B + (p.image || ('/assets/products/' + l.slug + '.svg'));
+        var im = p.image || ('/assets/products/' + l.slug + '.svg');
+        li.querySelector('img').src = /^https?:/.test(im) ? im : B + im;
         li.querySelector('strong').textContent = p.name;
         li.querySelector('.small').textContent = (l.variant ? l.variant + ' · ' : '') + fmt.format(p.price);
         var inp = li.querySelector('input'); inp.value = l.qty;

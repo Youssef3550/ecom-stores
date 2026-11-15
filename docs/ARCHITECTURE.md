@@ -58,4 +58,7 @@ Stripe Checkout ──paid──► /bedankt/?session_id=…  → /api/order →
 
 ## Product images
 
+Priority per product: **1)** a real photo in `stores/<id>/images/<slug>.webp|jpg|png`, **2)** the `photo` field in `products.json` (currently an illustrative Unsplash stock photo, hot-linked as the Unsplash License/API guidelines allow), **3)** the generated SVG mockup. Stock photos show the *kind* of product, not the exact item you'll ship: replace them with supplier or sample photos before you sell, because product images must show what the customer actually receives.
+
+
 Generated mockups (`/assets/products/<slug>.svg`) are branded placeholders. To use real photos, add `stores/<id>/images/<slug>.webp|jpg|png`. It's copied to `/assets/photos/` and used automatically on cards, product pages and in the cart, with no code change. Use 1200×1200 px or larger, with a white or neutral background, and add 3–5 angles plus a lifestyle shot from your sample order.
