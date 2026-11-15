@@ -74,7 +74,7 @@ jobs:
           command: pages deploy ../../dist/${{ matrix.store }} --project-name=${{ steps.project.outputs.name }} --branch=pr-${{ github.event.pull_request.number }} --commit-hash=${{ github.sha }}
       - name: Comment preview URL
         if: env.CF_TOKEN != ''
-        uses: actions/github-script@v7
+        uses: actions/github-script@v9
         with:
           script: |
             await github.rest.issues.createComment({
