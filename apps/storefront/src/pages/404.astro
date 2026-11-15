@@ -1,0 +1,11 @@
+---
+import Base from '../layouts/Base.astro';
+import { store } from '../lib/data';
+---
+<Base title={`Pagina niet gevonden | ${store.name}`} description="Deze pagina bestaat niet (meer)." noindex>
+  <section class="wrap" style="padding-top:64px;text-align:center">
+    <h1>Oeps, deze pagina bestaat niet.</h1>
+    <p>Misschien is het product verhuisd. Bekijk de volledige collectie.</p>
+    <a class="btn" href="/producten/">Naar de producten</a>
+  </section>
+</Base>

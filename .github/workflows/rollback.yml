@@ -1,0 +1,44 @@
+name: Rollback
+
+# Instantly points a store's production traffic back to an earlier Cloudflare Pages deployment.
+# No rebuild needed (takes seconds). Leave deployment_id empty to roll back to the previous successful production deployment.
+on:
+  workflow_dispatch:
+    inputs:
+      store:
+        description: Store
+        required: true
+        type: choice
+        options: [clinch, snuffel, warmwijs, diepslaap, deskwerk]
+      deployment_id:
+        description: 'Cloudflare deployment ID to restore (empty = previous production deployment)'
+        required: false
+        default: ''
+
+permissions:
+  contents: read
+
+jobs:
+  rollback:
+    runs-on: ubuntu-latest
+    environment: production-${{ inputs.store }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Roll back
+        env:
+          CF_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CF_ACCOUNT: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          set -euo pipefail
+          PROJECT=$(jq -r .cloudflareProject stores/${{ inputs.store }}/store.json)
+          API="https://api.cloudflare.com/client/v4/accounts/$CF_ACCOUNT/pages/projects/$PROJECT"
+          ID="${{ inputs.deployment_id }}"
+          if [ -z "$ID" ]; then
+            ID=$(curl -fsS -H "Authorization: Bearer $CF_TOKEN" "$API/deployments?env=production" \
+              | jq -r '[.result[] | select(.latest_stage.name=="deploy" and .latest_stage.status=="success")] | .[1].id')
+          fi
+          [ -n "$ID" ] && [ "$ID" != "null" ] || { echo "::error::No earlier successful production deployment found"; exit 1; }
+          echo "Rolling $PROJECT back to deployment $ID"
+          curl -fsS -X POST -H "Authorization: Bearer $CF_TOKEN" "$API/deployments/$ID/rollback" | jq '{success, url: .result.url, id: .result.id}'
+          echo "### ↩️ ${{ inputs.store }} rolled back to \`$ID\`" >> "$GITHUB_STEP_SUMMARY"
+          echo "Next: revert the bad commit on main (git revert <sha>) so the next deploy doesn't reintroduce it." >> "$GITHUB_STEP_SUMMARY"

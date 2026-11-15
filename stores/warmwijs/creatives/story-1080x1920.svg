@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920">
+  <rect width="1080" height="1920" fill="#FFF8F1"/>
+  <circle cx="540" cy="954" r="468.71999999999997" fill="#C2410C" opacity="0.1"/>
+  <g transform="translate(162 576) scale(7.56)" fill="none" stroke="#C2410C" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 30h64M18 50h64M18 70h44"/><path d="M62 70c0-8 20-8 20 0s-20 8-20 0"/></g>
+  <text x="540" y="209.60000000000002" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="28" font-weight="700" fill="#C2410C" text-anchor="middle" letter-spacing="5">WARMWIJS</text>
+  <text x="540" y="289.6" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="76" font-weight="800" fill="#1C1917" text-anchor="middle">Koude voeten? Zoek</text><text x="540" y="373.20000000000005" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="76" font-weight="800" fill="#1C1917" text-anchor="middle">de tocht.</text>
+  <text x="540" y="1472" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="32" font-weight="500" fill="#1C1917" text-anchor="middle">Tocht dicht in 10 minuten.</text>
+  <rect x="330" y="1620" width="420" height="84" rx="42" fill="#C2410C"/>
+  <text x="540" y="1674" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="32" font-weight="700" fill="#FFFFFF" text-anchor="middle">Bekijk · €14,95</text>
+  <text x="540" y="1770" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="26" fill="#1C1917" text-anchor="middle" opacity="0.7">Gratis verzending vanaf €45</text>
+</svg>

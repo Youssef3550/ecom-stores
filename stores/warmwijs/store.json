@@ -1,0 +1,26 @@
+{
+  "id": "warmwijs",
+  "name": "Warmwijs",
+  "domain": "warmwijs.be",
+  "cloudflareProject": "warmwijs",
+  "niche": "Slimme, betaalbare producten om je huis warmer te houden en minder energie te verspillen",
+  "tagline": "Warmer wonen, slimmer stoken.",
+  "language": "nl",
+  "currency": "EUR",
+  "theme": { "primary": "#C2410C", "accent": "#1F3A5F", "bg": "#FFF8F1", "text": "#1C1917", "font": "'Inter', system-ui, sans-serif" },
+  "shipping": { "countries": ["BE", "NL"], "flatRate": 4.95, "freeFrom": 45, "deliveryDays": "2–5 werkdagen" },
+  "company": { "legalName": "[JOUW BEDRIJFSNAAM]", "vat": "[BE0XXX.XXX.XXX]", "address": "[Straat nr, postcode Beringen, België]", "email": "hallo@warmwijs.be" },
+  "analytics": { "ga4": "", "metaPixel": "" },
+  "usps": ["Gratis verzending vanaf €45", "14 dagen bedenktijd", "CE-gemarkeerde producten", "Betaal met Bancontact of iDEAL"],
+  "hero": {
+    "A": { "headline": "Warmer wonen, slimmer stoken.", "sub": "Tochtstrips, radiatorventilatoren en slimme stekkers. Eenvoudige oplossingen die je zelf in 10 minuten plaatst." },
+    "B": { "headline": "Voel jij het ook tochten?", "sub": "Pak koude plekken aan met producten die je zonder vakman installeert. Snel geleverd in België en Nederland." }
+  },
+  "featured": ["radiator-ventilator-duo", "tochtstrip-10m", "slimme-stekker-4-pack", "oplaadbare-handwarmer-2-pack"],
+  "bundles": [{ "name": "Tochtvrij-pakket", "items": ["tochtstrip-10m", "tochtrol-deur", "radiatorfolie-5m"], "discountPct": 10 }],
+  "adCreatives": [
+    { "id": "feed", "format": "1080x1080", "product": "radiator-ventilator-duo", "headline": "Je radiator, maar slimmer", "primaryText": "Leg de ventilator op je radiator: hij blaast de warme lucht de kamer in en schakelt vanzelf in en uit. Klaar in 2 minuten.", "cta": "Shop nu" },
+    { "id": "story", "format": "1080x1920", "product": "tochtstrip-10m", "headline": "Koude voeten? Zoek de tocht.", "primaryText": "Zelfklevende tochtstrip rond deur of raam. 10 meter, knippen op maat, geen gereedschap nodig.", "cta": "Bekijk" },
+    { "id": "link", "format": "1200x628", "product": "slimme-stekker-4-pack", "headline": "Zie wat je apparaten verbruiken", "primaryText": "4 slimme stekkers met verbruiksmeting in de app. Zet sluipverbruikers op afstand uit.", "cta": "Bestel" }
+  ]
+}

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <rect width="1080" height="1080" fill="#FAFAF7"/>
+  <circle cx="540" cy="507.6" r="267.84" fill="#B91C1C" opacity="0.1"/>
+  <g transform="translate(324 291.6) scale(4.32)" fill="none" stroke="#B91C1C" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M30 70V40c0-12 8-22 22-22s20 8 20 20v14c0 6-4 10-10 10H40"/><path d="M30 70h34v14H30z"/><path d="M44 52c-6 0-10-4-10-9"/></g>
+  <text x="540" y="100.4" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="28" font-weight="700" fill="#B91C1C" text-anchor="middle" letter-spacing="5">CLINCH SUPPLY</text>
+  <text x="540" y="180.4" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="64" font-weight="800" fill="#141414" text-anchor="middle">Klaar voor de volgende</text><text x="540" y="250.8" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="64" font-weight="800" fill="#141414" text-anchor="middle">ronde?</text>
+  <text x="540" y="803.6" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="32" font-weight="500" fill="#141414" text-anchor="middle">Dubbele schuimlaag. Klittenband</text><text x="540" y="845.2" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="32" font-weight="500" fill="#141414" text-anchor="middle">dat blijft zitten.</text>
+  <rect x="330" y="930" width="420" height="84" rx="42" fill="#B91C1C"/>
+  <text x="540" y="984" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="32" font-weight="700" fill="#FFFFFF" text-anchor="middle">Shop nu · €49,95</text>
+  
+</svg>

@@ -1,0 +1,282 @@
+[
+  {
+    "slug": "laptopstandaard-aluminium",
+    "name": "Aluminium Laptopstandaard",
+    "category": "Ergonomie",
+    "icon": "laptop",
+    "keyword": "laptopstandaard",
+    "searchVolume": { "nl": 1600, "be": 480 },
+    "cpcUsd": { "nl": 0.99, "be": 0.98 },
+    "trend": "Stijgend in NL (1.000 → 1.900)",
+    "seasonality": "Piek jan en sep (werk/studie), cadeau in dec",
+    "competitors": "Rain Design/Nulaxy (€30–60), bol.com/Hama (€15–35)",
+    "supplier": { "primary": "CJdropshipping (DE)", "fallback": "BigBuy", "searchTerm": "foldable aluminium laptop stand adjustable 6 levels", "origin": "EU" },
+    "unitCost": 6.5, "shippingCost": 4.8, "duty": 0, "price": 34.95, "weightKg": 0.45,
+    "returnRisk": "laag",
+    "justification": "Kernproduct voor thuiswerkers en studenten. Goed zoekvolume, geen elektronica, en dus weinig compliance-risico.",
+    "risks": ["Concurrentie op prijs: verkopen op stabiliteit en opvouwbaarheid", "Krassen bij levering: goede verpakking"],
+    "copy": {
+      "tagline": "Scherm op ooghoogte. Nek ontspannen.",
+      "description": "Een opvouwbare aluminium laptopstandaard met 6 hoogtes. Je scherm komt op een betere kijkhoogte en de open constructie laat je laptop ademen. Opgevouwen past hij in je laptoptas.",
+      "bullets": ["6 hoogtes", "Stevig aluminium met antislip pads", "Geschikt voor laptops van 10 tot 17 inch", "Opvouwbaar, met draagzakje"],
+      "specs": ["Materiaal: aluminium", "Laptops: 10–17 inch", "Gewicht: ±250 g"],
+      "faq": [
+        { "q": "Heb ik dan een los toetsenbord nodig?", "a": "Voor langer werken raden we een los toetsenbord en een losse muis aan, zodat je schouders ontspannen blijven." }
+      ],
+      "metaTitle": "Aluminium laptopstandaard – 6 hoogtes | Deskwerk",
+      "metaDescription": "Opvouwbare aluminium laptopstandaard in 6 hoogtes voor laptops van 10–17 inch. Stevig, licht, met draagzakje."
+    }
+  },
+  {
+    "slug": "monitor-lichtbalk",
+    "name": "Monitor Lichtbalk",
+    "category": "Verlichting",
+    "icon": "light",
+    "keyword": "monitor lamp",
+    "searchVolume": { "nl": 590, "be": 110 },
+    "cpcUsd": { "nl": 0.43, "be": 0.37 },
+    "trend": "Stijgend (480 → 720). Aanvullend: 'bureaulamp' BE 2.900 en 'monitor light bar'",
+    "seasonality": "Piek in de donkere maanden",
+    "competitors": "BenQ ScreenBar (€100–180), Xiaomi (±€40–50), Baseus (€30–50)",
+    "supplier": { "primary": "Alibaba (CE, flikkervrij, CRI>90)", "fallback": "CJdropshipping (DE)", "searchTerm": "monitor light bar asymmetric no glare usb-c CRI 95 remote", "origin": "CN" },
+    "unitCost": 11.0, "shippingCost": 5.0, "duty": 3, "price": 44.95, "weightKg": 0.5,
+    "returnRisk": "middel",
+    "justification": "Opvallend product voor de werkplek. BenQ verankert de prijsperceptie op €100+, dus €45 voelt als een slimme deal. Ook te targeten via 'bureaulamp'.",
+    "risks": ["Elektrische verlichting: CE (LVD/EMC), energielabel/EPREL-registratie voor lichtbronnen, WEEE/Recupel", "Past niet op elk (gebogen) scherm: compatibiliteit vermelden", "Merknaam BenQ/ScreenBar niet gebruiken in titels of ads"],
+    "copy": {
+      "tagline": "Licht op je bureau, niet op je scherm.",
+      "description": "De lichtbalk klemt boven op je monitor en schijnt asymmetrisch naar beneden, zodat je bureau verlicht is zonder schittering op je scherm. Kleurtemperatuur en helderheid stel je in met een draaiknop.",
+      "bullets": ["Asymmetrisch licht: geen schittering op het scherm", "Instelbaar van 2700 K tot 6500 K", "Flikkervrij, hoge kleurweergave", "USB-C voeding, met draadloze draaiknop"],
+      "specs": ["Kleurtemperatuur: 2700–6500 K", "Voeding: USB-C (5 V)", "Monitordikte: 1–6 cm"],
+      "faq": [
+        { "q": "Past hij op mijn gebogen monitor?", "a": "Op licht gebogen schermen meestal wel. Bij sterk gebogen ultrawide-schermen raden we een model met een aangepaste klem aan." }
+      ],
+      "metaTitle": "Monitor lichtbalk – zonder schittering | Deskwerk",
+      "metaDescription": "Monitor lichtbalk met asymmetrisch licht: geen schittering op je scherm. Instelbaar 2700–6500 K, USB-C, draadloze bediening."
+    }
+  },
+  {
+    "slug": "bureau-onderlegger-xl",
+    "name": "Bureau-onderlegger XL",
+    "category": "Organisatie",
+    "icon": "deskmat",
+    "keyword": "bureau onderlegger",
+    "searchVolume": { "nl": 2400, "be": 1300 },
+    "cpcUsd": { "nl": 0.79, "be": 0.92 },
+    "trend": "Stijgend in beide landen (BE 880 → 1.600)",
+    "seasonality": "Jaarrond; piek in sep en jan",
+    "competitors": "Orbitkey/Grovemade (€40–90), IKEA, bol.com (€15–30)",
+    "supplier": { "primary": "CJdropshipping (DE)", "fallback": "BigBuy", "searchTerm": "PU leather desk mat 90x45 waterproof double sided", "origin": "EU" },
+    "unitCost": 4.2, "shippingCost": 4.5, "duty": 0, "price": 24.95, "weightKg": 0.4,
+    "returnRisk": "laag",
+    "justification": "Verrassend hoog zoekvolume in BE, en een product dat er op foto direct goed uitziet. Een ideaal instapproduct voor de 'Clean Desk'-bundel.",
+    "risks": ["Kleurverschil tussen foto en werkelijkheid: echte productfoto's maken", "Rolverpakking: let op vouwen"],
+    "copy": {
+      "tagline": "Eén mat, meteen een rustiger bureau.",
+      "description": "Een grote bureau-onderlegger van PU-leer, met aan de ene kant een gladde muislaag en aan de andere kant een contrastkleur. Hij beschermt je bureau, dempt het geluid van je toetsenbord en maakt je werkplek meteen rustiger.",
+      "bullets": ["XL: 90 × 45 cm, plaats voor toetsenbord + muis", "Dubbelzijdig in twee kleuren", "Waterafstotend en makkelijk schoon te vegen", "Antislip onderkant"],
+      "specs": ["Afmeting: 90 × 45 cm", "Materiaal: PU-leer", "Dikte: ±2 mm"],
+      "faq": [
+        { "q": "Werkt mijn muis erop?", "a": "Ja, optische en lasermuizen werken op het gladde oppervlak." }
+      ],
+      "metaTitle": "Bureau-onderlegger XL 90×45 – dubbelzijdig | Deskwerk",
+      "metaDescription": "XL bureau-onderlegger van PU-leer (90×45 cm), dubbelzijdig en waterafstotend. Beschermt je bureau en ziet er strak uit."
+    }
+  },
+  {
+    "slug": "kabelmanagement-set",
+    "name": "Kabelmanagement Set",
+    "category": "Organisatie",
+    "icon": "cable",
+    "keyword": "kabelgoot bureau",
+    "searchVolume": { "nl": 260, "be": 480 },
+    "cpcUsd": { "nl": 1.16, "be": 1.38 },
+    "trend": "Stijgend (BE 320 → 590)",
+    "seasonality": "Jaarrond",
+    "competitors": "IKEA Signum (±€10), bol.com-sets (€15–35), Ugreen",
+    "supplier": { "primary": "CJdropshipping (DE)", "fallback": "BigBuy", "searchTerm": "under desk cable management tray no drill kit sleeves clips", "origin": "EU" },
+    "unitCost": 5.0, "shippingCost": 5.0, "duty": 0, "price": 29.95, "weightKg": 0.6,
+    "returnRisk": "laag",
+    "justification": "Een probleem dat iedereen met een thuiswerkplek kent. Sterke voor/na-content op TikTok en Reels, en een kernproduct van de bundel.",
+    "risks": ["Kleefclips op sommige bureaus minder sterk: schroefoptie meeleveren", "IKEA is goedkoop: verkopen als complete set zonder te boren"],
+    "copy": {
+      "tagline": "Van kabelchaos naar clean desk.",
+      "description": "Alles wat je nodig hebt om je kabels te laten verdwijnen: een kabelgoot die je zonder boren onder je bureau klemt, een kabelhoes voor de kabels naar de vloer, en clips voor op je bureau.",
+      "bullets": ["Kabelgoot zonder boren (klem) of met schroeven", "Kabelhoes van 1,5 m, op maat te knippen", "10 zelfklevende kabelclips", "Past op bureaus tot 4 cm dik"],
+      "specs": ["Kabelgoot: ±40 cm", "Inhoud: goot, hoes, 10 clips, schroeven"],
+      "faq": [
+        { "q": "Past de stekkerdoos in de goot?", "a": "Ja, er past een standaard stekkerdoos met 4 tot 6 stopcontacten in." }
+      ],
+      "metaTitle": "Kabelmanagement set bureau – zonder boren | Deskwerk",
+      "metaDescription": "Kabelmanagement set: kabelgoot onder je bureau zonder boren, kabelhoes en clips. Van kabelchaos naar clean desk."
+    }
+  },
+  {
+    "slug": "telefoonhouder-aluminium",
+    "name": "Aluminium Telefoonhouder",
+    "category": "Organisatie",
+    "icon": "phone",
+    "keyword": "telefoonhouder bureau",
+    "searchVolume": { "nl": 590, "be": 50 },
+    "cpcUsd": { "nl": 0.56, "be": 0.44 },
+    "trend": "Stijgend in NL (480 → 720)",
+    "seasonality": "Jaarrond",
+    "competitors": "bol.com (€8–20), Lamicall",
+    "supplier": { "primary": "CJdropshipping (DE)", "fallback": "BigBuy", "searchTerm": "aluminium phone stand desk adjustable", "origin": "EU" },
+    "unitCost": 2.2, "shippingCost": 3.6, "duty": 0, "price": 17.95, "weightKg": 0.2,
+    "returnRisk": "laag",
+    "justification": "Een goedkope add-on met een zeer hoge marge, die de bundel compleet maakt.",
+    "risks": ["Laag zoekvolume in BE: vooral als upsell verkopen"],
+    "copy": {
+      "tagline": "Notificaties in zicht, niet in je hand.",
+      "description": "Een stevige aluminium standaard die je telefoon in je zicht houdt voor videocalls, notificaties of 2FA-codes. Kantelbaar, met een opening voor je laadkabel.",
+      "bullets": ["Verstelbare kijkhoek", "Stevig aluminium, antislip pads", "Opening voor de laadkabel", "Voor telefoons en kleine tablets"],
+      "specs": ["Materiaal: aluminium", "Geschikt voor: 4–8 inch"],
+      "faq": [
+        { "q": "Kan ik er een tablet op zetten?", "a": "Kleine tablets tot ongeveer 8 inch, ja." }
+      ],
+      "metaTitle": "Aluminium telefoonhouder bureau | Deskwerk",
+      "metaDescription": "Verstelbare aluminium telefoonhouder voor je bureau. Antislip, met opening voor de laadkabel. Voor telefoons en kleine tablets."
+    }
+  },
+  {
+    "slug": "ergonomische-voetensteun",
+    "name": "Ergonomische Voetensteun",
+    "category": "Ergonomie",
+    "icon": "foot",
+    "keyword": "voetensteun bureau",
+    "searchVolume": { "nl": 1000, "be": 170 },
+    "cpcUsd": { "nl": 1.3, "be": 1.32 },
+    "trend": "Stabiel tot stijgend",
+    "seasonality": "Jaarrond",
+    "competitors": "Fellowes (€30–60), bol.com (€20–40)",
+    "supplier": { "primary": "CJdropshipping (DE)", "fallback": "BigBuy", "searchTerm": "ergonomic foot rest under desk memory foam rocking", "origin": "EU" },
+    "unitCost": 7.0, "shippingCost": 5.5, "duty": 0, "price": 39.95, "weightKg": 0.9,
+    "returnRisk": "laag",
+    "justification": "Hogere orderwaarde in de ergonomiecategorie, met solide zoekvolume in NL en een duidelijke 'kleine mensen aan een hoog bureau'-use case.",
+    "risks": ["Hoge CPC ($1,3): conversie optimaliseren", "Volumineus pakket = hogere verzendkosten", "Geen medische claims (rugpijn)"],
+    "copy": {
+      "tagline": "Voeten plat, rug ontspannen.",
+      "description": "Een voetensteun van traagschuim met een golvende onderkant, zodat je je voeten licht kunt bewegen. Ideaal als je bureau of stoel net te hoog is.",
+      "bullets": ["Traagschuim met ergonomische vorm", "Wiebelfunctie: houd je benen in beweging", "Afneembare, wasbare velours hoes", "Antislip onderkant"],
+      "specs": ["Afmeting: ±45 × 33 × 10 cm", "Materiaal: traagschuim, velours"],
+      "faq": [
+        { "q": "Hoe weet ik of ik een voetensteun nodig heb?", "a": "Als je voeten niet plat op de grond staan wanneer je bovenarmen ontspannen naast je lichaam hangen en je onderarmen op het bureau rusten." }
+      ],
+      "metaTitle": "Ergonomische voetensteun bureau | Deskwerk",
+      "metaDescription": "Voetensteun van traagschuim met wiebelfunctie voor onder je bureau. Wasbare hoes, antislip. Voor een ontspannen zithouding."
+    }
+  },
+  {
+    "slug": "polssteun-set",
+    "name": "Polssteun Set (toetsenbord + muis)",
+    "category": "Ergonomie",
+    "icon": "wrist",
+    "keyword": "polssteun muis",
+    "searchVolume": { "nl": 110, "be": 20 },
+    "cpcUsd": { "nl": 0.96, "be": 0.28 },
+    "trend": "Laag maar stabiel; ook 'polssteun toetsenbord' en 'muismat met polssteun' targeten",
+    "seasonality": "Jaarrond",
+    "competitors": "Fellowes/Logitech (€15–30), bol.com (€10–20)",
+    "supplier": { "primary": "CJdropshipping (DE)", "fallback": "BigBuy", "searchTerm": "memory foam wrist rest keyboard mouse pad set", "origin": "EU" },
+    "unitCost": 3.0, "shippingCost": 3.8, "duty": 0, "price": 19.95, "weightKg": 0.3,
+    "returnRisk": "laag",
+    "justification": "Een logische add-on bij de onderlegger, de muis en het toetsenbord. Een laagdrempelige aankoop die vooral als upsell rendeert.",
+    "risks": ["Zwak zoekvolume: als upsell inzetten, niet als advertentieproduct"],
+    "copy": {
+      "tagline": "Zachte landing voor je polsen.",
+      "description": "Een set van twee polssteunen van traagschuim: een voor je toetsenbord en een muismat met geïntegreerde steun. Je polsen liggen in een neutralere positie tijdens het typen.",
+      "bullets": ["Polssteun voor het toetsenbord + muismat met steun", "Traagschuim met een koele, gladde stof", "Antislip rubberen onderkant", "Gestikte randen tegen rafelen"],
+      "specs": ["Toetsenbordsteun: ±44 × 8 cm", "Muismat: ±26 × 21 cm"],
+      "faq": [
+        { "q": "Past hij bij een compact toetsenbord?", "a": "De steun is 44 cm breed, ideaal voor full-size en TKL. Bij 60%-toetsenborden steekt hij iets uit." }
+      ],
+      "metaTitle": "Polssteun set – toetsenbord + muis | Deskwerk",
+      "metaDescription": "Set van 2 polssteunen van traagschuim voor toetsenbord en muis. Antislip, gestikte randen, comfortabel typen."
+    }
+  },
+  {
+    "slug": "usb-c-hub-7in1",
+    "name": "USB-C Hub 7-in-1",
+    "category": "Tech",
+    "icon": "hub",
+    "keyword": "usb c hub",
+    "searchVolume": { "nl": 2900, "be": 720 },
+    "cpcUsd": { "nl": 0.99, "be": 0.84 },
+    "trend": "Stabiel tot stijgend",
+    "seasonality": "Jaarrond; piek Black Friday",
+    "competitors": "Anker/Ugreen/Satechi (€25–60), bol.com (€15–40)",
+    "supplier": { "primary": "Alibaba (CE, 100 W PD, 4K60)", "fallback": "CJdropshipping (DE)", "searchTerm": "usb c hub 7 in 1 4K60 HDMI 100W PD SD card", "origin": "CN" },
+    "unitCost": 9.0, "shippingCost": 3.8, "duty": 3, "price": 39.95, "weightKg": 0.1,
+    "returnRisk": "middel",
+    "justification": "Hoog zoekvolume en lichtgewicht. Laptops met alleen USB-C maken het een noodzakelijke aankoop.",
+    "risks": ["Compatibiliteit (4K60, DP Alt Mode) duidelijk vermelden om retouren te beperken", "Sterke merkconcurrentie (Anker, Ugreen): beoordelingen en garantie belangrijk", "Elektronica: CE/EMC, RoHS, WEEE/Recupel"],
+    "copy": {
+      "tagline": "Eén kabel, je hele werkplek.",
+      "description": "Sluit je monitor, toetsenbord, muis, SD-kaart en oplader in één keer aan via één USB-C-kabel. De aluminium behuizing voert de warmte af en ziet er netjes uit naast je laptop.",
+      "bullets": ["HDMI 4K @ 60 Hz", "100 W USB-C Power Delivery (doorladen)", "2× USB-A 3.0 + 1× USB-C data", "SD- en microSD-kaartlezer"],
+      "specs": ["Poorten: HDMI, 2× USB-A, USB-C data, USB-C PD, SD, microSD", "Behuizing: aluminium"],
+      "faq": [
+        { "q": "Werkt hij met mijn laptop?", "a": "Je laptop moet beeld via USB-C ondersteunen (DisplayPort Alt Mode of Thunderbolt). Dat werkt bij de meeste recente MacBooks en Windows-laptops." }
+      ],
+      "metaTitle": "USB-C hub 7-in-1 – 4K60 HDMI, 100 W PD | Deskwerk",
+      "metaDescription": "USB-C hub 7-in-1 met HDMI 4K60, 100 W doorladen, USB-A en kaartlezer. Aluminium behuizing. Eén kabel voor je hele werkplek."
+    }
+  },
+  {
+    "slug": "headset-houder-klem",
+    "name": "Headset Houder met Klem",
+    "category": "Organisatie",
+    "icon": "headset",
+    "keyword": "headset houder",
+    "searchVolume": { "nl": 260, "be": 70 },
+    "cpcUsd": { "nl": 0.33, "be": 0.51 },
+    "trend": "Licht stijgend",
+    "seasonality": "Jaarrond; piek in december (gamers)",
+    "competitors": "bol.com (€8–20), gamingmerken",
+    "supplier": { "primary": "CJdropshipping (DE)", "fallback": "BigBuy", "searchTerm": "under desk headphone hanger clamp rotating", "origin": "EU" },
+    "unitCost": 2.2, "shippingCost": 3.6, "duty": 0, "price": 16.95, "weightKg": 0.15,
+    "returnRisk": "laag",
+    "justification": "Een add-on voor gamers en thuiswerkers met een zeer hoge marge, die de clean-desk-boodschap versterkt.",
+    "risks": ["Laag zoekvolume: als upsell inzetten"],
+    "copy": {
+      "tagline": "Je headset, altijd binnen handbereik.",
+      "description": "Een draaibare houder die je zonder boren onder of naast je bureaublad klemt. Je headset hangt veilig en uit de weg, en je bureau blijft vrij.",
+      "bullets": ["Klem zonder boren, voor bladen tot 4 cm", "360° draaibaar", "Zachte rubberen bescherming", "Draagt tot 2 kg"],
+      "specs": ["Materiaal: aluminium + rubber", "Bladdikte: tot 4 cm"],
+      "faq": [
+        { "q": "Beschadigt de klem mijn bureau?", "a": "Nee, de klem heeft zachte rubberen pads." }
+      ],
+      "metaTitle": "Headset houder met klem – zonder boren | Deskwerk",
+      "metaDescription": "Draaibare headset houder die je zonder boren aan je bureau klemt. Aluminium met rubberen bescherming. Draagt tot 2 kg."
+    }
+  },
+  {
+    "slug": "verticale-muis-draadloos",
+    "name": "Draadloze Verticale Muis",
+    "category": "Ergonomie",
+    "icon": "mouse",
+    "keyword": "verticale muis",
+    "searchVolume": { "nl": 720, "be": 170 },
+    "cpcUsd": { "nl": 0.91, "be": 0.86 },
+    "trend": "Stijgend (NL 480 → 720)",
+    "seasonality": "Jaarrond",
+    "competitors": "Logitech Lift/MX Vertical (€60–110), bol.com (€15–35)",
+    "supplier": { "primary": "Alibaba (CE-RED, 2,4 GHz + Bluetooth)", "fallback": "CJdropshipping (DE)", "searchTerm": "wireless vertical mouse rechargeable bluetooth 2.4G silent", "origin": "CN" },
+    "unitCost": 6.5, "shippingCost": 3.8, "duty": 3, "price": 32.95, "weightKg": 0.15,
+    "returnRisk": "middel",
+    "justification": "Groeiende ergonomie-zoekterm. Logitech zit op €60+, dus een €30–35-alternatief is een duidelijk instapaanbod.",
+    "risks": ["Radio (2,4 GHz/BT): CE-RED, inclusief de cyberbeveiligingseisen; WEEE/Recupel", "Linkshandigen: aparte variant of vermelden dat hij alleen voor rechtshandigen is", "Geen medische claims (RSI)"],
+    "copy": {
+      "tagline": "Hand in een handdrukpositie.",
+      "description": "Een draadloze verticale muis die je hand in een natuurlijkere handdrukpositie houdt. Hij verbindt via 2,4 GHz of Bluetooth, heeft stille klikken en een DPI-knop, en is oplaadbaar via USB-C.",
+      "bullets": ["Verticaal ontwerp in handdrukpositie", "2,4 GHz-ontvanger + Bluetooth", "Stille klikken, DPI tot 2400", "Oplaadbaar via USB-C"],
+      "specs": ["Verbinding: 2,4 GHz + Bluetooth", "DPI: 800 / 1600 / 2400", "Hand: rechts"],
+      "faq": [
+        { "q": "Hoe lang duurt het om te wennen?", "a": "De meeste mensen zijn na een paar dagen gewend aan de verticale houding." }
+      ],
+      "metaTitle": "Draadloze verticale muis – stil, oplaadbaar | Deskwerk",
+      "metaDescription": "Ergonomische draadloze verticale muis met 2,4 GHz en Bluetooth, stille klikken en USB-C. Voor rechtshandigen."
+    }
+  }
+]

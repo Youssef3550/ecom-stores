@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="628" viewBox="0 0 1200 628">
+    <rect width="1200" height="628" fill="#FAFAF7"/>
+    <rect x="696" y="0" width="504" height="628" fill="#B91C1C"/>
+    <g transform="translate(744 75.36) scale(4.7728)" fill="none" stroke="#FFFFFF" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><rect x="22" y="30" width="56" height="40" rx="20"/><path d="M36 30v40M50 30v40M64 30v40"/><path d="M78 50h12"/></g>
+    <text x="64" y="96" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="26" font-weight="700" fill="#B91C1C" letter-spacing="4">CLINCH SUPPLY</text>
+    <text x="64" y="200" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="58" font-weight="800" fill="#141414" text-anchor="start">Bandages die niet</text><text x="64" y="263.8" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="58" font-weight="800" fill="#141414" text-anchor="start">afzakken</text>
+    <text x="64" y="400" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="28" font-weight="500" fill="#141414" text-anchor="start">4,5 meter steun die niet afzakt.</text>
+    <rect x="64" y="496" width="250" height="70" rx="35" fill="#B91C1C"/>
+    <text x="189" y="542" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="28" font-weight="700" fill="#FFFFFF" text-anchor="middle">Bestel · €12,95</text>
+  </svg>

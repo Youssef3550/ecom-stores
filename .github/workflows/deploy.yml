@@ -1,0 +1,104 @@
+name: Deploy
+
+# Push to main → validate + test → build and deploy ONLY the stores that changed (all stores when shared code changes).
+# Manual run → deploy one store or all.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      store:
+        description: 'Store to deploy (or "all")'
+        required: true
+        default: all
+        type: choice
+        options: [all, clinch, snuffel, warmwijs, diepslaap, deskwerk]
+
+permissions:
+  contents: read
+  deployments: write
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      stores: ${{ steps.matrix.outputs.stores }}
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 2 }
+      - uses: actions/setup-node@v4
+        with: { node-version-file: .nvmrc, cache: npm }
+      - run: npm ci
+      - run: node scripts/validate.mjs
+      - run: node tests/run-tests.mjs
+      - id: matrix
+        name: Decide which stores to deploy
+        run: |
+          ALL=$(ls stores | jq -R . | jq -cs .)
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            if [ "${{ inputs.store }}" = "all" ]; then echo "stores=$ALL" >> "$GITHUB_OUTPUT"; else echo "stores=[\"${{ inputs.store }}\"]" >> "$GITHUB_OUTPUT"; fi
+            exit 0
+          fi
+          CHANGED=$(git diff --name-only HEAD~1 HEAD || true)
+          if [ -z "$CHANGED" ] || echo "$CHANGED" | grep -qE '^(apps/|scripts/|package(-lock)?\.json|\.nvmrc|\.github/workflows/deploy\.yml)'; then
+            echo "stores=$ALL" >> "$GITHUB_OUTPUT"
+          else
+            echo "stores=$( { echo "$CHANGED" | grep -oE '^stores/[^/]+' || true; } | cut -d/ -f2 | sort -u | jq -R . | jq -cs 'map(select(length>0))')" >> "$GITHUB_OUTPUT"
+          fi
+
+  deploy:
+    needs: plan
+    if: needs.plan.outputs.stores != '[]'
+    name: Deploy ${{ matrix.store }}
+    runs-on: ubuntu-latest
+    environment:
+      name: production-${{ matrix.store }}
+      url: ${{ steps.urls.outputs.prod }}
+    concurrency:
+      group: deploy-${{ matrix.store }}
+      cancel-in-progress: false
+    strategy:
+      fail-fast: false
+      matrix:
+        store: ${{ fromJSON(needs.plan.outputs.stores) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version-file: .nvmrc, cache: npm }
+      - run: npm ci
+      - id: cfg
+        name: Resolve per-store config + tracking IDs (GitHub Variables GA4_ID_<STORE>, META_PIXEL_ID_<STORE>)
+        env:
+          ALL_VARS: ${{ toJSON(vars) }}
+        run: |
+          UP=$(echo "${{ matrix.store }}" | tr '[:lower:]' '[:upper:]')
+          echo "project=$(jq -r .cloudflareProject stores/${{ matrix.store }}/store.json)" >> "$GITHUB_OUTPUT"
+          echo "domain=$(jq -r .domain stores/${{ matrix.store }}/store.json)" >> "$GITHUB_OUTPUT"
+          echo "ga4=$(echo "$ALL_VARS" | jq -r --arg k "GA4_ID_$UP" '.[$k] // empty')" >> "$GITHUB_OUTPUT"
+          echo "pixel=$(echo "$ALL_VARS" | jq -r --arg k "META_PIXEL_ID_$UP" '.[$k] // empty')" >> "$GITHUB_OUTPUT"
+      - name: Build
+        run: node scripts/build-store.mjs ${{ matrix.store }} && node scripts/check-dist.mjs ${{ matrix.store }}
+        env:
+          PUBLIC_GA4_ID: ${{ steps.cfg.outputs.ga4 }}
+          PUBLIC_META_PIXEL_ID: ${{ steps.cfg.outputs.pixel }}
+      - id: deploy
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          workingDirectory: apps/storefront
+          command: pages deploy ../../dist/${{ matrix.store }} --project-name=${{ steps.cfg.outputs.project }} --branch=main --commit-hash=${{ github.sha }}
+      - id: urls
+        run: echo "prod=https://${{ steps.cfg.outputs.project }}.pages.dev" >> "$GITHUB_OUTPUT"
+      - name: Post-deploy smoke test
+        run: |
+          URL="${{ steps.deploy.outputs.deployment-url }}"
+          for path in / /producten/ /catalog.json /sitemap.xml; do
+            for i in 1 2 3 4 5; do
+              code=$(curl -s -o /dev/null -w '%{http_code}' "$URL$path"); [ "$code" = "200" ] && break; sleep 5
+            done
+            echo "$path → $code"; [ "$code" = "200" ] || { echo "::error::Smoke test failed on $path — run the Rollback workflow"; exit 1; }
+          done
+          # Checkout endpoint must reject an empty cart with 400 (proves the Function is live without creating a session).
+          code=$(curl -s -o /dev/null -w '%{http_code}' -X POST -H 'Content-Type: application/json' -d '{"items":[]}' "$URL/api/checkout")
+          echo "/api/checkout (empty) → $code"; [ "$code" = "400" ] || { echo "::error::Checkout function not responding as expected"; exit 1; }

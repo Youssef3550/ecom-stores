@@ -1,0 +1,286 @@
+[
+  {
+    "slug": "3d-slaapmasker",
+    "name": "3D Slaapmasker",
+    "category": "Donker",
+    "icon": "mask",
+    "keyword": "slaapmasker",
+    "searchVolume": { "nl": 9900, "be": 2400 },
+    "cpcUsd": { "nl": 1.02, "be": 0.92 },
+    "trend": "Hoog en stabiel (NL 12.100–14.800)",
+    "seasonality": "Jaarrond; cadeaupiek in december, reispiek in de zomer",
+    "competitors": "Manta (€49), Strex/Somnifiq/ORIGIN (€13–20), Action (€2)",
+    "supplier": { "primary": "CJdropshipping (DE)", "fallback": "Alibaba private label", "searchTerm": "3D contoured sleep mask memory foam blackout adjustable", "origin": "EU" },
+    "unitCost": 2.2, "shippingCost": 3.2, "duty": 0, "price": 19.95, "weightKg": 0.08,
+    "returnRisk": "laag",
+    "justification": "Hoofdproduct van de winkel: hoog zoekvolume, lichtgewicht en een bewezen prijspunt van €15–20 op bol.com. Het instapproduct voor de bundel.",
+    "risks": ["Grote concurrentie: merk + bundel + 'zijslaper'-positionering", "Prijsdruk van Action en bol.com-private labels"],
+    "copy": {
+      "tagline": "100% donker. Geen druk op je ogen.",
+      "description": "Diepe, voorgevormde oogkassen van traagschuim sluiten al het licht buiten zonder je oogleden te raken. Zo kun je met je ogen knipperen en blijft je make-up of wimperserum zitten. De smalle band zit ook comfortabel als je op je zij slaapt.",
+      "bullets": ["Voorgevormde 3D-oogkassen: geen druk op je ogen", "Neusvleugel blokkeert lichtlekken", "Smalle, verstelbare band, ook voor zijslapers", "Ademend en uitwasbaar"],
+      "specs": ["Materiaal: traagschuim, ademende stof", "Gewicht: ±40 g", "Inhoud: masker + opbergzakje"],
+      "faq": [
+        { "q": "Is het masker geschikt voor zijslapers?", "a": "Ja. De band is smal en plat, en het masker is aan de zijkanten dun genoeg om comfortabel op je zij te liggen." },
+        { "q": "Kan ik het wassen?", "a": "Ja, met de hand op 30 °C. Laat het aan de lucht drogen." }
+      ],
+      "metaTitle": "3D slaapmasker – 100% verduisterend | Diepslaap",
+      "metaDescription": "3D slaapmasker met diepe oogkassen: 100% donker, geen druk op je ogen. Comfortabel voor zijslapers. Snel geleverd."
+    }
+  },
+  {
+    "slug": "oordopjes-slapen",
+    "name": "Siliconen Oordopjes voor Slapen",
+    "category": "Stil",
+    "icon": "ear",
+    "keyword": "oordopjes slapen",
+    "searchVolume": { "nl": 9900, "be": 1900 },
+    "cpcUsd": { "nl": 1.32, "be": 1.24 },
+    "trend": "Stabiel tot stijgend (NL 9.900 → 12.100)",
+    "seasonality": "Jaarrond",
+    "competitors": "Loop (€25–35), Alpine (€15–25), Ohropax/Kruidvat (€3–8)",
+    "supplier": { "primary": "Alibaba private label", "fallback": "CJdropshipping (DE)", "searchTerm": "reusable silicone ear plugs sleeping noise reduction case", "origin": "CN" },
+    "unitCost": 1.8, "shippingCost": 3.2, "duty": 3, "price": 19.95, "weightKg": 0.05,
+    "returnRisk": "laag (hygiëne: geen retour na opening)",
+    "justification": "Even groot zoekvolume als slaapmaskers, met marktleider Loop op €25+. Er is ruimte voor een herbruikbaar alternatief rond €20.",
+    "risks": ["Geluidsreductie (dB/SNR) alleen vermelden met een EN 352-testcertificaat van de leverancier", "Hogere CPC ($1,2–1,3): conversie moet sterk zijn", "Hygiëne-uitzondering op retour duidelijk vermelden", "Vormgeving van Loop niet kopiëren"],
+    "copy": {
+      "tagline": "Stilte die je niet voelt.",
+      "description": "Zachte siliconen oordopjes in drie maten, zodat je een pasvorm vindt die ook comfortabel blijft als je op je zij ligt. Ze dempen snurken, verkeer en nachtlawaai, zijn herbruikbaar en zitten in een handig etui.",
+      "bullets": ["Zacht siliconen, ook comfortabel voor zijslapers", "3 maten oortips in de doos", "Herbruikbaar en afwasbaar", "Met etui voor op het nachtkastje of op reis"],
+      "specs": ["Materiaal: siliconen", "Inhoud: 1 paar + 3 maten tips + etui"],
+      "faq": [
+        { "q": "Hoeveel dempen ze?", "a": "Ze dempen alledaags lawaai zoals snurken en verkeer merkbaar. De exacte dempingswaarde staat op de verpakking." },
+        { "q": "Kan ik ze retourneren?", "a": "Ongeopend binnen 14 dagen. Na het openen kan dat om hygiënische redenen niet meer." }
+      ],
+      "metaTitle": "Oordopjes slapen – zacht siliconen, 3 maten | Diepslaap",
+      "metaDescription": "Herbruikbare siliconen oordopjes om te slapen. Comfortabel voor zijslapers, 3 maten tips, met etui. Tegen snurken en lawaai."
+    }
+  },
+  {
+    "slug": "zijden-kussensloop",
+    "name": "Moerbeizijden Kussensloop",
+    "category": "Comfort",
+    "icon": "pillow",
+    "keyword": "zijden kussensloop",
+    "searchVolume": { "nl": 5400, "be": 880 },
+    "cpcUsd": { "nl": 1.92, "be": 1.78 },
+    "trend": "Stabiel tot stijgend (4.400 → 5.400)",
+    "seasonality": "Cadeaupiek in december en rond Moederdag",
+    "competitors": "Slip (€80+), Simia/bol.com (€25–50), Zara Home",
+    "supplier": { "primary": "Alibaba (22 momme moerbeizijde, OEKO-TEX)", "fallback": "BigBuy", "searchTerm": "22 momme mulberry silk pillowcase oeko-tex 60x70", "origin": "CN" },
+    "unitCost": 10.0, "shippingCost": 3.8, "duty": 3, "price": 44.95, "weightKg": 0.15,
+    "returnRisk": "middel",
+    "justification": "Product met een hoge orderwaarde en hoog zoekvolume in een cadeaucategorie. Een sterk instapproduct voor vrouwelijke doelgroepen (haar en huid).",
+    "risks": ["Hoge CPC ($1,8–1,9): vooral via social en SEO", "Echtheid van de zijde en momme-gewicht laten bewijzen (certificaat + staal)", "Beauty-claims ('minder rimpels') vermijden", "60×70 vs 50×60: Belgische en Nederlandse kussenmaten aanbieden"],
+    "copy": {
+      "tagline": "Wakker worden zonder bedhoofd.",
+      "description": "Een kussensloop van 22 momme moerbeizijde die zacht en koel aanvoelt. Je haar glijdt eroverheen in plaats van te wrijven, en de zijde voelt in de zomer koel en in de winter aangenaam aan. Met een verborgen ritssluiting.",
+      "bullets": ["22 momme 100% moerbeizijde", "OEKO-TEX-gecertificeerd", "Verborgen ritssluiting", "Maten 60 × 70 en 50 × 60 cm"],
+      "specs": ["Materiaal: 100% moerbeizijde, 22 momme", "Maten: 60 × 70 / 50 × 60 cm", "Wassen: 30 °C, fijnwas"],
+      "faq": [
+        { "q": "Hoe was ik zijde?", "a": "Binnenstebuiten in een waszakje, op 30 °C fijnwas, met een zijdewasmiddel. Niet in de droogkast." }
+      ],
+      "metaTitle": "Zijden kussensloop – 22 momme moerbeizijde | Diepslaap",
+      "metaDescription": "Kussensloop van 22 momme moerbeizijde, OEKO-TEX-gecertificeerd. Zacht voor haar en huid, met verborgen rits. 60×70 of 50×60."
+    },
+    "variants": { "label": "Maat", "options": ["60 × 70 cm", "50 × 60 cm"] }
+  },
+  {
+    "slug": "wake-up-light",
+    "name": "Wake-up Light met Zonsopgang",
+    "category": "Wakker worden",
+    "icon": "sun",
+    "keyword": "wake up light",
+    "searchVolume": { "nl": 9900, "be": 880 },
+    "cpcUsd": { "nl": 0.36, "be": 0.34 },
+    "trend": "Sterk seizoensgebonden stijgend: NL 3.600 → 12.100; BE 590 → 1.300",
+    "seasonality": "Piek nov–feb (donkere ochtenden) + cadeau. NU in het hoogseizoen",
+    "competitors": "Philips Wake-up Light (€80–200), bol.com-merken (€30–60)",
+    "supplier": { "primary": "Alibaba (CE/RED als FM-radio aanwezig)", "fallback": "CJdropshipping (DE)", "searchTerm": "sunrise alarm clock wake up light FM radio natural sounds", "origin": "CN" },
+    "unitCost": 13.0, "shippingCost": 5.5, "duty": 3, "price": 54.95, "weightKg": 0.7,
+    "returnRisk": "middel",
+    "justification": "Lage CPC bij hoog volume dat nu sterk stijgt. Philips zit op €80+, dus er is ruimte voor €50–55 met een goede presentatie.",
+    "risks": ["Elektronica + radio: CE-RED, LVD, WEEE/Recupel", "Geen medische claims (winterdip, depressie)", "Kwaliteit van de lichtovergang en display-helderheid testen"],
+    "copy": {
+      "tagline": "Elke ochtend een zonsopgang. Ook in december.",
+      "description": "Het licht wordt in 30 minuten langzaam feller, van dieprood naar warm wit, zodat je rustig wakker wordt in plaats van te schrikken van een wekker. Met natuurgeluiden, een FM-radio en een zonsondergangfunctie om in te slapen.",
+      "bullets": ["Zonsopgang- en zonsondergangsimulatie", "Instelbare duur (10–60 min) en helderheid", "7 natuurgeluiden + FM-radio", "Dimbaar display, 2 alarmen"],
+      "specs": ["Voeding: USB-adapter (inbegrepen)", "Alarmen: 2", "Geluiden: 7 + FM-radio"],
+      "faq": [
+        { "q": "Is het licht fel genoeg?", "a": "In een donkere slaapkamer ruim voldoende om wakker te worden. Je stelt de maximale helderheid zelf in." }
+      ],
+      "metaTitle": "Wake-up light met zonsopgang & FM-radio | Diepslaap",
+      "metaDescription": "Wake-up light met zonsopgang- en zonsondergangsimulatie, natuurgeluiden en FM-radio. Rustig wakker worden, ook in de winter."
+    }
+  },
+  {
+    "slug": "white-noise-machine",
+    "name": "White Noise Machine",
+    "category": "Stil",
+    "icon": "noise",
+    "keyword": "white noise machine",
+    "searchVolume": { "nl": 1000, "be": 480 },
+    "cpcUsd": { "nl": 0.42, "be": 0.35 },
+    "trend": "Stabiel tot licht stijgend",
+    "seasonality": "Jaarrond (ouders van baby's, lichte slapers, thuiswerkers)",
+    "competitors": "Hatch/Yogasleep (€40–80), bol.com (€20–40)",
+    "supplier": { "primary": "CJdropshipping (DE)", "fallback": "Alibaba", "searchTerm": "white noise machine 30 sounds night light timer usb-c", "origin": "EU" },
+    "unitCost": 7.5, "shippingCost": 4.5, "duty": 0, "price": 34.95, "weightKg": 0.35,
+    "returnRisk": "laag",
+    "justification": "Breed publiek (ouders van baby's, lichte slapers, thuiswerkers). De lage CPC maakt Google Shopping rendabel.",
+    "risks": ["Elektronica: CE/EMC, WEEE/Recupel", "Voor baby's: veilige afstand en volume adviseren (geen medische claims)"],
+    "copy": {
+      "tagline": "Ruis die de rest overstemt.",
+      "description": "Een compacte geluidsmachine met 30 rustgevende geluiden: witte, roze en bruine ruis, ventilator, regen en zee. Hij maskeert snurken, verkeer en buren, met een timer en een warm nachtlampje.",
+      "bullets": ["30 geluiden zonder herhaling", "Timer of continu", "Warm nachtlampje met dimfunctie", "Geheugenfunctie: start met je laatste instelling"],
+      "specs": ["Voeding: USB-C", "Geluiden: 30", "Timer: 30 / 60 / 90 min of continu"],
+      "faq": [
+        { "q": "Kan ik hem gebruiken voor mijn baby?", "a": "Veel ouders doen dat. Zet hem op minstens 2 meter van het bedje en houd het volume laag." }
+      ],
+      "metaTitle": "White noise machine – 30 geluiden | Diepslaap",
+      "metaDescription": "White noise machine met 30 geluiden, timer en nachtlampje. Maskeert snurken, verkeer en buren. USB-C."
+    }
+  },
+  {
+    "slug": "blauw-licht-bril",
+    "name": "Blauw-lichtbril",
+    "category": "Avondroutine",
+    "icon": "glasses",
+    "keyword": "blauw licht bril",
+    "searchVolume": { "nl": 5400, "be": 880 },
+    "cpcUsd": { "nl": 0.82, "be": 0.68 },
+    "trend": "BE stijgend (320 → 880); NL stabiel",
+    "seasonality": "Jaarrond; piek in de winter (meer schermtijd)",
+    "competitors": "Hans Anders/Pearle (€30–60), bol.com (€10–25)",
+    "supplier": { "primary": "CJdropshipping (DE)", "fallback": "Alibaba private label", "searchTerm": "blue light blocking glasses unisex TR90 frame", "origin": "EU" },
+    "unitCost": 2.5, "shippingCost": 3.2, "duty": 0, "price": 24.95, "weightKg": 0.06,
+    "returnRisk": "laag",
+    "justification": "Hoog zoekvolume en een zeer hoge marge. Past bij de avondroutine van Diepslaap ('schermtijd voor het slapen').",
+    "risks": ["Geen gezondheids- of medische claims (beschermt je ogen, betere slaap)", "Geen correctieglazen: duidelijk vermelden", "Kan als medisch hulpmiddel gelden als je claims maakt: puur als lifestyle-accessoire verkopen"],
+    "copy": {
+      "tagline": "Je schermtijd, maar warmer.",
+      "description": "Een lichte bril met filterglazen die een deel van het blauwe licht van schermen tegenhouden en het beeld warmer maken. Voor wie 's avonds nog even scrolt, gamet of werkt.",
+      "bullets": ["Filterglazen met een licht warme tint", "Lichtgewicht en flexibel TR90-montuur", "Ontspiegelde glazen", "Met etui en poetsdoekje"],
+      "specs": ["Montuur: TR90", "Glazen: zonder sterkte", "Inhoud: bril, etui, doekje"],
+      "faq": [
+        { "q": "Zijn er glazen op sterkte?", "a": "Nee, deze bril heeft glazen zonder sterkte. Draag je een correctiebril, vraag dan je opticien naar een filtercoating." }
+      ],
+      "metaTitle": "Blauw-lichtbril voor schermgebruik | Diepslaap",
+      "metaDescription": "Lichtgewicht blauw-lichtbril met filterglazen voor 's avonds achter je scherm. Zonder sterkte, met etui."
+    }
+  },
+  {
+    "slug": "spijkermat-set",
+    "name": "Spijkermat Set met Kussen",
+    "category": "Ontspanning",
+    "icon": "mat",
+    "keyword": "spijkermat",
+    "searchVolume": { "nl": 70, "be": 1300 },
+    "cpcUsd": { "nl": 0.47, "be": 0.61 },
+    "trend": "BE 'spijkermat' 880 → 1.000; in NL zoekt men op 'acupressuurmat' (70) en 'spijkermat'",
+    "seasonality": "Piek dec (cadeau) en januari",
+    "competitors": "Shakti Mat (€60–90), Decathlon/bol.com (€20–40)",
+    "supplier": { "primary": "CJdropshipping (DE)", "fallback": "BigBuy", "searchTerm": "acupressure mat pillow set linen coconut fibre", "origin": "EU" },
+    "unitCost": 7.5, "shippingCost": 5.5, "duty": 0, "price": 39.95, "weightKg": 0.9,
+    "returnRisk": "laag",
+    "justification": "In België een sterke term met lage concurrentie. Een cadeauwaardige set met een hogere orderwaarde voor de avondroutine.",
+    "risks": ["Geen medische claims (pijnverlichting, slapeloosheid)", "Zwaarder en volumineus pakket", "Waarschuwingen: niet bij zwangerschap, huidproblemen of bloedverdunners"],
+    "copy": {
+      "tagline": "Tien minuten liggen. Lang ontspannen.",
+      "description": "Een spijkermat met kussen voor je avondroutine. Ga erop liggen, adem rustig, en laat de duizenden kleine punten je lichaam tot rust brengen. Het eerste minuutje is wennen, daarna ontspan je.",
+      "bullets": ["Mat + nekkussen", "Hoes van linnen/katoen, vulling van kokosvezel", "Afneembare, wasbare hoes", "Met opbergtas"],
+      "specs": ["Mat: ±68 × 42 cm", "Kussen: ±37 × 16 cm", "Inhoud: mat, kussen, tas"],
+      "faq": [
+        { "q": "Doet het pijn?", "a": "De eerste 1–2 minuten voelt het scherp, daarna went het. Begin met een T-shirt aan en bouw de tijd rustig op." },
+        { "q": "Voor wie is het niet geschikt?", "a": "Gebruik de mat niet als je zwanger bent, huidproblemen of open wondjes hebt, of bloedverdunners neemt. Twijfel je, overleg dan met je arts." }
+      ],
+      "metaTitle": "Spijkermat set met kussen | Diepslaap",
+      "metaDescription": "Spijkermat met nekkussen voor ontspanning in je avondroutine. Linnen hoes, kokosvezel vulling, met opbergtas."
+    }
+  },
+  {
+    "slug": "mondtape-90",
+    "name": "Mondtape (90 strips)",
+    "category": "Avondroutine",
+    "icon": "tape",
+    "keyword": "mondtape",
+    "searchVolume": { "nl": 1900, "be": 320 },
+    "cpcUsd": { "nl": 0.84, "be": 0.67 },
+    "trend": "Stabiel tot stijgend; groot op TikTok",
+    "seasonality": "Jaarrond",
+    "competitors": "Hostage Tape/Myotape (€15–25), bol.com (€10–20)",
+    "supplier": { "primary": "Alibaba private label (huidvriendelijke lijm)", "fallback": "CJdropshipping", "searchTerm": "mouth tape sleep hypoallergenic 90 strips", "origin": "CN" },
+    "unitCost": 2.0, "shippingCost": 3.2, "duty": 3, "price": 17.95, "weightKg": 0.05,
+    "returnRisk": "laag",
+    "justification": "Trendproduct met herhaalaankopen (een verbruiksartikel, 3 maanden per doos): geschikt voor een abonnement in een latere fase.",
+    "risks": ["Gezondheidsclaims (snurken, apneu) vermijden: de wetenschappelijke onderbouwing is beperkt", "Duidelijke waarschuwing: niet gebruiken bij een verstopte neus, apneu, ademhalingsproblemen, alcohol/slaapmiddelen; niet voor kinderen", "Productveiligheid (GPSR): huidcontact; certificaat van de lijm opvragen"],
+    "copy": {
+      "tagline": "Zachte tape voor je nachtroutine.",
+      "description": "Huidvriendelijke, ademende mondtape die je lippen zacht samenhoudt tijdens het slapen. Hij laat ruimte om te ademen en verwijder je 's ochtends zonder te trekken. Een doos met 90 strips is goed voor 3 maanden.",
+      "bullets": ["Hypoallergene, huidvriendelijke lijm", "Ademend ontwerp met opening in het midden", "Pijnloos te verwijderen", "90 strips: 3 maanden"],
+      "specs": ["Inhoud: 90 strips", "Materiaal: ademend non-woven, hypoallergene lijm"],
+      "faq": [
+        { "q": "Is mondtape voor iedereen geschikt?", "a": "Nee. Gebruik het niet bij een verstopte neus, ademhalingsproblemen of (vermoeden van) slaapapneu, niet na alcohol of slaapmiddelen, en niet bij kinderen. Twijfel je, overleg dan met je arts." }
+      ],
+      "metaTitle": "Mondtape voor 's nachts – 90 strips | Diepslaap",
+      "metaDescription": "Huidvriendelijke, ademende mondtape voor je nachtroutine. Pijnloos te verwijderen. 90 strips, goed voor 3 maanden."
+    }
+  },
+  {
+    "slug": "reis-nekkussen",
+    "name": "Traagschuim Nekkussen voor op Reis",
+    "category": "Comfort",
+    "icon": "pillow",
+    "keyword": "nekkussen",
+    "searchVolume": { "nl": 6600, "be": 1300 },
+    "cpcUsd": { "nl": 0.8, "be": 0.61 },
+    "trend": "Stabiel (6.600–8.100)",
+    "seasonality": "Piek in het reisseizoen (jun–aug) en de kerstvakantie",
+    "competitors": "Trtl/Cabeau (€30–50), Decathlon/HEMA (€10–20)",
+    "supplier": { "primary": "CJdropshipping (DE)", "fallback": "BigBuy", "searchTerm": "memory foam travel neck pillow compressible bag", "origin": "EU" },
+    "unitCost": 4.5, "shippingCost": 4.8, "duty": 0, "price": 27.95, "weightKg": 0.35,
+    "returnRisk": "laag",
+    "justification": "Hoog zoekvolume met een bescheiden CPC. Opent de doelgroep 'slapen onderweg' (vliegtuig, trein, auto).",
+    "risks": ["Volumineus: kies een comprimeerbaar model om de verzendkosten te drukken", "Woord 'nekkussen' omvat ook bedkussens: zoektermen met 'reis' targeten"],
+    "copy": {
+      "tagline": "Slapen onderweg, zonder stijve nek.",
+      "description": "Een nekkussen van traagschuim dat zich naar je nek vormt en je hoofd stabiel houdt in de trein, de auto of het vliegtuig. Het knijpt samen tot het formaat van een fles water.",
+      "bullets": ["Traagschuim met ergonomische vorm", "Comprimeerbaar tot ±50% van het volume", "Afneembare, wasbare hoes", "Bevestigingsclip voor aan je tas"],
+      "specs": ["Materiaal: traagschuim, velours hoes", "Inhoud: kussen + compressiezak"],
+      "faq": [
+        { "q": "Kan de hoes in de was?", "a": "Ja, de hoes kan in de wasmachine op 30 °C. Het schuim zelf niet." }
+      ],
+      "metaTitle": "Traagschuim nekkussen voor op reis | Diepslaap",
+      "metaDescription": "Comprimeerbaar traagschuim nekkussen voor trein, auto en vliegtuig. Ergonomisch, wasbare hoes, clip voor aan je tas."
+    }
+  },
+  {
+    "slug": "slaap-koptelefoon-band",
+    "name": "Slaapkoptelefoon Hoofdband",
+    "category": "Stil",
+    "icon": "headband",
+    "keyword": "slaap koptelefoon",
+    "searchVolume": { "nl": 390, "be": 70 },
+    "cpcUsd": { "nl": 0.49, "be": 0.51 },
+    "trend": "Stabiel; aanvullende term 'slaapmasker bluetooth'",
+    "seasonality": "Cadeaupiek in december",
+    "competitors": "PurelyGoods (±€32), 2BEHEALTHY (±€25), Sleeptight (±€20), Kokoon (€150+)",
+    "supplier": { "primary": "CJdropshipping (DE)", "fallback": "Alibaba (CE-RED)", "searchTerm": "sleep headphones headband bluetooth 5.3 thin speakers washable", "origin": "EU" },
+    "unitCost": 5.8, "shippingCost": 3.8, "duty": 0, "price": 29.95, "weightKg": 0.1,
+    "returnRisk": "middel",
+    "justification": "Een cadeaugevoelige upsell met podcast- en slaapmuziek-content. Past bij een 'stilte'-bundel met de oordopjes.",
+    "risks": ["Bluetooth = radioapparatuur: CE-RED, inclusief de cyberbeveiligingseisen; WEEE/Recupel", "Defecten aan de electronica: kwaliteitscontrole"],
+    "copy": {
+      "tagline": "Podcast in bed, zonder oortjes.",
+      "description": "Een zachte, ademende hoofdband met ultradunne speakers. Luister naar slaapmuziek, een podcast of witte ruis zonder harde oortjes, ook als je op je zij ligt. De speakers zijn uitneembaar, zodat je de band kunt wassen.",
+      "bullets": ["Ultradunne speakers, comfortabel voor zijslapers", "Bluetooth 5.3", "Uitneembare speakers, wasbare band", "Ook te dragen tijdens het sporten"],
+      "specs": ["Verbinding: Bluetooth 5.3", "Opladen: USB-C"],
+      "faq": [
+        { "q": "Hoe lang gaat de batterij mee?", "a": "Een hele nacht op normaal volume. De exacte batterijduur staat op de verpakking." }
+      ],
+      "metaTitle": "Slaapkoptelefoon hoofdband bluetooth | Diepslaap",
+      "metaDescription": "Bluetooth slaapkoptelefoon in een zachte hoofdband. Ultradunne speakers, comfortabel voor zijslapers, wasbaar."
+    }
+  }
+]

@@ -1,0 +1,52 @@
+// Simple line-art glyphs (100×100 viewBox, stroke = currentColor) used for branded product mockups
+// and ad creatives until real supplier photography is available. Deliberately generic shapes.
+const I = {
+  glove: '<path d="M30 70V40c0-12 8-22 22-22s20 8 20 20v14c0 6-4 10-10 10H40"/><path d="M30 70h34v14H30z"/><path d="M44 52c-6 0-10-4-10-9"/>',
+  wrap: '<rect x="22" y="30" width="56" height="40" rx="20"/><path d="M36 30v40M50 30v40M64 30v40"/><path d="M78 50h12"/>',
+  rope: '<rect x="14" y="62" width="10" height="24" rx="4"/><rect x="76" y="62" width="10" height="24" rx="4"/><path d="M19 62C19 10 81 10 81 62"/>',
+  band: '<ellipse cx="50" cy="50" rx="34" ry="18"/><ellipse cx="50" cy="50" rx="24" ry="10"/>',
+  ball: '<circle cx="50" cy="62" r="18"/><path d="M50 44C50 30 30 26 26 14M50 44c0-14 20-18 24-30"/>',
+  shield: '<path d="M50 14l30 10v22c0 20-14 34-30 40-16-6-30-20-30-40V24z"/><path d="M38 50l8 8 16-18"/>',
+  pad: '<path d="M24 30c10-10 42-10 52 0v34c-10 10-42 10-52 0z"/><circle cx="50" cy="47" r="10"/>',
+  gun: '<rect x="22" y="24" width="44" height="22" rx="10"/><path d="M40 46v32h12V46"/><path d="M66 35h12"/><circle cx="82" cy="35" r="5"/>',
+  mat: '<rect x="18" y="22" width="64" height="56" rx="10"/><path d="M30 36h40M30 50h40M30 64h40"/><circle cx="36" cy="43" r="2"/><circle cx="62" cy="57" r="2"/>',
+  bowl: '<path d="M16 46h68c0 20-14 32-34 32S16 66 16 46z"/><path d="M30 46c0-8 8-8 8 0s8 8 8 0 8-8 8 0 8 8 8 0"/>',
+  cup: '<path d="M28 24h44l-4 56H32z"/><path d="M34 40h32M36 56h28"/><path d="M28 24c0-6 44-6 44 0"/>',
+  brush: '<rect x="20" y="22" width="60" height="26" rx="8"/><path d="M28 48v10M38 48v10M48 48v10M58 48v10M68 48v10"/><path d="M50 22V12"/><rect x="44" y="64" width="12" height="24" rx="4"/>',
+  roller: '<rect x="18" y="26" width="64" height="26" rx="13"/><path d="M50 52v12"/><rect x="42" y="64" width="16" height="24" rx="5"/>',
+  bottle: '<rect x="34" y="28" width="32" height="56" rx="8"/><path d="M40 28V18h20v10"/><path d="M34 46h32"/>',
+  belt: '<path d="M14 50h40"/><rect x="54" y="40" width="16" height="20" rx="3"/><path d="M70 50h10a6 6 0 1 1 0 12"/>',
+  collar: '<ellipse cx="50" cy="50" rx="32" ry="26"/><ellipse cx="50" cy="50" rx="24" ry="18"/><path d="M28 30l-6-8M72 30l6-8M50 24v-8"/>',
+  fan: '<rect x="12" y="38" width="76" height="26" rx="6"/><circle cx="32" cy="51" r="8"/><circle cx="68" cy="51" r="8"/><path d="M22 76c8-6 16 6 24 0s16 6 24 0 16 6 24 0"/>',
+  strip: '<path d="M18 30h64M18 50h64M18 70h44"/><path d="M62 70c0-8 20-8 20 0s-20 8-20 0"/>',
+  roll: '<rect x="12" y="46" width="76" height="16" rx="8"/><rect x="12" y="64" width="76" height="16" rx="8"/><path d="M12 30h76"/>',
+  foil: '<path d="M22 20h56v60H22z"/><path d="M22 20l56 60M78 20L22 80" opacity=".35"/><path d="M84 30v40"/>',
+  window: '<rect x="20" y="16" width="60" height="68" rx="4"/><path d="M50 16v68M20 50h60"/>',
+  plug: '<rect x="28" y="26" width="44" height="44" rx="12"/><path d="M42 26V14M58 26V14"/><circle cx="50" cy="48" r="6"/><path d="M50 70v16"/>',
+  meter: '<rect x="24" y="16" width="52" height="68" rx="10"/><rect x="32" y="26" width="36" height="18" rx="3"/><circle cx="40" cy="66" r="4"/><circle cx="60" cy="66" r="4"/>',
+  shower: '<path d="M20 20h30v14"/><path d="M34 34h32l-6 12H40z"/><path d="M42 54v8M50 54v12M58 54v8M46 70v8M54 70v8"/>',
+  light: '<rect x="14" y="40" width="72" height="12" rx="6"/><path d="M26 58l-6 14M50 58v16M74 58l6 14"/>',
+  warmer: '<rect x="22" y="28" width="26" height="44" rx="12"/><rect x="52" y="28" width="26" height="44" rx="12"/><path d="M35 18c-4 4 4 6 0 10M65 18c-4 4 4 6 0 10"/>',
+  mask: '<path d="M10 46c0-12 18-16 40-16s40 4 40 16-12 18-22 18-12-8-18-8-8 8-18 8S10 58 10 46z"/><ellipse cx="32" cy="46" rx="10" ry="6"/><ellipse cx="68" cy="46" rx="10" ry="6"/>',
+  ear: '<path d="M38 60c-10 0-16-8-16-18s8-18 18-18 16 8 16 16"/><circle cx="62" cy="58" r="12"/><path d="M62 70v14"/>',
+  pillow: '<path d="M16 34c0-8 10-10 34-10s34 2 34 10v32c0 8-10 10-34 10S16 74 16 66z"/><path d="M30 40c12 6 28 6 40 0"/>',
+  sun: '<circle cx="50" cy="60" r="16"/><path d="M50 30v-10M26 42l-8-6M74 42l8-6M18 76h64"/>',
+  noise: '<rect x="26" y="26" width="48" height="48" rx="24"/><path d="M38 50c4-8 8 8 12 0s8 8 12 0"/>',
+  glasses: '<circle cx="30" cy="54" r="14"/><circle cx="70" cy="54" r="14"/><path d="M44 54h12M16 54l-6-14M84 54l6-14"/>',
+  tape: '<rect x="20" y="40" width="60" height="20" rx="10"/><path d="M40 40v20M60 40v20"/>',
+  headband: '<path d="M14 58c0-20 16-32 36-32s36 12 36 32"/><rect x="14" y="50" width="12" height="18" rx="4"/><rect x="74" y="50" width="12" height="18" rx="4"/>',
+  laptop: '<path d="M26 26h48v32H26z"/><path d="M18 64h64l-6 10H24z"/><path d="M30 74l-6 12M70 74l6 12"/>',
+  deskmat: '<rect x="10" y="32" width="80" height="40" rx="6"/><rect x="18" y="42" width="40" height="14" rx="2"/><ellipse cx="72" cy="52" rx="6" ry="9"/>',
+  cable: '<path d="M14 30h72v10H14z"/><path d="M30 40c0 20 10 20 10 46M50 40c0 18-6 24-6 46M70 40c0 16 6 22 6 46"/>',
+  phone: '<rect x="36" y="14" width="28" height="50" rx="5"/><path d="M28 86l22-20 22 20"/>',
+  foot: '<path d="M14 72l20-24h32l20 24z"/><path d="M14 72c12 8 60 8 72 0"/>',
+  wrist: '<rect x="12" y="40" width="50" height="14" rx="7"/><rect x="66" y="30" width="24" height="34" rx="6"/><path d="M12 62h78"/>',
+  hub: '<rect x="20" y="34" width="60" height="30" rx="8"/><path d="M80 49h12"/><rect x="28" y="44" width="8" height="10" rx="1"/><rect x="42" y="44" width="8" height="10" rx="1"/><rect x="56" y="44" width="14" height="10" rx="1"/>',
+  headset: '<path d="M24 60V48a26 26 0 0 1 52 0v12"/><rect x="18" y="56" width="14" height="22" rx="5"/><rect x="68" y="56" width="14" height="22" rx="5"/><path d="M10 20h30"/>',
+  mouse: '<path d="M38 16c16 0 26 16 26 36s-8 32-20 32-20-14-20-34 0-34 14-34z"/><path d="M40 18v20"/>',
+};
+
+export function iconMarkup(name) {
+  return I[name] ?? '<circle cx="50" cy="50" r="30"/>';
+}
+export const ICON_NAMES = Object.keys(I);

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <rect width="1080" height="1080" fill="#F7F6FB"/>
+  <circle cx="540" cy="507.6" r="267.84" fill="#3730A3" opacity="0.1"/>
+  <g transform="translate(324 291.6) scale(4.32)" fill="none" stroke="#3730A3" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 46c0-12 18-16 40-16s40 4 40 16-12 18-22 18-12-8-18-8-8 8-18 8S10 58 10 46z"/><ellipse cx="32" cy="46" rx="10" ry="6"/><ellipse cx="68" cy="46" rx="10" ry="6"/></g>
+  <text x="540" y="100.4" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="28" font-weight="700" fill="#3730A3" text-anchor="middle" letter-spacing="5">DIEPSLAAP</text>
+  <text x="540" y="180.4" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="64" font-weight="800" fill="#16152B" text-anchor="middle">100% donker. 0% druk op</text><text x="540" y="250.8" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="64" font-weight="800" fill="#16152B" text-anchor="middle">je ogen.</text>
+  <text x="540" y="803.6" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="32" font-weight="500" fill="#16152B" text-anchor="middle">100% donker. Geen druk op je ogen.</text>
+  <rect x="330" y="930" width="420" height="84" rx="42" fill="#3730A3"/>
+  <text x="540" y="984" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="32" font-weight="700" fill="#FFFFFF" text-anchor="middle">Shop nu · €19,95</text>
+  
+</svg>

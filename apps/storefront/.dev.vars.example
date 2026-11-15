@@ -1,0 +1,6 @@
+# Copy to .dev.vars for local `npm run preview -- <store>`. Never commit .dev.vars.
+STRIPE_SECRET_KEY=sk_test_replace_me
+STRIPE_WEBHOOK_SECRET=whsec_replace_me
+# ORDER_WEBHOOK_URL=https://hook.eu1.make.com/xxxx
+# ORDER_WEBHOOK_TOKEN=long-random-string
+# STRIPE_AUTOMATIC_TAX=true

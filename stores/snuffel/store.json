@@ -1,0 +1,26 @@
+{
+  "id": "snuffel",
+  "name": "Snuffel & Co",
+  "domain": "snuffelenco.be",
+  "cloudflareProject": "snuffel-en-co",
+  "niche": "Verrijking en verzorging voor honden: rustiger eten, slimmer spelen, schoner huis",
+  "tagline": "Blije hond. Rustig huis.",
+  "language": "nl",
+  "currency": "EUR",
+  "theme": { "primary": "#2F6B4F", "accent": "#F2B544", "bg": "#FBF8F2", "text": "#1E2A24", "font": "'Nunito', system-ui, sans-serif" },
+  "shipping": { "countries": ["BE", "NL"], "flatRate": 3.95, "freeFrom": 35, "deliveryDays": "2–5 werkdagen" },
+  "company": { "legalName": "[JOUW BEDRIJFSNAAM]", "vat": "[BE0XXX.XXX.XXX]", "address": "[Straat nr, postcode Beringen, België]", "email": "hallo@snuffelenco.be" },
+  "analytics": { "ga4": "", "metaPixel": "" },
+  "usps": ["Gratis verzending vanaf €35", "14 dagen bedenktijd", "BPA-vrije materialen", "Betaal met Bancontact of iDEAL"],
+  "hero": {
+    "A": { "headline": "Blije hond. Rustig huis.", "sub": "Lik- en snuffelmatten, slow feeders en verzorging die je hond bezighoudt en je huis schoon." },
+    "B": { "headline": "10 minuten likken = 10 minuten rust.", "sub": "Verrijking die werkt voor drukke honden, schrokkers en regenachtige dagen binnen." }
+  },
+  "featured": ["likmat-2-pack", "snuffelmat-xl", "pootreiniger", "led-halsband-oplaadbaar"],
+  "bundles": [{ "name": "Rustige-avondset", "items": ["likmat-2-pack", "snuffelmat-xl", "snackbal"], "discountPct": 12 }],
+  "adCreatives": [
+    { "id": "feed", "format": "1080x1080", "product": "likmat-2-pack", "headline": "Eindelijk rust tijdens het bezoek", "primaryText": "Smeer, vries in, geef. Een likmat houdt je hond 10–20 minuten rustig bezig. BPA-vrij en vaatwasserbestendig.", "cta": "Shop nu" },
+    { "id": "story", "format": "1080x1920", "product": "pootreiniger", "headline": "Modderpoten? 10 seconden.", "primaryText": "Pootje in de beker, twee draaien, klaar. Je vloer blijft schoon de hele winter.", "cta": "Bekijk" },
+    { "id": "link", "format": "1200x628", "product": "led-halsband-oplaadbaar", "headline": "Gezien worden in het donker", "primaryText": "Oplaadbare LED-halsband, 3 lichtstanden, zichtbaar van ver. Voor de donkere avondwandeling.", "cta": "Bestel" }
+  ]
+}

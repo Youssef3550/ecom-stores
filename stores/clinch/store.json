@@ -1,0 +1,26 @@
+{
+  "id": "clinch",
+  "name": "Clinch Supply",
+  "domain": "clinchsupply.be",
+  "cloudflareProject": "clinch-supply",
+  "niche": "Kickboks-, boks- en Muay Thai-trainingsgear voor thuis en in de club",
+  "tagline": "Trainingsgear voor wie echt traint.",
+  "language": "nl",
+  "currency": "EUR",
+  "theme": { "primary": "#B91C1C", "accent": "#111111", "bg": "#FAFAF7", "text": "#141414", "font": "'Archivo', system-ui, sans-serif" },
+  "shipping": { "countries": ["BE", "NL"], "flatRate": 4.95, "freeFrom": 50, "deliveryDays": "2–5 werkdagen" },
+  "company": { "legalName": "[JOUW BEDRIJFSNAAM]", "vat": "[BE0XXX.XXX.XXX]", "address": "[Straat nr, postcode Beringen, België]", "email": "hallo@clinchsupply.be" },
+  "analytics": { "ga4": "", "metaPixel": "" },
+  "usps": ["Gratis verzending vanaf €50", "14 dagen bedenktijd", "Getest door actieve vechters", "Betaal met Bancontact of iDEAL"],
+  "hero": {
+    "A": { "headline": "Trainingsgear voor wie echt traint.", "sub": "Bandages, handschoenen en recovery-tools die een volle sessie op de zak aankunnen." },
+    "B": { "headline": "Elke ronde telt. Je gear ook.", "sub": "Alles wat je nodig hebt voor de club of thuis — snel geleverd in België en Nederland." }
+  },
+  "featured": ["bokshandschoenen-pro", "mini-massage-gun", "bandages-boksen-2-pack", "speed-springtouw"],
+  "bundles": [{ "name": "Starterspakket", "items": ["bokshandschoenen-pro", "bandages-boksen-2-pack", "gebitsbeschermer"], "discountPct": 10 }],
+  "adCreatives": [
+    { "id": "feed", "format": "1080x1080", "product": "bokshandschoenen-pro", "headline": "Klaar voor de volgende ronde?", "primaryText": "Handschoenen met dubbele schuimlaag en klittenband dat blijft zitten. Gratis verzending vanaf €50.", "cta": "Shop nu" },
+    { "id": "story", "format": "1080x1920", "product": "mini-massage-gun", "headline": "Recovery in je sporttas", "primaryText": "Zakformaat massagegun met 4 opzetstukken. Na de training, op de bank, onderweg.", "cta": "Bekijk" },
+    { "id": "link", "format": "1200x628", "product": "bandages-boksen-2-pack", "headline": "Bandages die niet afzakken", "primaryText": "4,5 m, semi-elastisch, met duimlus. 2 paar voor de prijs van één bij de grote merken.", "cta": "Bestel" }
+  ]
+}

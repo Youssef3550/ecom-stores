@@ -1,0 +1,14 @@
+---
+import { eur, productUrl, productImage, type Product } from '../lib/data';
+interface Props { product: Product; eager?: boolean }
+const { product: p, eager = false } = Astro.props;
+---
+<a class="card" href={productUrl(p)} data-track-select={p.slug}>
+  <img src={productImage(p)} alt={p.name} width="800" height="800" loading={eager ? 'eager' : 'lazy'} decoding="async" />
+  <div class="body">
+    <span class="muted" style="font-size:.8rem;text-transform:uppercase;letter-spacing:.06em">{p.category}</span>
+    <h3>{p.name}</h3>
+    <p class="muted" style="margin:0 0 8px;font-size:.92rem">{p.copy.tagline}</p>
+    <span class="price">{eur(p.price)}</span>
+  </div>
+</a>

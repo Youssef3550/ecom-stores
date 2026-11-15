@@ -1,0 +1,284 @@
+[
+  {
+    "slug": "radiator-ventilator-duo",
+    "name": "Radiatorventilator Duo",
+    "category": "Verwarming",
+    "icon": "fan",
+    "keyword": "radiator ventilator",
+    "searchVolume": { "nl": 9900, "be": 880 },
+    "cpcUsd": { "nl": 0.38, "be": 0.41 },
+    "trend": "Explosief seizoensgebonden: NL 1.900 → 4.400 → 22.200/maand; BE 140 → 390",
+    "seasonality": "Piek okt–feb, bijna nul in de zomer. NU lanceren",
+    "competitors": "SpeedComfort mono €59,95 / duo €104,95; Iezy-Fan €49,99; BlueBuilt duo €94",
+    "supplier": { "primary": "Alibaba (radiator booster fan, thermostaatsensor, magneten)", "fallback": "CJdropshipping (DE)", "searchTerm": "radiator booster fan thermostat magnetic usb dual", "origin": "CN" },
+    "unitCost": 14.0, "shippingCost": 5.5, "duty": 3, "price": 54.95, "weightKg": 0.9,
+    "returnRisk": "middel",
+    "justification": "Grootste seizoensstijger van de hele lijst. De gevestigde merken zitten op €95–105 voor een duo, wat ruimte geeft voor een duo rond €55.",
+    "risks": ["Elektrisch apparaat: CE (LVD/EMC), RoHS, WEEE/Recupel-registratie verplicht", "Besparingsclaims ('tot 22%') niet overnemen zonder eigen onderbouwing (misleidende reclame)", "Seizoensrisico: voorraad niet doorladen na januari", "Levertijd uit CN kan de piek missen: staal en EU-voorraad snel regelen"],
+    "copy": {
+      "tagline": "Je radiator verdeelt zijn warmte sneller.",
+      "description": "Plaats de twee stille ventilatoren met de magneten op je radiator. Een temperatuursensor zet ze aan zodra de radiator warm wordt, en ze blazen de warme lucht de kamer in in plaats van naar het plafond. Zo voelt je kamer sneller comfortabel aan.",
+      "bullets": ["Schakelt automatisch aan en uit via een temperatuursensor", "Stil: geschikt voor slaapkamer en bureau", "Magnetische montage, zonder gereedschap", "Duo-set voor radiatoren van 60–120 cm"],
+      "specs": ["Inhoud: 2 ventilatoren, verbindingskabel, adapter", "Montage: magneten", "Geschikt voor: paneelradiatoren"],
+      "faq": [
+        { "q": "Bespaar ik hiermee energie?", "a": "De ventilator verdeelt de warmte sneller door de kamer, waardoor veel mensen hun thermostaat iets lager zetten. Hoeveel je bespaart, hangt af van je woning en je stookgedrag." },
+        { "q": "Past hij op mijn radiator?", "a": "Hij past op de meeste paneelradiatoren en convectoren met een metalen bovenkant. Op gietijzeren of designradiatoren werkt hij minder goed." }
+      ],
+      "metaTitle": "Radiatorventilator duo – stil & automatisch | Warmwijs",
+      "metaDescription": "Stille radiatorventilator duo-set met temperatuursensor en magneten. Verdeelt warmte sneller in je kamer. Zonder gereedschap."
+    }
+  },
+  {
+    "slug": "tochtstrip-10m",
+    "name": "Tochtstrip Zelfklevend 10 m",
+    "category": "Isolatie",
+    "icon": "strip",
+    "keyword": "tochtstrip",
+    "searchVolume": { "nl": 8100, "be": 720 },
+    "cpcUsd": { "nl": 0.3, "be": 0.67 },
+    "trend": "Sterk stijgend: NL 4.400 → 18.100/maand",
+    "seasonality": "Piek okt–jan",
+    "competitors": "Gamma/Praxis/Hubo (€5–15), bol.com, Action",
+    "supplier": { "primary": "BigBuy of CJdropshipping (DE)", "fallback": "Alibaba", "searchTerm": "self adhesive weather stripping EPDM D profile 10m", "origin": "EU" },
+    "unitCost": 1.8, "shippingCost": 3.8, "duty": 0, "price": 14.95, "weightKg": 0.25,
+    "returnRisk": "laag",
+    "justification": "Zeer hoog zoekvolume met een lage CPC in NL. Het ideale instapproduct dat je combineert met een tochtrol en radiatorfolie.",
+    "risks": ["Concurrentie met doe-het-zelfzaken en Action op prijs: verkopen als set + uitleg ('welk profiel heb ik nodig')", "Kleefkracht testen"],
+    "copy": {
+      "tagline": "Tocht dicht in 10 minuten.",
+      "description": "Zelfklevende EPDM-tochtstrip voor deuren en ramen. Knip hem op maat, trek de folie eraf en druk hem aan. Hij is flexibel en blijft ook in de vrieskou soepel.",
+      "bullets": ["10 meter: genoeg voor 2 deuren of 3–4 ramen", "EPDM-rubber: soepel tussen −40 en +80 °C", "Sterke zelfklevende rug", "Op maat te knippen"],
+      "specs": ["Lengte: 10 m (2 × 5 m)", "Materiaal: EPDM", "Profiel: D (kieren van 3–5 mm)"],
+      "faq": [
+        { "q": "Welk profiel heb ik nodig?", "a": "Het D-profiel is geschikt voor kieren van 3 tot 5 mm. Sluit je deur over een strookje papier: kun je het er makkelijk uittrekken, dan is dit profiel geschikt." }
+      ],
+      "metaTitle": "Tochtstrip zelfklevend 10 m – EPDM | Warmwijs",
+      "metaDescription": "Zelfklevende EPDM-tochtstrip van 10 meter voor deuren en ramen. Knippen op maat, plaatsen zonder gereedschap."
+    }
+  },
+  {
+    "slug": "tochtrol-deur",
+    "name": "Dubbele Tochtrol voor Deuren",
+    "category": "Isolatie",
+    "icon": "roll",
+    "keyword": "tochtrol",
+    "searchVolume": { "nl": 1000, "be": 480 },
+    "cpcUsd": { "nl": 0.21, "be": 0.39 },
+    "trend": "Stijgend: BE 90 → 260; NL 260 → 390",
+    "seasonality": "Piek okt–feb",
+    "competitors": "Action/Hema (€5–12), bol.com (€10–25)",
+    "supplier": { "primary": "CJdropshipping (DE)", "fallback": "Alibaba", "searchTerm": "twin door draft stopper under door adjustable", "origin": "EU" },
+    "unitCost": 3.5, "shippingCost": 4.5, "duty": 0, "price": 22.95, "weightKg": 0.4,
+    "returnRisk": "laag",
+    "justification": "Een probleemoplossend product dat ook huurders kunnen plaatsen. Een logische tweede aankoop naast de tochtstrip.",
+    "risks": ["Goedkope varianten bij Action: positioneren als dubbel model dat meeschuift met de deur"],
+    "copy": {
+      "tagline": "Geen koude luchtstroom meer onder de deur.",
+      "description": "Schuif de dubbele tochtrol onder je binnen- of buitendeur. Aan beide kanten zit een schuimrol, zodat hij meeschuift als je de deur opent. Je hoeft niets te boren en hij is ideaal voor huurders.",
+      "bullets": ["Dubbele rol schuift mee met de deur", "Op maat te knippen tot 93 cm", "Wasbare hoes", "Niet boren, niet plakken"],
+      "specs": ["Lengte: tot 93 cm (inkortbaar)", "Voor deuren van 3,5–4,5 cm dik"],
+      "faq": [
+        { "q": "Werkt hij op tapijt?", "a": "Op korte vloerbekleding wel. Bij hoogpolig tapijt sluit hij minder goed af." }
+      ],
+      "metaTitle": "Dubbele tochtrol voor deuren | Warmwijs",
+      "metaDescription": "Dubbele tochtrol die meeschuift met je deur. Op maat te knippen, zonder boren. Stopt koude tocht onder de deur."
+    }
+  },
+  {
+    "slug": "radiatorfolie-5m",
+    "name": "Radiatorfolie 5 m",
+    "category": "Isolatie",
+    "icon": "foil",
+    "keyword": "radiatorfolie",
+    "searchVolume": { "nl": 2900, "be": 480 },
+    "cpcUsd": { "nl": 0.31, "be": 0.2 },
+    "trend": "BE stijgend (260 → 1.300); NL piekte eerder in het seizoen",
+    "seasonality": "Piek sep–dec",
+    "competitors": "Gamma/Praxis (€8–20), bol.com",
+    "supplier": { "primary": "BigBuy", "fallback": "Alibaba", "searchTerm": "radiator reflector foil insulation 5m roll", "origin": "EU" },
+    "unitCost": 2.8, "shippingCost": 4.5, "duty": 0, "price": 19.95, "weightKg": 0.6,
+    "returnRisk": "laag",
+    "justification": "Laagdrempelig en goed zoekvolume. Vooral rendabel in de bundel met tochtstrip en tochtrol.",
+    "risks": ["Rol is volumineus, dus hogere verzendkosten", "Geen percentages besparing claimen", "Prijsdruk van doe-het-zelfzaken"],
+    "copy": {
+      "tagline": "Warmte naar binnen, niet de muur in.",
+      "description": "Reflecterende isolatiefolie die je achter je radiator plaatst. De folie kaatst de warmte terug de kamer in, wat vooral helpt bij radiatoren tegen een buitenmuur.",
+      "bullets": ["5 meter op rol, op maat te knippen", "Reflecterende laag met isolerend schuim", "Plaatsen met dubbelzijdige tape (inbegrepen)", "Ideaal voor radiatoren aan buitenmuren"],
+      "specs": ["Afmeting: 5 m × 50 cm", "Dikte: ±3 mm", "Inhoud: folie + tape"],
+      "faq": [
+        { "q": "Moet de radiator eraf?", "a": "Nee. Je schuift de folie achter de radiator met een lat of een speciale schuifstok." }
+      ],
+      "metaTitle": "Radiatorfolie 5 m met tape | Warmwijs",
+      "metaDescription": "Reflecterende radiatorfolie van 5 m voor achter je radiator. Kaatst warmte terug de kamer in. Tape inbegrepen."
+    }
+  },
+  {
+    "slug": "raamisolatiefolie-kit",
+    "name": "Raamisolatiefolie Kit",
+    "category": "Isolatie",
+    "icon": "window",
+    "keyword": "raamfolie isolatie",
+    "searchVolume": { "nl": 0, "be": 70 },
+    "cpcUsd": { "nl": 0.0, "be": 0.5 },
+    "trend": "Laag zoekvolume. Breder te targeten via 'enkel glas isoleren' en 'raam isoleren'",
+    "seasonality": "Piek nov–jan",
+    "competitors": "Tesa (€15–25), doe-het-zelfzaken",
+    "supplier": { "primary": "BigBuy", "fallback": "Alibaba", "searchTerm": "window insulation film kit shrink heat 3 windows", "origin": "EU" },
+    "unitCost": 3.2, "shippingCost": 4.2, "duty": 0, "price": 19.95, "weightKg": 0.35,
+    "returnRisk": "laag",
+    "justification": "Nicheproduct voor huurders en oudere woningen met enkel glas. Vult de isolatiecategorie aan en past in een 'koude kamer'-bundel.",
+    "risks": ["Zwakste zoekvraag in deze winkel: testen met klein budget en vervangen als het niet converteert", "Installatie vraagt een föhn: uitleg-video nodig"],
+    "copy": {
+      "tagline": "Voorzetraam zonder verbouwing.",
+      "description": "Een transparante krimpfolie die je met tape op je raamkozijn plakt en strak trekt met een föhn. Zo ontstaat er een isolerende luchtlaag voor je raam, ideaal bij enkel glas of in een huurwoning.",
+      "bullets": ["Voor 3 ramen tot 150 × 170 cm", "Kristalhelder na het krimpen", "Inclusief dubbelzijdige tape", "Na de winter eenvoudig te verwijderen"],
+      "specs": ["Inhoud: folie voor 3 ramen + tape", "Benodigd: föhn"],
+      "faq": [
+        { "q": "Beschadigt de tape mijn kozijn?", "a": "Op geschilderd hout of pvc laat de tape normaal geen sporen na als je hem langzaam verwijdert. Test eerst op een klein stukje." }
+      ],
+      "metaTitle": "Raamisolatiefolie kit – 3 ramen | Warmwijs",
+      "metaDescription": "Krimpfolie-kit om ramen te isoleren zonder verbouwing. Voor 3 ramen, kristalhelder, eenvoudig te verwijderen."
+    }
+  },
+  {
+    "slug": "slimme-stekker-4-pack",
+    "name": "Slimme Stekker met Verbruiksmeting (4 stuks)",
+    "category": "Slim wonen",
+    "icon": "plug",
+    "keyword": "slimme stekker",
+    "searchVolume": { "nl": 3600, "be": 1000 },
+    "cpcUsd": { "nl": 0.35, "be": 0.5 },
+    "trend": "Stijgend: BE 480 → 2.900; NL 2.900 → 5.400",
+    "seasonality": "Piek in Q4 (Black Friday, cadeaus, energiebewustzijn)",
+    "competitors": "Tapo/TP-Link (€10–15 per stuk), Shelly, Hama, Nedis",
+    "supplier": { "primary": "Alibaba (Tuya/Matter-gecertificeerd, CE-RED)", "fallback": "BigBuy", "searchTerm": "smart plug energy monitoring matter wifi EU type F 4 pack", "origin": "CN" },
+    "unitCost": 18.0, "shippingCost": 4.5, "duty": 3, "price": 49.95, "weightKg": 0.45,
+    "returnRisk": "middel",
+    "justification": "Groeiende vraag naar verbruiksinzicht. Een 4-pack geeft een hogere orderwaarde dan losse stekkers en past in het merk Warmwijs.",
+    "risks": ["Radioapparatuur: CE-RED inclusief de cyberbeveiligingseisen (gedelegeerde verordening, van toepassing sinds aug 2025)", "Belgische stekker type E/F vs NL type F: juiste variant kiezen", "App-afhankelijkheid (Tuya/Matter): support-FAQ nodig", "Sterke merkconcurrentie (Tapo)"],
+    "copy": {
+      "tagline": "Zie wat je verbruikt. Schakel het uit.",
+      "description": "Vier slimme stekkers die het verbruik per apparaat meten. Je ziet in de app wat je tv, wasdroger of server echt kost, je zet sluipverbruikers op afstand uit en je stelt schema's in.",
+      "bullets": ["Realtime en historische verbruiksmeting", "Schema's, timers en bediening op afstand", "Werkt met Google Home en Alexa", "Max. 16 A / 3680 W per stekker"],
+      "specs": ["Aantal: 4", "Type: F (randaarde)", "Max. belasting: 16 A", "Verbinding: wifi 2,4 GHz"],
+      "faq": [
+        { "q": "Werkt hij met Belgische stopcontacten?", "a": "Controleer of je stopcontact een randaarde (type F) of een penaarde (type E) heeft. Kies bij het bestellen de juiste variant." },
+        { "q": "Heb ik een hub nodig?", "a": "Nee, de stekkers verbinden rechtstreeks met je 2,4 GHz-wifi." }
+      ],
+      "metaTitle": "Slimme stekker met verbruiksmeting – 4 stuks | Warmwijs",
+      "metaDescription": "4 slimme stekkers met energiemeting, schema's en bediening op afstand. Werkt met Google Home en Alexa."
+    }
+  },
+  {
+    "slug": "energiemeter-stopcontact",
+    "name": "Energiemeter voor het Stopcontact",
+    "category": "Slim wonen",
+    "icon": "meter",
+    "keyword": "energiemeter stopcontact",
+    "searchVolume": { "nl": 320, "be": 170 },
+    "cpcUsd": { "nl": 0.41, "be": 0.45 },
+    "trend": "Stabiel tot licht stijgend",
+    "seasonality": "Piek in de herfst en winter",
+    "competitors": "Brennenstuhl/Voltcraft (€15–30), bol.com (€10–20)",
+    "supplier": { "primary": "BigBuy", "fallback": "Alibaba", "searchTerm": "plug in energy meter LCD kWh cost EU", "origin": "EU" },
+    "unitCost": 6.5, "shippingCost": 4.0, "duty": 0, "price": 24.95, "weightKg": 0.2,
+    "returnRisk": "laag",
+    "justification": "Alternatief zonder app voor mensen die geen slimme apparaten willen. Werkt goed in combinatie met content zoals 'wat verbruikt mijn koelkast?'.",
+    "risks": ["Elektrisch: CE (LVD), WEEE/Recupel", "Type E/F stekker afstemmen op het land"],
+    "copy": {
+      "tagline": "Wat kost dat apparaat écht?",
+      "description": "Steek de meter in het stopcontact en je apparaat in de meter. Op het LCD-scherm zie je meteen het vermogen, het verbruik in kWh en, nadat je je tarief hebt ingesteld, de kostprijs in euro. Je hebt geen app of wifi nodig.",
+      "bullets": ["Toont watt, kWh en kostprijs", "Stel je eigen kWh-tarief in", "Groot LCD-scherm", "Geen app of wifi nodig"],
+      "specs": ["Max. belasting: 16 A / 3680 W", "Type: F"],
+      "faq": [
+        { "q": "Hoe nauwkeurig is hij?", "a": "Nauwkeurig genoeg om te vergelijken en sluipverbruik op te sporen. Je officiële meterstand blijft de referentie voor je factuur." }
+      ],
+      "metaTitle": "Energiemeter stopcontact – kWh & kosten | Warmwijs",
+      "metaDescription": "Energiemeter voor het stopcontact met LCD: zie watt, kWh en kostprijs per apparaat. Zonder app of wifi."
+    }
+  },
+  {
+    "slug": "waterbesparende-douchekop",
+    "name": "Waterbesparende Douchekop",
+    "category": "Badkamer",
+    "icon": "shower",
+    "keyword": "waterbesparende douchekop",
+    "searchVolume": { "nl": 2400, "be": 390 },
+    "cpcUsd": { "nl": 0.51, "be": 0.31 },
+    "trend": "Stijgend: BE 170 → 1.300; NL 1.600 → 2.900",
+    "seasonality": "Jaarrond, met een piek in de winter (energiebewustzijn: warm water)",
+    "competitors": "Hansgrohe/Grohe (€30–80), bol.com (€15–30)",
+    "supplier": { "primary": "BigBuy of CJdropshipping (DE)", "fallback": "Alibaba", "searchTerm": "water saving shower head high pressure 3 modes filter", "origin": "EU" },
+    "unitCost": 4.2, "shippingCost": 4.5, "duty": 0, "price": 29.95, "weightKg": 0.35,
+    "returnRisk": "laag",
+    "justification": "Vraag gedreven door water- én energiekosten (warm water), en het blijft verkopen buiten het stookseizoen.",
+    "risks": ["Geen exacte besparingspercentages zonder testdata", "Universele 1/2\"-aansluiting vermelden"],
+    "copy": {
+      "tagline": "Krachtige straal, minder warm water.",
+      "description": "Een douchekop die de waterstraal versnelt, zodat je met minder liters per minuut toch een krachtige douche hebt. Minder warm water betekent ook minder energie om het op te warmen.",
+      "bullets": ["3 straalstanden", "Lagere doorstroming met behoud van druk", "Universele 1/2\"-aansluiting", "Anti-kalk spuitmondjes"],
+      "specs": ["Aansluiting: 1/2\" universeel", "Standen: 3"],
+      "faq": [
+        { "q": "Past hij op mijn douche?", "a": "Hij past op vrijwel elke doucheslang met een standaard 1/2\"-aansluiting." }
+      ],
+      "metaTitle": "Waterbesparende douchekop – 3 standen | Warmwijs",
+      "metaDescription": "Waterbesparende douchekop met krachtige straal en 3 standen. Minder warm water, universele aansluiting."
+    }
+  },
+  {
+    "slug": "bewegingssensor-led-3-pack",
+    "name": "LED-lamp met Bewegingssensor (3 stuks)",
+    "category": "Verlichting",
+    "icon": "light",
+    "keyword": "bewegingssensor lamp",
+    "searchVolume": { "nl": 90, "be": 720 },
+    "cpcUsd": { "nl": 0.76, "be": 0.83 },
+    "trend": "BE stijgend (390 → 720); NL zoekt vaker op 'led verlichting met sensor'",
+    "seasonality": "Piek in de donkere maanden",
+    "competitors": "IKEA, Action, bol.com (€10–25)",
+    "supplier": { "primary": "CJdropshipping (DE)", "fallback": "BigBuy", "searchTerm": "rechargeable motion sensor LED light bar magnetic 3 pack", "origin": "EU" },
+    "unitCost": 5.5, "shippingCost": 4.2, "duty": 0, "price": 26.95, "weightKg": 0.35,
+    "returnRisk": "laag",
+    "justification": "Sterke vraag in BE en een visueel product (gang, kast, trap). Een 3-pack verhoogt de orderwaarde.",
+    "risks": ["Batterij: CE/EMC, WEEE/Recupel", "Lichtsterkte (lumen) correct vermelden"],
+    "copy": {
+      "tagline": "Licht waar je loopt. Uit als je weg bent.",
+      "description": "Oplaadbare LED-lampen met een magnetische strip en bewegingssensor. Ideaal voor kasten, trappen, gangen en de garage. Ze gaan aan als je in de buurt komt en vanzelf weer uit.",
+      "bullets": ["Bewegingssensor + automatisch uit", "USB-C oplaadbaar", "Magnetisch, zonder boren", "3 stuks per verpakking"],
+      "specs": ["Lengte: ±20 cm", "Opladen: USB-C", "Inhoud: 3 lampen + magneetstrips"],
+      "faq": [
+        { "q": "Hoe lang gaat een lading mee?", "a": "Bij normaal gebruik in een gang of kast meerdere weken." }
+      ],
+      "metaTitle": "LED-lamp met bewegingssensor – 3 stuks | Warmwijs",
+      "metaDescription": "3 oplaadbare LED-lampen met bewegingssensor en magneetstrip. Voor kast, trap en gang. Zonder boren."
+    }
+  },
+  {
+    "slug": "oplaadbare-handwarmer-2-pack",
+    "name": "Oplaadbare Handwarmer (2 stuks)",
+    "category": "Persoonlijk",
+    "icon": "warmer",
+    "keyword": "handwarmer",
+    "searchVolume": { "nl": 90, "be": 480 },
+    "cpcUsd": { "nl": 1.06, "be": 0.84 },
+    "trend": "Sterk stijgend in BE: 90 → 320/maand",
+    "seasonality": "Piek nov–feb; cadeaupiek in december",
+    "competitors": "Ocoopa (€30–45), bol.com (€15–35)",
+    "supplier": { "primary": "CJdropshipping (DE)", "fallback": "Alibaba", "searchTerm": "rechargeable hand warmer 2 pack magnetic usb-c power bank", "origin": "EU" },
+    "unitCost": 7.5, "shippingCost": 4.5, "duty": 0, "price": 32.95, "weightKg": 0.3,
+    "returnRisk": "middel",
+    "justification": "Seizoensgebonden cadeauproduct dat ook als 'warm blijven zonder de verwarming hoger te zetten' past in het merk. Hogere orderwaarde.",
+    "risks": ["Lithiumbatterij: CE, UN38.3, WEEE/Recupel; verzending als batterijpakket", "Oververhitting: alleen gecertificeerde leveranciers", "Seizoen: afbouwen in maart"],
+    "copy": {
+      "tagline": "Warme handen, zonder de verwarming hoger.",
+      "description": "Twee magnetische handwarmers die je los gebruikt of samen klikt. Ze hebben drie warmtestanden en laad je op via USB-C. Ideaal voor de fietstocht, de tribune of de koude zolderkamer.",
+      "bullets": ["3 warmtestanden", "2 stuks, magnetisch aan elkaar te klikken", "USB-C oplaadbaar, geen wegwerpbatterijen", "Compact: past in elke jaszak"],
+      "specs": ["Opladen: USB-C", "Inhoud: 2 handwarmers + kabel"],
+      "faq": [
+        { "q": "Hoe warm worden ze?", "a": "Afhankelijk van de stand ongeveer tussen de 40 en 55 °C. Gebruik ze niet rechtstreeks op de huid als je slaapt." }
+      ],
+      "metaTitle": "Oplaadbare handwarmer – 2 stuks | Warmwijs",
+      "metaDescription": "2 oplaadbare, magnetische handwarmers met 3 warmtestanden en USB-C. Ideaal voor fietsen, sport en koude dagen."
+    }
+  }
+]

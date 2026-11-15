@@ -1,0 +1,24 @@
+{
+  "name": "ecom-stores",
+  "private": true,
+  "type": "module",
+  "description": "Monorepo for 5 headless niche stores (Astro + Stripe Checkout on Cloudflare Pages) for Belgium and the Netherlands.",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "validate": "node scripts/validate.mjs",
+    "assets": "node scripts/generate-assets.mjs",
+    "creatives": "node scripts/generate-creatives.mjs",
+    "docs": "node scripts/generate-docs.mjs",
+    "dev": "node scripts/build-store.mjs --dev",
+    "build": "node scripts/build-store.mjs",
+    "build:all": "node scripts/build-all.mjs",
+    "check": "node scripts/validate.mjs && node scripts/build-all.mjs && node scripts/check-dist.mjs",
+    "preview": "node scripts/preview.mjs",
+    "test": "node tests/run-tests.mjs"
+  },
+  "devDependencies": {
+    "@resvg/resvg-js": "2.6.2",
+    "astro": "5.18.2",
+    "wrangler": "4.162.0"
+  }
+}

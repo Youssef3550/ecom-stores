@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="628" viewBox="0 0 1200 628">
+    <rect width="1200" height="628" fill="#F8F8F6"/>
+    <rect x="696" y="0" width="504" height="628" fill="#0F766E"/>
+    <g transform="translate(744 75.36) scale(4.7728)" fill="none" stroke="#FFFFFF" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><rect x="14" y="40" width="72" height="12" rx="6"/><path d="M26 58l-6 14M50 58v16M74 58l6 14"/></g>
+    <text x="64" y="96" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="26" font-weight="700" fill="#0F766E" letter-spacing="4">DESKWERK</text>
+    <text x="64" y="200" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="58" font-weight="800" fill="#111827" text-anchor="start">Licht op je bureau,</text><text x="64" y="263.8" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="58" font-weight="800" fill="#111827" text-anchor="start">niet op je scherm</text>
+    <text x="64" y="400" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="28" font-weight="500" fill="#111827" text-anchor="start">Licht op je bureau, niet op je scherm.</text>
+    <rect x="64" y="496" width="250" height="70" rx="35" fill="#0F766E"/>
+    <text x="189" y="542" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="28" font-weight="700" fill="#FFFFFF" text-anchor="middle">Bestel · €44,95</text>
+  </svg>

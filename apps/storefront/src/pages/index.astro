@@ -1,0 +1,77 @@
+---
+import Base from '../layouts/Base.astro';
+import ProductCard from '../components/ProductCard.astro';
+import { store, products, bySlug, eur, productImage } from '../lib/data';
+const featured = store.featured.map(bySlug);
+const bundles = (store.bundles ?? []).map((b) => {
+  const items = b.items.map(bySlug);
+  const total = items.reduce((s, p) => s + p.price, 0);
+  return { ...b, products: items, total, price: Math.round(total * (1 - b.discountPct / 100) * 100) / 100 };
+});
+const site = {
+  '@context': 'https://schema.org', '@type': 'WebSite', name: store.name, url: Astro.site?.href, inLanguage: 'nl',
+};
+const faq = [
+  { q: 'Hoe snel wordt mijn bestelling geleverd?', a: `We leveren in België en Nederland binnen ${store.shipping.deliveryDays}. Je ontvangt een track-and-trace-code per e-mail.` },
+  { q: 'Wat kost verzending?', a: `Verzending kost ${eur(store.shipping.flatRate)} en is gratis vanaf ${eur(store.shipping.freeFrom)}.` },
+  { q: 'Kan ik mijn bestelling retourneren?', a: 'Ja, je hebt 14 dagen bedenktijd vanaf de dag na ontvangst. Meld je retour via e-mail en stuur het product ongebruikt terug.' },
+  { q: 'Hoe kan ik betalen?', a: 'Met Bancontact, iDEAL, Visa, Mastercard, Apple Pay en Google Pay via onze beveiligde betaalpartner Stripe.' },
+];
+const faqLd = { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) };
+---
+<Base title={`${store.name} – ${store.tagline}`} description={store.hero.A.sub} jsonld={[site, faqLd]}>
+  <section class="wrap hero" data-ab="hero">
+    <div>
+      <h1 data-ab-headline data-a={store.hero.A.headline} data-b={store.hero.B.headline}>{store.hero.A.headline}</h1>
+      <p class="lead" data-ab-sub data-a={store.hero.A.sub} data-b={store.hero.B.sub}>{store.hero.A.sub}</p>
+      <div style="display:flex;gap:12px;flex-wrap:wrap">
+        <a class="btn" href="/producten/" data-ab-cta>Bekijk de collectie</a>
+        <a class="btn ghost" href={`/producten/${featured[0].slug}/`}>Bestseller: {featured[0].name}</a>
+      </div>
+    </div>
+    <img src={productImage(featured[0])} alt={featured[0].name} width="800" height="800" loading="eager" fetchpriority="high" />
+  </section>
+
+  <section class="wrap">
+    <h2>Populair</h2>
+    <div class="grid">{featured.map((p, i) => <ProductCard product={p} eager={i < 2} />)}</div>
+  </section>
+
+  {bundles.map((b) => (
+    <section class="wrap bundle">
+      <div>
+        <span class="tag">Bundel · {b.discountPct}% korting</span>
+        <h2>{b.name}</h2>
+        <p>{b.products.map((p) => p.name).join(' + ')}</p>
+        <p><s class="muted">{eur(b.total)}</s> <strong class="price" style="font-size:1.4rem">{eur(b.price)}</strong></p>
+        <button class="btn" data-add-bundle={JSON.stringify(b.items)}>Bundel in winkelmand</button>
+        <p class="muted" style="font-size:.85rem">De bundelkorting wordt automatisch verrekend bij het afrekenen.</p>
+      </div>
+      <div class="bundle-imgs">{b.products.map((p) => <img src={productImage(p)} alt={p.name} width="800" height="800" loading="lazy" />)}</div>
+    </section>
+  ))}
+
+  <section class="wrap">
+    <h2>Alle producten</h2>
+    <div class="grid">{products.map((p) => <ProductCard product={p} />)}</div>
+  </section>
+
+  <section class="wrap faq">
+    <h2>Veelgestelde vragen</h2>
+    {faq.map((f) => <details><summary>{f.q}</summary><p>{f.a}</p></details>)}
+  </section>
+</Base>
+<style>
+  .hero{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center;padding-top:48px;padding-bottom:24px}
+  .hero h1{font-size:clamp(2.2rem,5vw,3.6rem);margin:0 0 16px}
+  .lead{font-size:1.2rem;max-width:34ch;margin:0 0 28px}
+  .hero img{border-radius:28px}
+  section{margin-top:48px}
+  .bundle{display:grid;grid-template-columns:1fr 1fr;gap:32px;align-items:center;background:#fff;border-radius:24px;padding:32px}
+  .bundle-imgs{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+  .bundle-imgs img{border-radius:14px}
+  .tag{display:inline-block;background:var(--primary);color:#fff;border-radius:999px;padding:.25em .8em;font-size:.8rem;font-weight:700}
+  .faq details{background:#fff;border-radius:14px;padding:16px 20px;margin:10px 0}
+  .faq summary{font-weight:700;cursor:pointer}
+  @media (max-width:820px){.hero,.bundle{grid-template-columns:1fr}.hero img{max-width:420px}}
+</style>

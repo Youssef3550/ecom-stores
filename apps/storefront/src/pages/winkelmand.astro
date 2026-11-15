@@ -1,0 +1,33 @@
+---
+import Base from '../layouts/Base.astro';
+import { store, eur } from '../lib/data';
+---
+<Base title={`Winkelmand | ${store.name}`} description={`Je winkelmand bij ${store.name}: controleer je producten en reken veilig af.`} noindex>
+  <section class="wrap" style="padding-top:40px;max-width:820px">
+    <h1>Winkelmand</h1>
+    <div data-cart-root>
+      <p data-cart-empty>Je winkelmand is leeg. <a href="/producten/">Bekijk de producten</a>.</p>
+      <ul class="lines" data-cart-lines></ul>
+      <div class="summary" data-cart-summary hidden>
+        <p>Subtotaal: <strong data-cart-subtotal></strong></p>
+        <p class="muted" data-cart-ship-note></p>
+        <p class="muted small">Eventuele bundelkorting en verzendkosten zie je in de volgende stap. Alle prijzen incl. 21% btw.</p>
+        <label class="terms"><input type="checkbox" data-terms required /><span>Ik ga akkoord met de <a href="/info/algemene-voorwaarden/" target="_blank">algemene voorwaarden</a> en heb het <a href="/info/privacy/" target="_blank">privacybeleid</a> gelezen.</span></label>
+        <button class="btn" data-checkout>Afrekenen</button>
+        <p class="error" data-checkout-error hidden role="alert"></p>
+      </div>
+    </div>
+  </section>
+  <script is:inline define:vars={{ ship: { flat: store.shipping.flatRate, free: store.shipping.freeFrom, fmt: eur(0) } }}>window.SHIP_CFG = ship;</script>
+</Base>
+<style is:global>
+  .lines{list-style:none;padding:0;margin:0 0 20px}
+  .lines li{display:grid;grid-template-columns:72px 1fr auto auto;gap:14px;align-items:center;background:#fff;border-radius:14px;padding:10px 14px;margin:10px 0}
+  .lines img{border-radius:10px}
+  .lines input{width:64px;font:inherit;padding:.4em;border-radius:8px;border:1px solid rgba(0,0,0,.2)}
+  .lines button{background:none;border:0;cursor:pointer;font-size:1.2rem}
+  .summary{background:#fff;border-radius:18px;padding:20px 24px}
+  .terms{display:flex;gap:10px;align-items:flex-start;margin:12px 0 16px;font-size:.92rem}
+  .small{font-size:.85rem}
+  .error{color:#b91c1c;font-weight:600}
+</style>

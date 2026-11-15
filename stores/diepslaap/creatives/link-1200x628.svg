@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="628" viewBox="0 0 1200 628">
+    <rect width="1200" height="628" fill="#F7F6FB"/>
+    <rect x="696" y="0" width="504" height="628" fill="#3730A3"/>
+    <g transform="translate(744 75.36) scale(4.7728)" fill="none" stroke="#FFFFFF" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><path d="M38 60c-10 0-16-8-16-18s8-18 18-18 16 8 16 16"/><circle cx="62" cy="58" r="12"/><path d="M62 70v14"/></g>
+    <text x="64" y="96" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="26" font-weight="700" fill="#3730A3" letter-spacing="4">DIEPSLAAP</text>
+    <text x="64" y="200" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="58" font-weight="800" fill="#16152B" text-anchor="start">Snurkende partner?</text><text x="64" y="263.8" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="58" font-weight="800" fill="#16152B" text-anchor="start">Wij hebben iets.</text>
+    <text x="64" y="400" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="28" font-weight="500" fill="#16152B" text-anchor="start">Stilte die je niet voelt.</text>
+    <rect x="64" y="496" width="250" height="70" rx="35" fill="#3730A3"/>
+    <text x="189" y="542" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="28" font-weight="700" fill="#FFFFFF" text-anchor="middle">Bestel · €19,95</text>
+  </svg>

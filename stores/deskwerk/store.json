@@ -1,0 +1,26 @@
+{
+  "id": "deskwerk",
+  "name": "Deskwerk",
+  "domain": "deskwerk.be",
+  "cloudflareProject": "deskwerk",
+  "niche": "Ergonomie en organisatie voor de thuiswerkplek en het gaming-bureau",
+  "tagline": "Een bureau dat voor jou werkt.",
+  "language": "nl",
+  "currency": "EUR",
+  "theme": { "primary": "#0F766E", "accent": "#F4F1EA", "bg": "#F8F8F6", "text": "#111827", "font": "'Space Grotesk', system-ui, sans-serif" },
+  "shipping": { "countries": ["BE", "NL"], "flatRate": 4.95, "freeFrom": 50, "deliveryDays": "2–5 werkdagen" },
+  "company": { "legalName": "[JOUW BEDRIJFSNAAM]", "vat": "[BE0XXX.XXX.XXX]", "address": "[Straat nr, postcode Beringen, België]", "email": "hallo@deskwerk.be" },
+  "analytics": { "ga4": "", "metaPixel": "" },
+  "usps": ["Gratis verzending vanaf €50", "14 dagen bedenktijd", "Factuur met btw voor zelfstandigen", "Betaal met Bancontact of iDEAL"],
+  "hero": {
+    "A": { "headline": "Een bureau dat voor jou werkt.", "sub": "Laptopstandaards, lichtbalken en kabelmanagement voor een opgeruimde, ergonomische werkplek." },
+    "B": { "headline": "Minder kabels. Meer focus.", "sub": "Upgrade je thuiswerkplek in één middag, met accessoires die je bureau rustiger en je nek blijer maken." }
+  },
+  "featured": ["laptopstandaard-aluminium", "monitor-lichtbalk", "bureau-onderlegger-xl", "kabelmanagement-set"],
+  "bundles": [{ "name": "Clean Desk-set", "items": ["bureau-onderlegger-xl", "kabelmanagement-set", "telefoonhouder-aluminium"], "discountPct": 10 }],
+  "adCreatives": [
+    { "id": "feed", "format": "1080x1080", "product": "laptopstandaard-aluminium", "headline": "Scherm op ooghoogte. Nek ontspannen.", "primaryText": "Opvouwbare aluminium laptopstandaard in 6 hoogtes. Past in je laptoptas, staat stevig op je bureau.", "cta": "Shop nu" },
+    { "id": "story", "format": "1080x1920", "product": "kabelmanagement-set", "headline": "Van kabelchaos naar clean desk", "primaryText": "Een kabelgoot onder je bureau, kabelhoezen en clips: in 20 minuten is alles weg. Geen boren nodig.", "cta": "Bekijk" },
+    { "id": "link", "format": "1200x628", "product": "monitor-lichtbalk", "headline": "Licht op je bureau, niet op je scherm", "primaryText": "Een monitor-lichtbalk zonder schittering, met instelbare kleurtemperatuur. Vrijt ruimte op je bureau.", "cta": "Bestel" }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "diepslaap",
+  "name": "Diepslaap",
+  "domain": "diepslaap.be",
+  "cloudflareProject": "diepslaap",
+  "niche": "Slaapaccessoires voor donkerder, stiller en comfortabeler slapen",
+  "tagline": "Donker. Stil. Diep.",
+  "language": "nl",
+  "currency": "EUR",
+  "theme": { "primary": "#3730A3", "accent": "#E9C46A", "bg": "#F7F6FB", "text": "#16152B", "font": "'DM Sans', system-ui, sans-serif" },
+  "shipping": { "countries": ["BE", "NL"], "flatRate": 3.95, "freeFrom": 40, "deliveryDays": "2–5 werkdagen" },
+  "company": { "legalName": "[JOUW BEDRIJFSNAAM]", "vat": "[BE0XXX.XXX.XXX]", "address": "[Straat nr, postcode Beringen, België]", "email": "hallo@diepslaap.be" },
+  "analytics": { "ga4": "", "metaPixel": "" },
+  "usps": ["Gratis verzending vanaf €40", "14 dagen bedenktijd", "Discrete verpakking", "Betaal met Bancontact of iDEAL"],
+  "hero": {
+    "A": { "headline": "Donker. Stil. Diep.", "sub": "Slaapmaskers, oordopjes en wake-up lights voor betere nachten en zachtere ochtenden." },
+    "B": { "headline": "Je slaapkamer, maar dan beter.", "sub": "Kleine aanpassingen met een groot verschil: 100% donker, minder lawaai en wakker worden met licht." }
+  },
+  "featured": ["3d-slaapmasker", "oordopjes-slapen", "wake-up-light", "zijden-kussensloop"],
+  "bundles": [{ "name": "Nachtset", "items": ["3d-slaapmasker", "oordopjes-slapen", "mondtape-90"], "discountPct": 12 }],
+  "adCreatives": [
+    { "id": "feed", "format": "1080x1080", "product": "3d-slaapmasker", "headline": "100% donker. 0% druk op je ogen.", "primaryText": "Het 3D-slaapmasker met diepe oogkassen: geen licht, geen druk op je oogleden, en het zit ook goed voor zijslapers.", "cta": "Shop nu" },
+    { "id": "story", "format": "1080x1920", "product": "wake-up-light", "headline": "Wakker worden zonder schrik", "primaryText": "Een zonsopgang van 30 minuten in je slaapkamer, ook in december. Met natuurgeluiden en een FM-radio.", "cta": "Bekijk" },
+    { "id": "link", "format": "1200x628", "product": "oordopjes-slapen", "headline": "Snurkende partner? Wij hebben iets.", "primaryText": "Zachte siliconen oordopjes die je ook op je zij comfortabel draagt. Herbruikbaar, met etui.", "cta": "Bestel" }
+  ]
+}
