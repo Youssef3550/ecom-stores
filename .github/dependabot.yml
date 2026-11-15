@@ -4,6 +4,9 @@ updates:
     directory: /
     schedule: { interval: weekly }
     open-pull-requests-limit: 5
+    ignore:
+      - dependency-name: "*"
+        update-types: ["version-update:semver-major"]   # majors (e.g. Astro 5→7) need a manual migration
     groups:
       minor-and-patch:
         update-types: [minor, patch]
